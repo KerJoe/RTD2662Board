@@ -1,4 +1,4 @@
-update=05.10.2021 0:26:48
+update=22.11.2021 20:08:51
 version=1
 last_client=kicad
 [general]
@@ -12,6 +12,16 @@ NetIExt=net
 version=1
 LibDir=
 [eeschema/libraries]
+[schematic_editor]
+version=1
+PageLayoutDescrFile=KicadDefNoRect.kicad_wks
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=KicadDefNoRect.kicad_wks
@@ -29,15 +39,15 @@ MinMicroViaDiameter=0.2
 MinMicroViaDrill=0.09999999999999999
 MinHoleToHole=0.25
 TrackWidth1=0.25
-TrackWidth2=0.2
+TrackWidth2=0.25
 TrackWidth3=0.75
 ViaDiameter1=0.8
 ViaDrill1=0.4
-dPairWidth1=0.2
+dPairWidth1=0.25
 dPairGap1=0.25
 dPairViaGap1=0.25
 dPairWidth2=0.25
-dPairGap2=0.25
+dPairGap2=0.2
 dPairViaGap2=0
 SilkLineWidth=0.12
 SilkTextSizeV=1
@@ -238,13 +248,13 @@ ViaDiameter=0.8
 ViaDrill=0.4
 uViaDiameter=0.3
 uViaDrill=0.1
-dPairWidth=0.2
+dPairWidth=0.25
 dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
-Name=LCD Signal
+Name=Power
 Clearance=0.2
-TrackWidth=0.25
+TrackWidth=0.75
 ViaDiameter=0.8
 ViaDrill=0.4
 uViaDiameter=0.3
@@ -252,13 +262,3 @@ uViaDrill=0.1
 dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
-[schematic_editor]
-version=1
-PageLayoutDescrFile=KicadDefNoRect.kicad_wks
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceAjustPassiveValues=0
-LabSize=50
-ERC_TestSimilarLabels=1
