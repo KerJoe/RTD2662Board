@@ -54,6 +54,10 @@ F 0 "J14" H 2350 10150 50  0000 R CNN
 F 1 "DC Jack" H 2350 10050 50  0000 R CNN
 F 2 "Connector_BarrelJack:BarrelJack_Horizontal" H 2400 10250 50  0001 C CNN
 F 3 "~" H 2400 10250 50  0001 C CNN
+F 4 "Pin-compatible barrel jack" H 2400 10300 50  0001 C CNN "Generic Part"
+F 5 "DS-210" H 2400 10300 50  0001 C CNN "Used Part"
+F 6 "10" H 2400 10300 50  0001 C CNN "Price"
+F 7 "R:39208" H 2400 10300 50  0001 C CNN "Vendor:Code"
 	1    2400 10300
 	-1   0    0    -1  
 $EndComp
@@ -76,6 +80,10 @@ F 0 "C53" V 5852 9800 50  0000 C CNN
 F 1 "10nF" V 5761 9800 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 5638 9650 50  0001 C CNN
 F 3 "~" H 5600 9800 50  0001 C CNN
+F 4 "0402 Capacitor" H 5600 9800 50  0001 C CNN "Generic Part"
+F 5 "NoName 0402 X7R 10nF 50V" H 5600 9800 50  0001 C CNN "Used Part"
+F 6 "1" H 5600 9800 50  0001 C CNN "Price"
+F 7 "R:209303" H 5600 9800 50  0001 C CNN "Vendor:Code"
 	1    5600 9800
 	0    -1   -1   0   
 $EndComp
@@ -91,6 +99,10 @@ F 0 "U11" H 5000 10365 50  0000 C CNN
 F 1 "APW7313" H 5000 10274 50  0000 C CNN
 F 2 "Package_SO:HSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.1mm" H 5050 9100 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/2007032014_Anpec-Elec-APW7313KAI-TRG_C691402.pdf" H 4700 10250 50  0001 C CNN
+F 4 "-" H 5000 9950 50  0001 C CNN "Generic Part"
+F 5 "APW7313" H 5000 9950 50  0001 C CNN "Used Part"
+F 6 "77.95" H 5000 9950 50  0001 C CNN "Price"
+F 7 "AE:4001286389658" H 5000 9950 50  0001 C CNN "Vendor:Code"
 	1    5000 9950
 	1    0    0    -1  
 $EndComp
@@ -102,6 +114,10 @@ F 0 "C77" H 4665 10646 50  0000 L CNN
 F 1 "100nF" H 4665 10555 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 4588 10450 50  0001 C CNN
 F 3 "~" H 4550 10600 50  0001 C CNN
+F 4 "0402 Capacitor" H 4550 10600 50  0001 C CNN "Generic Part"
+F 5 "NoName 0402 X5R 100nF 25V" H 4550 10600 50  0001 C CNN "Used Part"
+F 6 "1" H 4550 10600 50  0001 C CNN "Price"
+F 7 "R:209325" H 4550 10600 50  0001 C CNN "Vendor:Code"
 	1    4550 10600
 	1    0    0    -1  
 $EndComp
@@ -126,6 +142,8 @@ F 0 "R81" V 4143 9800 50  0000 C CNN
 F 1 "100kΩ" V 4234 9800 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 4280 9800 50  0001 C CNN
 F 3 "~" H 4350 9800 50  0001 C CNN
+F 4 "0402 Resistor" H 4350 9800 50  0001 C CNN "Generic Part"
+F 5 "NoName" H 4350 9800 50  0001 C CNN "Used Part"
 	1    4350 9800
 	0    1    1    0   
 $EndComp
@@ -157,8 +175,12 @@ U 1 1 61139CA2
 P 6150 6300
 F 0 "Y1" H 6150 6550 50  0000 C CNN
 F 1 "27MHz" H 6150 6450 50  0000 C CNN
-F 2 "Crystal:Crystal_SMD_HC49-SD" H 6150 6300 50  0001 C CNN
+F 2 "RTD2662Board:Crystal_SMD_HC49-SD+HC49-U" H 6150 6300 50  0001 C CNN
 F 3 "~" H 6150 6300 50  0001 C CNN
+F 4 "27MHz HC49 SMD/TH Quartz" H 6150 6300 50  0001 C CNN "Generic Part"
+F 5 "NoName 27MHz KX-3HT" H 6150 6300 50  0001 C CNN "Used Part"
+F 6 "20" H 6150 6300 50  0001 C CNN "Price"
+F 7 "R:207612" H 6150 6300 50  0001 C CNN "Vendor:Code"
 	1    6150 6300
 	1    0    0    -1  
 $EndComp
@@ -170,6 +192,10 @@ F 0 "C40" H 6065 6546 50  0000 L CNN
 F 1 "20pF" H 6065 6455 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 5988 6350 50  0001 C CNN
 F 3 "~" H 5950 6500 50  0001 C CNN
+F 4 "0402 Capacitor" H 5950 6500 50  0001 C CNN "Generic Part"
+F 5 "NoName 0402 NP0 20pF 50V" H 5950 6500 50  0001 C CNN "Used Part"
+F 6 "1" H 5950 6500 50  0001 C CNN "Price"
+F 7 "R:209377" H 5950 6500 50  0001 C CNN "Vendor:Code"
 	1    5950 6500
 	1    0    0    -1  
 $EndComp
@@ -181,6 +207,10 @@ F 0 "C41" H 6465 6546 50  0000 L CNN
 F 1 "20pF" H 6465 6455 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 6388 6350 50  0001 C CNN
 F 3 "~" H 6350 6500 50  0001 C CNN
+F 4 "0402 Capacitor" H 6350 6500 50  0001 C CNN "Generic Part"
+F 5 "NoName 0402 NP0 20pF 50V" H 6350 6500 50  0001 C CNN "Used Part"
+F 6 "1" H 6350 6500 50  0001 C CNN "Price"
+F 7 "R:209377" H 6350 6500 50  0001 C CNN "Vendor:Code"
 	1    6350 6500
 	1    0    0    -1  
 $EndComp
@@ -349,6 +379,8 @@ F 0 "R52" V 5943 5950 50  0000 C CNN
 F 1 "1MΩ" V 6034 5950 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 6080 5950 50  0001 C CNN
 F 3 "~" H 6150 5950 50  0001 C CNN
+F 4 "0402 Resistor" H 6150 5950 50  0001 C CNN "Generic Part"
+F 5 "NoName" H 6150 5950 50  0001 C CNN "Used Part"
 	1    6150 5950
 	0    1    1    0   
 $EndComp
@@ -399,6 +431,8 @@ F 0 "R85" H 3220 10596 50  0000 L CNN
 F 1 "10k" H 3220 10505 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 3080 10550 50  0001 C CNN
 F 3 "~" H 3150 10550 50  0001 C CNN
+F 4 "0402 Resistor" H 3150 10550 50  0001 C CNN "Generic Part"
+F 5 "NoName" H 3150 10550 50  0001 C CNN "Used Part"
 	1    3150 10550
 	1    0    0    -1  
 $EndComp
@@ -446,8 +480,12 @@ U 1 1 624B2740
 P 14400 7650
 F 0 "Y2" H 14400 7900 50  0000 C CNN
 F 1 "12MHz" H 14400 7800 50  0000 C CNN
-F 2 "Crystal:Crystal_SMD_HC49-SD" H 14400 7650 50  0001 C CNN
+F 2 "RTD2662Board:Crystal_SMD_HC49-SD+HC49-U" H 14400 7650 50  0001 C CNN
 F 3 "~" H 14400 7650 50  0001 C CNN
+F 4 "12MHz HC49 SMD/TH Quartz" H 14400 7650 50  0001 C CNN "Generic Part"
+F 5 "NoName 12MHz HC-49SM" H 14400 7650 50  0001 C CNN "Used Part"
+F 6 "22" H 14400 7650 50  0001 C CNN "Price"
+F 7 "C:11305" H 14400 7650 50  0001 C CNN "Vendor:Code"
 	1    14400 7650
 	1    0    0    -1  
 $EndComp
@@ -459,6 +497,10 @@ F 0 "C48" H 14315 7896 50  0000 L CNN
 F 1 "15pF" H 14315 7805 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 14238 7700 50  0001 C CNN
 F 3 "~" H 14200 7850 50  0001 C CNN
+F 4 "0402 Capacitor" H 14200 7850 50  0001 C CNN "Generic Part"
+F 5 "NoName 0402 NP0 15pF 50V" H 14200 7850 50  0001 C CNN "Used Part"
+F 6 "1.5" H 14200 7850 50  0001 C CNN "Price"
+F 7 "R:189101" H 14200 7850 50  0001 C CNN "Vendor:Code"
 	1    14200 7850
 	1    0    0    -1  
 $EndComp
@@ -470,6 +512,10 @@ F 0 "C49" H 14715 7896 50  0000 L CNN
 F 1 "15pF" H 14715 7805 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 14638 7700 50  0001 C CNN
 F 3 "~" H 14600 7850 50  0001 C CNN
+F 4 "0402 Capacitor" H 14600 7850 50  0001 C CNN "Generic Part"
+F 5 "NoName 0402 NP0 15pF 50V" H 14600 7850 50  0001 C CNN "Used Part"
+F 6 "1.5" H 14600 7850 50  0001 C CNN "Price"
+F 7 "R:189101" H 14600 7850 50  0001 C CNN "Vendor:Code"
 	1    14600 7850
 	1    0    0    -1  
 $EndComp
@@ -506,6 +552,8 @@ F 0 "R59" V 14200 7300 50  0000 C CNN
 F 1 "1MΩ" V 14300 7300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 14330 7300 50  0001 C CNN
 F 3 "~" H 14400 7300 50  0001 C CNN
+F 4 "0402 Resistor" H 14400 7300 50  0001 C CNN "Generic Part"
+F 5 "NoName" H 14400 7300 50  0001 C CNN "Used Part"
 	1    14400 7300
 	0    1    1    0   
 $EndComp
@@ -599,6 +647,8 @@ F 0 "R69" V 4443 8250 50  0000 C CNN
 F 1 "1kΩ" V 4534 8250 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 4580 8250 50  0001 C CNN
 F 3 "~" H 4650 8250 50  0001 C CNN
+F 4 "0402 Resistor" H 4650 8250 50  0001 C CNN "Generic Part"
+F 5 "NoName" H 4650 8250 50  0001 C CNN "Used Part"
 	1    4650 8250
 	0    1    1    0   
 $EndComp
@@ -773,6 +823,8 @@ F 0 "R21" V 14400 3100 50  0000 C CNN
 F 1 "1kΩ" V 14200 3100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 14230 3100 50  0001 C CNN
 F 3 "~" H 14300 3100 50  0001 C CNN
+F 4 "0402 Resistor" H 14300 3100 50  0001 C CNN "Generic Part"
+F 5 "NoName" H 14300 3100 50  0001 C CNN "Used Part"
 	1    14300 3100
 	0    -1   -1   0   
 $EndComp
@@ -969,6 +1021,10 @@ F 0 "J7" H 14850 5750 50  0000 C CNN
 F 1 "Mini-DIN-4" H 14850 5250 50  0000 C CNN
 F 2 "RTD2662Board:Mini-DIN_Female_6Pin_2rows" H 14850 5500 50  0001 C CNN
 F 3 "http://service.powerdynamics.com/ec/Catalog17/Section%2011.pdf" H 14850 5500 50  0001 C CNN
+F 4 "Pin-compatible Female Mini-Din with ≥4 Pins" H 14850 5500 50  0001 C CNN "Generic Part"
+F 5 "MDN-5J" H 14850 5500 50  0001 C CNN "Used Part"
+F 6 "22" H 14850 5500 50  0001 C CNN "Price"
+F 7 "R:113721" H 14850 5500 50  0001 C CNN "Vendor:Code"
 	1    14850 5500
 	1    0    0    -1  
 $EndComp
@@ -980,6 +1036,8 @@ F 0 "RN1" V 2483 7700 50  0000 C CNN
 F 1 "100Ω" V 2574 7700 50  0000 C CNN
 F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 3175 7700 50  0001 C CNN
 F 3 "~" H 2900 7700 50  0001 C CNN
+F 4 "4x0603 Resistor Network" H 2900 7700 50  0001 C CNN "Generic Part"
+F 5 "CAT16-101J4" H 2900 7700 50  0001 C CNN "Used Part"
 	1    2900 7700
 	0    1    1    0   
 $EndComp
@@ -991,6 +1049,8 @@ F 0 "Q2" H 14841 3146 50  0000 L CNN
 F 1 "BC846" H 14841 3055 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 14850 3025 50  0001 L CIN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BC846_SER.pdf" H 14650 3100 50  0001 L CNN
+F 4 "SOT-23 pin-compatible NPN BJT" H 14650 3100 50  0001 C CNN "Generic Part"
+F 5 "BC846" H 14650 3100 50  0001 C CNN "Used Part"
 	1    14650 3100
 	1    0    0    -1  
 $EndComp
@@ -1002,6 +1062,8 @@ F 0 "J11" H 1300 9917 50  0000 C CNN
 F 1 "LCD Connector" H 1300 9826 50  0000 C CNN
 F 2 "RTD2662Board:PinHeader_2x25_P1.27mm_Vertical_SMD_SmallPads" H 1250 8500 50  0001 C CNN
 F 3 "~" H 1250 8500 50  0001 C CNN
+F 4 "1.27mm 2x25 Female Header SMD" H 1250 8500 50  0001 C CNN "Generic Part"
+F 5 "NoName" H 1250 8500 50  0001 C CNN "Used Part"
 	1    1250 8500
 	1    0    0    -1  
 $EndComp
@@ -1013,6 +1075,10 @@ F 0 "C46" V 4098 7500 50  0000 C CNN
 F 1 "2.2uF" V 4189 7500 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 4388 7350 50  0001 C CNN
 F 3 "~" H 4350 7500 50  0001 C CNN
+F 4 "0402 Capacitor" H 4350 7500 50  0001 C CNN "Generic Part"
+F 5 "NoName 0402 X5R 2.2nF 6.3V" H 4350 7500 50  0001 C CNN "Used Part"
+F 6 "2" H 4350 7500 50  0001 C CNN "Price"
+F 7 "R:189082" H 4350 7500 50  0001 C CNN "Vendor:Code"
 	1    4350 7500
 	0    1    1    0   
 $EndComp
@@ -1024,6 +1090,8 @@ F 0 "R61" V 4443 7500 50  0000 C CNN
 F 1 "470Ω" V 4534 7500 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 4580 7500 50  0001 C CNN
 F 3 "~" H 4650 7500 50  0001 C CNN
+F 4 "0402 Resistor" H 4650 7500 50  0001 C CNN "Generic Part"
+F 5 "NoName" H 4650 7500 50  0001 C CNN "Used Part"
 	1    4650 7500
 	0    1    1    0   
 $EndComp
@@ -1035,6 +1103,10 @@ F 0 "C47" V 4500 7800 50  0000 C CNN
 F 1 "2.2uF" V 4600 7800 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 4388 7650 50  0001 C CNN
 F 3 "~" H 4350 7800 50  0001 C CNN
+F 4 "0402 Capacitor" H 4350 7800 50  0001 C CNN "Generic Part"
+F 5 "NoName 0402 X5R 2.2nF 6.3V" H 4350 7800 50  0001 C CNN "Used Part"
+F 6 "2" H 4350 7800 50  0001 C CNN "Price"
+F 7 "R:189082" H 4350 7800 50  0001 C CNN "Vendor:Code"
 	1    4350 7800
 	0    1    1    0   
 $EndComp
@@ -1046,6 +1118,8 @@ F 0 "R63" V 4443 7800 50  0000 C CNN
 F 1 "470Ω" V 4534 7800 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 4580 7800 50  0001 C CNN
 F 3 "~" H 4650 7800 50  0001 C CNN
+F 4 "0402 Resistor" H 4650 7800 50  0001 C CNN "Generic Part"
+F 5 "NoName" H 4650 7800 50  0001 C CNN "Used Part"
 	1    4650 7800
 	0    1    1    0   
 $EndComp
@@ -1057,6 +1131,8 @@ F 0 "Q5" V 3492 10000 50  0000 C CNN
 F 1 "AO3401A" V 3401 10000 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 3350 9925 50  0001 L CIN
 F 3 "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf" H 3150 10000 50  0001 L CNN
+F 4 "SOT-23 pin-compatible P-channel MOSFET" H 3150 10000 50  0001 C CNN "Generic Part"
+F 5 "AO3401A" H 3150 10000 50  0001 C CNN "Used Part"
 	1    3150 10000
 	0    -1   -1   0   
 $EndComp
@@ -1068,6 +1144,10 @@ F 0 "J13" H 2400 8100 50  0000 C CNN
 F 1 "3.5mm jack" H 2400 8200 50  0000 C CNN
 F 2 "Connector_Audio:Jack_3.5mm_PJ320D_Horizontal" H 2500 8600 50  0001 C CNN
 F 3 "~" H 2500 8600 50  0001 C CNN
+F 4 "Pin-compatible 4 pin 3.5mm jack" H 2500 8600 50  0001 C CNN "Generic Part"
+F 5 "PJ320D" H 2500 8600 50  0001 C CNN "Used Part"
+F 6 "38.47/10" H 2500 8600 50  0001 C CNN "Price"
+F 7 "AE:1005002038231830" H 2500 8600 50  0001 C CNN "Vendor:Code"
 	1    2500 8600
 	1    0    0    1   
 $EndComp
@@ -1083,6 +1163,8 @@ F 0 "D24" V 3404 10130 50  0000 L CNN
 F 1 "4.7V" V 3495 10130 50  0000 L CNN
 F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 3450 10050 50  0001 C CNN
 F 3 "~" H 3450 10050 50  0001 C CNN
+F 4 "SOD-323 4.7 Volt Zener" H 3450 10050 50  0001 C CNN "Generic Part"
+F 5 "BZX384-B4V7" H 3450 10050 50  0001 C CNN "Used Part"
 	1    3450 10050
 	0    1    1    0   
 $EndComp
@@ -1141,6 +1223,8 @@ F 0 "U12" H 6950 10192 50  0000 C CNN
 F 1 "AMS1117-1.8" H 6950 10101 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 6950 10150 50  0001 C CNN
 F 3 "http://www.advanced-monolithic.com/pdf/ds1117.pdf" H 7050 9700 50  0001 C CNN
+F 4 "-" H 6950 9950 50  0001 C CNN "Generic Part"
+F 5 "AMS1117-1.8" H 6950 9950 50  0001 C CNN "Used Part"
 	1    6950 9950
 	1    0    0    -1  
 $EndComp
@@ -1191,6 +1275,8 @@ F 0 "R86" H 6320 10646 50  0000 L CNN
 F 1 "39k" H 6320 10555 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 6180 10600 50  0001 C CNN
 F 3 "~" H 6250 10600 50  0001 C CNN
+F 4 "0402 Resistor" H 6250 10600 50  0001 C CNN "Generic Part"
+F 5 "NoName" H 6250 10600 50  0001 C CNN "Used Part"
 	1    6250 10600
 	1    0    0    -1  
 $EndComp
@@ -1202,6 +1288,8 @@ F 0 "R82" H 6320 10246 50  0000 L CNN
 F 1 "100k" H 6320 10155 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 6180 10200 50  0001 C CNN
 F 3 "~" H 6250 10200 50  0001 C CNN
+F 4 "0402 Resistor" H 6250 10200 50  0001 C CNN "Generic Part"
+F 5 "NoName" H 6250 10200 50  0001 C CNN "Used Part"
 	1    6250 10200
 	1    0    0    -1  
 $EndComp
@@ -1224,6 +1312,10 @@ F 0 "C67" H 6665 10446 50  0000 L CNN
 F 1 "22uF" H 6665 10355 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 6588 10250 50  0001 C CNN
 F 3 "~" H 6550 10400 50  0001 C CNN
+F 4 "0805 Capacitor" H 6550 10400 50  0001 C CNN "Generic Part"
+F 5 "NoName 0805 X5R 22uF 6,3V" H 6550 10400 50  0001 C CNN "Used Part"
+F 6 "6" H 6550 10400 50  0001 C CNN "Price"
+F 7 "R:156746" H 6550 10400 50  0001 C CNN "Vendor:Code"
 	1    6550 10400
 	1    0    0    -1  
 $EndComp
@@ -1237,6 +1329,8 @@ F 0 "L8" V 6190 9950 50  0000 C CNN
 F 1 "10uH" V 6099 9950 50  0000 C CNN
 F 2 "Inductor_SMD:L_Bourns_SRN6045TA" H 6000 9950 50  0001 C CNN
 F 3 "~" H 6000 9950 50  0001 C CNN
+F 4 "6x6mm Inductor ≥0.5A" H 6000 9950 50  0001 C CNN "Generic Part"
+F 5 "SRN6045-100M" H 6000 9950 50  0001 C CNN "Used Part"
 	1    6000 9950
 	0    -1   -1   0   
 $EndComp
@@ -1248,6 +1342,10 @@ F 0 "J3" H 14457 4175 50  0000 C CNN
 F 1 "3.5mm jack" H 14457 4084 50  0000 C CNN
 F 2 "Connector_Audio:Jack_3.5mm_PJ320D_Horizontal" H 14500 3850 50  0001 C CNN
 F 3 "~" H 14500 3850 50  0001 C CNN
+F 4 "Pin-compatible 4 pin 3.5mm jack" H 14500 3850 50  0001 C CNN "Generic Part"
+F 5 "PJ320D" H 14500 3850 50  0001 C CNN "Used Part"
+F 6 "38.47/10" H 14500 3850 50  0001 C CNN "Price"
+F 7 "AE:1005002038231830" H 14500 3850 50  0001 C CNN "Vendor:Code"
 	1    14500 3850
 	1    0    0    -1  
 $EndComp
@@ -1297,6 +1395,10 @@ F 0 "J4" H 13400 5317 50  0000 C CNN
 F 1 "VGA" H 13400 5226 50  0000 C CNN
 F 2 "RTD2662Board:DSUB-15-HD_Female_Horizontal_P2.29x2.54mm" H 12450 4850 50  0001 C CNN
 F 3 " ~" H 12450 4850 50  0001 C CNN
+F 4 "Pin-compatible High Density Female DSUB-15 connecotr" H 13400 4450 50  0001 C CNN "Generic Part"
+F 5 "DS1038-15F" H 13400 4450 50  0001 C CNN "Used Part"
+F 6 "45" H 13400 4450 50  0001 C CNN "Price"
+F 7 "C:33716" H 13400 4450 50  0001 C CNN "Vendor:Code"
 	1    13400 4450
 	-1   0    0    -1  
 $EndComp
@@ -1360,9 +1462,13 @@ L Device:D_TVS D11
 U 1 1 650304B1
 P 12600 5050
 F 0 "D11" V 12450 5050 50  0000 L CNN
-F 1 "LXES03AAA1" V 12800 5150 50  0000 L CNN
+F 1 "TVS" V 12800 5150 50  0000 L CNN
 F 2 "Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder" H 12600 5050 50  0001 C CNN
 F 3 "~" H 12600 5050 50  0001 C CNN
+F 4 "0402 TVS Diode" H 12600 5050 50  0001 C CNN "Generic Part"
+F 5 "UNUSED" H 12600 5050 50  0001 C CNN "Used Part"
+F 6 "-" H 12600 5050 50  0001 C CNN "Price"
+F 7 "-" H 12600 5050 50  0001 C CNN "Vendor:Code"
 	1    12600 5050
 	0    1    1    0   
 $EndComp
@@ -1371,9 +1477,13 @@ L Device:D_TVS D13
 U 1 1 650BC540
 P 12900 5050
 F 0 "D13" V 12750 5050 50  0000 L CNN
-F 1 "LXES03AAA1" V 12945 5130 50  0001 L CNN
+F 1 "TVS" V 12945 5130 50  0001 L CNN
 F 2 "Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder" H 12900 5050 50  0001 C CNN
 F 3 "~" H 12900 5050 50  0001 C CNN
+F 4 "0402 TVS Diode" H 12900 5050 50  0001 C CNN "Generic Part"
+F 5 "UNUSED" H 12900 5050 50  0001 C CNN "Used Part"
+F 6 "-" H 12900 5050 50  0001 C CNN "Price"
+F 7 "-" H 12900 5050 50  0001 C CNN "Vendor:Code"
 	1    12900 5050
 	0    1    1    0   
 $EndComp
@@ -1382,9 +1492,13 @@ L Device:D_TVS D14
 U 1 1 650BDB12
 P 13050 5050
 F 0 "D14" V 12900 5050 50  0000 L CNN
-F 1 "LXES03AAA1" V 13095 5130 50  0001 L CNN
+F 1 "TVS" V 13095 5130 50  0001 L CNN
 F 2 "Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder" H 13050 5050 50  0001 C CNN
 F 3 "~" H 13050 5050 50  0001 C CNN
+F 4 "0402 TVS Diode" H 13050 5050 50  0001 C CNN "Generic Part"
+F 5 "UNUSED" H 13050 5050 50  0001 C CNN "Used Part"
+F 6 "-" H 13050 5050 50  0001 C CNN "Price"
+F 7 "-" H 13050 5050 50  0001 C CNN "Vendor:Code"
 	1    13050 5050
 	0    1    1    0   
 $EndComp
@@ -1486,6 +1600,10 @@ F 0 "J8" H 13950 7250 50  0000 C CNN
 F 1 "USB B" H 13950 7150 50  0000 C CNN
 F 2 "Connector_USB:USB_B_OST_USB-B1HSxx_Horizontal" H 14100 6700 50  0001 C CNN
 F 3 " ~" H 14100 6700 50  0001 C CNN
+F 4 "Pin-compatible USB B Socket" H 13950 6750 50  0001 C CNN "Generic Part"
+F 5 "DS1099-WN0" H 13950 6750 50  0001 C CNN "Used Part"
+F 6 "18" H 13950 6750 50  0001 C CNN "Price"
+F 7 "R:45060" H 13950 6750 50  0001 C CNN "Vendor:Code"
 	1    13950 6750
 	1    0    0    -1  
 $EndComp
@@ -1628,6 +1746,8 @@ F 0 "R48" H 12350 5200 50  0000 L CNN
 F 1 "4.7kΩ" H 12420 5005 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 12280 5050 50  0001 C CNN
 F 3 "~" H 12350 5050 50  0001 C CNN
+F 4 "0402 Resistor" H 12350 5050 50  0001 C CNN "Generic Part"
+F 5 "NoName" H 12350 5050 50  0001 C CNN "Used Part"
 	1    12350 5050
 	1    0    0    -1  
 $EndComp
@@ -1639,6 +1759,8 @@ F 0 "R34" H 12200 4000 50  0000 R CNN
 F 1 "4.7kΩ" H 12200 3900 50  0000 R CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 12180 3950 50  0001 C CNN
 F 3 "~" H 12250 3950 50  0001 C CNN
+F 4 "0402 Resistor" H 12250 3950 50  0001 C CNN "Generic Part"
+F 5 "NoName" H 12250 3950 50  0001 C CNN "Used Part"
 	1    12250 3950
 	1    0    0    -1  
 $EndComp
@@ -1685,8 +1807,11 @@ P 3450 3200
 F 0 "U1" H 4800 5500 50  0000 C BNN
 F 1 "RTD2662" H 4800 5450 50  0000 C CNN
 F 2 "RTD2662Board:HLQFP-128-1EP_14x20mm_P0.5mm_EP7.11x8.26mm" H 3250 3300 50  0001 C CNN
-F 3 "http://aitendo3.sakura.ne.jp/aitendo_data/product_img/lcd_controller/Xs/RTD2660.jsp.pdf" H 3250 3200 50  0001 C CNN
-F 4 "http://monitor.espec.ws/files/rtd2662_spec_brief_0702_171.pdf" H 3250 3200 50  0001 C CNN "Preliminary"
+F 3 "http://aitendo3.sakura.ne.jp/aitendo_data/product_img/lcd_controller/Xs/RTD2660.jsp.pdf; http://monitor.espec.ws/files/rtd2662_spec_brief_0702_171.pdf" H 3250 3200 50  0001 C CNN
+F 4 "-" H 3450 3200 50  0001 C CNN "Generic Part"
+F 5 "RTD2662" H 3450 3200 50  0001 C CNN "Used Part"
+F 6 "208.11" H 3450 3200 50  0001 C CNN "Price"
+F 7 "AE:4000498951271" H 3450 3200 50  0001 C CNN "Vendor:Code"
 	1    3450 3200
 	1    0    0    -1  
 $EndComp
@@ -1701,6 +1826,10 @@ F 0 "C50" H 6315 8296 50  0000 L CNN
 F 1 "1uF" H 6315 8205 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 6238 8100 50  0001 C CNN
 F 3 "~" H 6200 8250 50  0001 C CNN
+F 4 "0402 Capacitor" H 6200 8250 50  0001 C CNN "Generic Part"
+F 5 "NoName 0402 X5R 1uF 10V" H 6200 8250 50  0001 C CNN "Used Part"
+F 6 "1.5" H 6200 8250 50  0001 C CNN "Price"
+F 7 "R:189084" H 6200 8250 50  0001 C CNN "Vendor:Code"
 	1    6200 8250
 	1    0    0    -1  
 $EndComp
@@ -1712,6 +1841,8 @@ F 0 "U7" H 5050 8250 50  0000 C CNN
 F 1 "PAM8003" H 5850 7350 50  0000 C CNN
 F 2 "RTD2662Board:HSOP-16-1EP_3.9x9.9mm_P1.27mm_EP2.41x4.1mm" H 5450 6650 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/PAM8003.pdf" H 5050 8250 50  0001 C CNN
+F 4 "-" H 5500 7800 50  0001 C CNN "Generic Part"
+F 5 "PAM8003" H 5500 7800 50  0001 C CNN "Used Part"
 	1    5500 7800
 	1    0    0    -1  
 $EndComp
@@ -1723,6 +1854,10 @@ F 0 "U4" H 14750 7350 50  0000 C CNN
 F 1 "CH341T" H 15250 6250 50  0000 C CNN
 F 2 "RTD2662Board:SSOP-20_5.3x7.2mm_P0.65mm_SmallPads" H 15075 6000 50  0001 C CNN
 F 3 "http://www.anok.ceti.pl/download/ch341ds1.pdf" H 14725 7350 50  0001 C CNN
+F 4 "-" H 15050 6800 50  0001 C CNN "Generic Part"
+F 5 "CH341T" H 15050 6800 50  0001 C CNN "Used Part"
+F 6 "83.24" H 15050 6800 50  0001 C CNN "Price"
+F 7 "AE:1005002505540348" H 15050 6800 50  0001 C CNN "Vendor:Code"
 	1    15050 6800
 	1    0    0    -1  
 $EndComp
@@ -1767,6 +1902,8 @@ F 0 "R1" H 12100 800 50  0000 R BNN
 F 1 "4.7kΩ" H 12150 750 50  0000 R CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 12080 900 50  0001 C CNN
 F 3 "~" H 12150 900 50  0001 C CNN
+F 4 "0402 Resistor" H 12150 900 50  0001 C CNN "Generic Part"
+F 5 "NoName" H 12150 900 50  0001 C CNN "Used Part"
 	1    12150 900 
 	1    0    0    -1  
 $EndComp
@@ -1778,6 +1915,8 @@ F 0 "R2" H 12300 800 50  0000 L BNN
 F 1 "4.7kΩ" H 12250 750 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 12180 900 50  0001 C CNN
 F 3 "~" H 12250 900 50  0001 C CNN
+F 4 "0402 Resistor" H 12250 900 50  0001 C CNN "Generic Part"
+F 5 "NoName" H 12250 900 50  0001 C CNN "Used Part"
 	1    12250 900 
 	1    0    0    -1  
 $EndComp
@@ -1790,6 +1929,8 @@ F 0 "R15" V 11800 2050 50  0000 C CNN
 F 1 "100Ω" V 11900 2050 50  0000 C BNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 11880 2050 50  0001 C CNN
 F 3 "~" H 11950 2050 50  0001 C CNN
+F 4 "0402 Resistor" H 11950 2050 50  0001 C CNN "Generic Part"
+F 5 "NoName" H 11950 2050 50  0001 C CNN "Used Part"
 	1    11950 2050
 	0    1    1    0   
 $EndComp
@@ -1801,6 +1942,8 @@ F 0 "R16" V 12000 2150 50  0000 C TNN
 F 1 "100Ω" V 12100 2150 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 11880 2150 50  0001 C CNN
 F 3 "~" H 11950 2150 50  0001 C CNN
+F 4 "0402 Resistor" H 11950 2150 50  0001 C CNN "Generic Part"
+F 5 "NoName" H 11950 2150 50  0001 C CNN "Used Part"
 	1    11950 2150
 	0    1    1    0   
 $EndComp
@@ -1873,6 +2016,8 @@ F 0 "JP1" H 15300 4000 50  0000 C CNN
 F 1 "Ring3/Sleeve GND Select" H 15300 4000 50  0001 C CNN
 F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged2Bar12_RoundedPad1.0x1.5mm" H 15300 3850 50  0001 C CNN
 F 3 "~" H 15300 3850 50  0001 C CNN
+F 4 "-" H 15300 3850 50  0001 C CNN "Generic Part"
+F 5 "-" H 15300 3850 50  0001 C CNN "Used Part"
 	1    15300 3850
 	1    0    0    -1  
 $EndComp
@@ -1887,9 +2032,13 @@ L Connector:Conn_Coaxial J5
 U 1 1 61362AE6
 P 14650 4600
 F 0 "J5" H 14750 4600 50  0000 L CNN
-F 1 "Conn_Coaxial" H 14750 4484 50  0001 L CNN
+F 1 "CVBS1" H 14750 4484 50  0001 L CNN
 F 2 "RTD2662Board:RCJ-013" H 14650 4600 50  0001 C CNN
 F 3 " ~" H 14650 4600 50  0001 C CNN
+F 4 "-" H 14650 4600 50  0001 C CNN "Generic Part"
+F 5 "RCJ-013" H 14650 4600 50  0001 C CNN "Used Part"
+F 6 "12" H 14650 4600 50  0001 C CNN "Price"
+F 7 "R:42830" H 14650 4600 50  0001 C CNN "Vendor:Code"
 	1    14650 4600
 	-1   0    0    -1  
 $EndComp
@@ -1901,6 +2050,8 @@ F 0 "JP2" H 15300 4350 50  0000 C CNN
 F 1 "Ring3/Sleeve GND Select" H 15300 4350 50  0001 C CNN
 F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged2Bar12_RoundedPad1.0x1.5mm" H 15300 4250 50  0001 C CNN
 F 3 "~" H 15300 4250 50  0001 C CNN
+F 4 "-" H 15300 4250 50  0001 C CNN "Generic Part"
+F 5 "-" H 15300 4250 50  0001 C CNN "Used Part"
 	1    15300 4250
 	-1   0    0    -1  
 $EndComp
@@ -1914,6 +2065,8 @@ F 0 "R20" V 11700 2900 50  0000 C CNN
 F 1 "1kΩ" V 11900 2900 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 11730 2900 50  0001 C CNN
 F 3 "~" H 11800 2900 50  0001 C CNN
+F 4 "0402 Resistor" H 11800 2900 50  0001 C CNN "Generic Part"
+F 5 "NoName" H 11800 2900 50  0001 C CNN "Used Part"
 	1    11800 2900
 	0    1    1    0   
 $EndComp
@@ -1963,9 +2116,13 @@ L Device:D_TVS D1
 U 1 1 646DAEC5
 P 7650 1000
 F 0 "D1" V 7600 900 50  0000 R CNN
-F 1 "LXES03AAA1" V 7700 900 50  0000 R CNN
+F 1 "TVS" V 7700 900 50  0000 R CNN
 F 2 "Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder" H 7650 1000 50  0001 C CNN
 F 3 "~" H 7650 1000 50  0001 C CNN
+F 4 "0402 TVS Diode" H 7650 1000 50  0001 C CNN "Generic Part"
+F 5 "UNUSED" H 7650 1000 50  0001 C CNN "Used Part"
+F 6 "-" H 7650 1000 50  0001 C CNN "Price"
+F 7 "-" H 7650 1000 50  0001 C CNN "Vendor:Code"
 	1    7650 1000
 	0    1    1    0   
 $EndComp
@@ -1977,6 +2134,10 @@ F 0 "C1" V 8450 900 50  0000 L CNN
 F 1 "22nF" V 8550 900 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 8688 700 50  0001 C CNN
 F 3 "~" H 8650 850 50  0001 C CNN
+F 4 "0402 Capacitor" H 8650 850 50  0001 C CNN "Generic Part"
+F 5 "NoName 0402 X7R 22nF 16V" H 8650 850 50  0001 C CNN "Used Part"
+F 6 "1.5" H 8650 850 50  0001 C CNN "Price"
+F 7 "R:189079" H 8650 850 50  0001 C CNN "Vendor:Code"
 	1    8650 850 
 	0    1    1    0   
 $EndComp
@@ -1997,6 +2158,8 @@ F 0 "R7" V 7800 850 50  0000 C BNN
 F 1 "330Ω" V 7900 850 50  0000 C BNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 7930 850 50  0001 C CNN
 F 3 "~" H 8000 850 50  0001 C CNN
+F 4 "0402 Resistor" H 8000 850 50  0001 C CNN "Generic Part"
+F 5 "NoName" H 8000 850 50  0001 C CNN "Used Part"
 	1    8000 850 
 	0    1    1    0   
 $EndComp
@@ -2011,6 +2174,8 @@ F 0 "FB1" V 7550 850 50  0000 C BNN
 F 1 "120Ω" V 7650 850 50  0000 C BNN
 F 2 "Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder" V 7680 850 50  0001 C CNN
 F 3 "~" H 7750 850 50  0001 C CNN
+F 4 "0402 Ferrite bead with 120Ω impedence at 100MHz" H 7750 850 50  0001 C CNN "Generic Part"
+F 5 "BLM15PE121SH1D" H 7750 850 50  0001 C CNN "Used Part"
 	1    7750 850 
 	0    1    1    0   
 $EndComp
@@ -2022,6 +2187,10 @@ F 0 "U5" H 8100 7300 50  0000 C CNN
 F 1 "TPS61040DBV" H 8100 7200 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-5" H 8200 6700 50  0001 L CIN
 F 3 "http://www.ti.com/lit/ds/symlink/tps61040.pdf" H 7900 7250 50  0001 C CNN
+F 4 "-" H 8100 6950 50  0001 C CNN "Generic Part"
+F 5 "TPS61040DBVR " H 8100 6950 50  0001 C CNN "Used Part"
+F 6 "79.46/10" H 8100 6950 50  0001 C CNN "Price"
+F 7 "AE:1005002911137778" H 8100 6950 50  0001 C CNN "Vendor:Code"
 	1    8100 6950
 	1    0    0    -1  
 $EndComp
@@ -2048,6 +2217,10 @@ F 0 "C51" H 9215 8346 50  0000 L CNN
 F 1 "10uF" H 9215 8255 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 9138 8150 50  0001 C CNN
 F 3 "~" H 9100 8300 50  0001 C CNN
+F 4 "0805 Capacitor" H 9100 8300 50  0001 C CNN "Generic Part"
+F 5 "NoName 0805 X5R 10uF 25V" H 9100 8300 50  0001 C CNN "Used Part"
+F 6 "5" H 9100 8300 50  0001 C CNN "Price"
+F 7 "R:199361" H 9100 8300 50  0001 C CNN "Vendor:Code"
 	1    9100 8300
 	1    0    0    -1  
 $EndComp
@@ -2126,6 +2299,8 @@ F 0 "R50" H 8870 5846 50  0000 L CNN
 F 1 "11kΩ" H 8870 5755 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 8730 5800 50  0001 C CNN
 F 3 "~" H 8800 5800 50  0001 C CNN
+F 4 "0402 Resistor" H 8800 5800 50  0001 C CNN "Generic Part"
+F 5 "NoName" H 8800 5800 50  0001 C CNN "Used Part"
 	1    8800 5800
 	1    0    0    -1  
 $EndComp
@@ -2137,6 +2312,8 @@ F 0 "R49" H 8870 5446 50  0000 L CNN
 F 1 "82kΩ" H 8870 5355 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 8730 5400 50  0001 C CNN
 F 3 "~" H 8800 5400 50  0001 C CNN
+F 4 "0402 Resistor" H 8800 5400 50  0001 C CNN "Generic Part"
+F 5 "NoName" H 8800 5400 50  0001 C CNN "Used Part"
 	1    8800 5400
 	1    0    0    -1  
 $EndComp
@@ -2153,6 +2330,10 @@ F 0 "D15" H 8600 4983 50  0000 C CNN
 F 1 "MBR0530" H 8600 5074 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-123" H 8600 5200 50  0001 C CNN
 F 3 "~" H 8600 5200 50  0001 C CNN
+F 4 "SOD-123 Schotky diode " H 8600 5200 50  0001 C CNN "Generic Part"
+F 5 "MBR0530" H 8600 5200 50  0001 C CNN "Used Part"
+F 6 "7" H 8600 5200 50  0001 C CNN "Price"
+F 7 "R:86701" H 8600 5200 50  0001 C CNN "Vendor:Code"
 	1    8600 5200
 	-1   0    0    1   
 $EndComp
@@ -2187,9 +2368,11 @@ L Jumper:SolderJumper_3_Bridged12 JP3
 U 1 1 647FFDBA
 P 9100 7700
 F 0 "JP3" H 9100 7813 50  0000 C CNN
-F 1 "SolderJumper_3_Bridged12" H 9100 7904 50  0001 C CNN
+F 1 "LCD Power Source Select" H 9100 7904 50  0001 C CNN
 F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged2Bar12_RoundedPad1.0x1.5mm" H 9100 7700 50  0001 C CNN
 F 3 "~" H 9100 7700 50  0001 C CNN
+F 4 "-" H 9100 7700 50  0001 C CNN "Generic Part"
+F 5 "-" H 9100 7700 50  0001 C CNN "Used Part"
 	1    9100 7700
 	0    -1   1    0   
 $EndComp
@@ -2198,9 +2381,11 @@ L Jumper:SolderJumper_2_Open JP4
 U 1 1 6406583B
 P 8500 8800
 F 0 "JP4" H 8500 8700 50  0000 C CNN
-F 1 "SolderJumper_2_Open" H 8500 8914 50  0001 C CNN
+F 1 "LCD Power Voltage Select" H 8500 8914 50  0001 C CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 8500 8800 50  0001 C CNN
 F 3 "~" H 8500 8800 50  0001 C CNN
+F 4 "-" H 8500 8800 50  0001 C CNN "Generic Part"
+F 5 "-" H 8500 8800 50  0001 C CNN "Used Part"
 	1    8500 8800
 	0    1    1    0   
 $EndComp
@@ -2212,6 +2397,8 @@ F 0 "R72" H 8450 8450 50  0000 R CNN
 F 1 "2kΩ" H 8450 8550 50  0000 R CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 8430 8500 50  0001 C CNN
 F 3 "~" H 8500 8500 50  0001 C CNN
+F 4 "0402 Resistor" H 8500 8500 50  0001 C CNN "Generic Part"
+F 5 "NoName" H 8500 8500 50  0001 C CNN "Used Part"
 	1    8500 8500
 	-1   0    0    1   
 $EndComp
@@ -2234,6 +2421,10 @@ F 0 "U8" H 8100 8650 50  0000 C CNN
 F 1 "TPS61040DBV" H 8100 8550 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-5" H 8200 8050 50  0001 L CIN
 F 3 "http://www.ti.com/lit/ds/symlink/tps61040.pdf" H 7900 8600 50  0001 C CNN
+F 4 "-" H 8100 8300 50  0001 C CNN "Generic Part"
+F 5 "TPS61040DBVR " H 8100 8300 50  0001 C CNN "Used Part"
+F 6 "79.46/10" H 8100 8300 50  0001 C CNN "Price"
+F 7 "AE:1005002911137778" H 8100 8300 50  0001 C CNN "Vendor:Code"
 	1    8100 8300
 	1    0    0    -1  
 $EndComp
@@ -2253,9 +2444,11 @@ L Device:L L7
 U 1 1 63EADC37
 P 8100 7900
 F 0 "L7" V 8290 7900 50  0000 C CNN
-F 1 "10uF" V 8199 7900 50  0000 C CNN
+F 1 "10uH" V 8199 7900 50  0000 C CNN
 F 2 "Inductor_SMD:L_Bourns-SRN4018" H 8100 7900 50  0001 C CNN
 F 3 "~" H 8100 7900 50  0001 C CNN
+F 4 "4x4mm Inductor ≥0.3A" H 8100 7900 50  0001 C CNN "Generic Part"
+F 5 "SRN4018-100M" H 8100 7900 50  0001 C CNN "Used Part"
 	1    8100 7900
 	0    -1   -1   0   
 $EndComp
@@ -2271,6 +2464,10 @@ F 0 "D21" H 8600 7683 50  0000 C CNN
 F 1 "MBR0530" H 8600 7774 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-123" H 8600 7900 50  0001 C CNN
 F 3 "~" H 8600 7900 50  0001 C CNN
+F 4 "SOD-123 Schotky diode " H 8600 7900 50  0001 C CNN "Generic Part"
+F 5 "MBR0530" H 8600 7900 50  0001 C CNN "Used Part"
+F 6 "7" H 8600 7900 50  0001 C CNN "Price"
+F 7 "R:86701" H 8600 7900 50  0001 C CNN "Vendor:Code"
 	1    8600 7900
 	-1   0    0    1   
 $EndComp
@@ -2285,6 +2482,8 @@ F 0 "R66" H 8850 8150 50  0000 L CNN
 F 1 "11kΩ" H 8850 8050 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 8730 8100 50  0001 C CNN
 F 3 "~" H 8800 8100 50  0001 C CNN
+F 4 "0402 Resistor" H 8800 8100 50  0001 C CNN "Generic Part"
+F 5 "NoName" H 8800 8100 50  0001 C CNN "Used Part"
 	1    8800 8100
 	1    0    0    -1  
 $EndComp
@@ -2296,6 +2495,8 @@ F 0 "R73" H 8850 8550 50  0000 L CNN
 F 1 "3.6kΩ" H 8850 8450 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 8730 8500 50  0001 C CNN
 F 3 "~" H 8800 8500 50  0001 C CNN
+F 4 "0402 Resistor" H 8800 8500 50  0001 C CNN "Generic Part"
+F 5 "NoName" H 8800 8500 50  0001 C CNN "Used Part"
 	1    8800 8500
 	1    0    0    -1  
 $EndComp
@@ -2333,6 +2534,8 @@ F 0 "R58" H 8520 7196 50  0000 L CNN
 F 1 "6.8Ω" H 8520 7105 50  0000 L CNN
 F 2 "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder" V 8380 7150 50  0001 C CNN
 F 3 "~" H 8450 7150 50  0001 C CNN
+F 4 "1210 Resistor" H 8450 7150 50  0001 C CNN "Generic Part"
+F 5 "NoName" H 8450 7150 50  0001 C CNN "Used Part"
 	1    8450 7150
 	1    0    0    -1  
 $EndComp
@@ -2348,6 +2551,8 @@ F 0 "R57" H 7720 7196 50  0000 L CNN
 F 1 "10kΩ" H 7720 7105 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 7580 7150 50  0001 C CNN
 F 3 "~" H 7650 7150 50  0001 C CNN
+F 4 "0402 Resistor" H 7650 7150 50  0001 C CNN "Generic Part"
+F 5 "NoName" H 7650 7150 50  0001 C CNN "Used Part"
 	1    7650 7150
 	1    0    0    -1  
 $EndComp
@@ -2394,9 +2599,13 @@ L Device:D_TVS D4
 U 1 1 64726987
 P 9750 1850
 F 0 "D4" V 9700 1750 50  0000 R CNN
-F 1 "LXES03AAA1" V 9800 1750 50  0000 R CNN
+F 1 "TVS" V 9800 1750 50  0000 R CNN
 F 2 "Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder" H 9750 1850 50  0001 C CNN
 F 3 "~" H 9750 1850 50  0001 C CNN
+F 4 "0402 TVS Diode" H 9750 1850 50  0001 C CNN "Generic Part"
+F 5 "UNUSED" H 9750 1850 50  0001 C CNN "Used Part"
+F 6 "-" H 9750 1850 50  0001 C CNN "Price"
+F 7 "-" H 9750 1850 50  0001 C CNN "Vendor:Code"
 	1    9750 1850
 	0    1    1    0   
 $EndComp
@@ -2411,6 +2620,8 @@ F 0 "R12" V 9900 1700 50  0000 C BNN
 F 1 "330Ω" V 10000 1700 50  0000 C BNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 10030 1700 50  0001 C CNN
 F 3 "~" H 10100 1700 50  0001 C CNN
+F 4 "0402 Resistor" H 10100 1700 50  0001 C CNN "Generic Part"
+F 5 "NoName" H 10100 1700 50  0001 C CNN "Used Part"
 	1    10100 1700
 	0    1    1    0   
 $EndComp
@@ -2423,6 +2634,8 @@ F 0 "FB4" V 9650 1700 50  0000 C BNN
 F 1 "120Ω" V 9750 1700 50  0000 C BNN
 F 2 "Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder" V 9780 1700 50  0001 C CNN
 F 3 "~" H 9850 1700 50  0001 C CNN
+F 4 "0402 Ferrite bead with 120Ω impedence at 100MHz" H 9850 1700 50  0001 C CNN "Generic Part"
+F 5 "BLM15PE121SH1D" H 9850 1700 50  0001 C CNN "Used Part"
 	1    9850 1700
 	0    1    1    0   
 $EndComp
@@ -2434,6 +2647,8 @@ F 0 "R14" H 9950 1650 50  0000 C TNN
 F 1 "75Ω" H 9950 1550 50  0000 C TNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 9880 1850 50  0001 C CNN
 F 3 "~" H 9950 1850 50  0001 C CNN
+F 4 "0402 Resistor" H 9950 1850 50  0001 C CNN "Generic Part"
+F 5 "NoName" H 9950 1850 50  0001 C CNN "Used Part"
 	1    9950 1850
 	1    0    0    -1  
 $EndComp
@@ -2451,6 +2666,8 @@ F 0 "FB6" V 9650 2700 50  0000 C BNN
 F 1 "120Ω" V 9750 2700 50  0000 C BNN
 F 2 "Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder" V 9780 2700 50  0001 C CNN
 F 3 "~" H 9850 2700 50  0001 C CNN
+F 4 "0402 Ferrite bead with 120Ω impedence at 100MHz" H 9850 2700 50  0001 C CNN "Generic Part"
+F 5 "BLM15PE121SH1D" H 9850 2700 50  0001 C CNN "Used Part"
 	1    9850 2700
 	0    1    1    0   
 $EndComp
@@ -2459,9 +2676,13 @@ L Device:D_TVS D6
 U 1 1 647EC89F
 P 9750 2850
 F 0 "D6" V 9700 2750 50  0000 R CNN
-F 1 "LXES03AAA1" V 9800 2750 50  0000 R CNN
+F 1 "TVS" V 9800 2750 50  0000 R CNN
 F 2 "Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder" H 9750 2850 50  0001 C CNN
 F 3 "~" H 9750 2850 50  0001 C CNN
+F 4 "0402 TVS Diode" H 9750 2850 50  0001 C CNN "Generic Part"
+F 5 "UNUSED" H 9750 2850 50  0001 C CNN "Used Part"
+F 6 "-" H 9750 2850 50  0001 C CNN "Price"
+F 7 "-" H 9750 2850 50  0001 C CNN "Vendor:Code"
 	1    9750 2850
 	0    1    1    0   
 $EndComp
@@ -2475,6 +2696,8 @@ F 0 "R23" V 10550 2700 50  0000 C CNN
 F 1 "100Ω" V 10350 2700 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 10380 2700 50  0001 C CNN
 F 3 "~" H 10450 2700 50  0001 C CNN
+F 4 "0402 Resistor" H 10450 2700 50  0001 C CNN "Generic Part"
+F 5 "NoName" H 10450 2700 50  0001 C CNN "Used Part"
 	1    10450 2700
 	0    1    -1   0   
 $EndComp
@@ -2486,6 +2709,10 @@ F 0 "C19" V 10550 2750 50  0000 L CNN
 F 1 "47nF" V 10650 2750 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 10788 2550 50  0001 C CNN
 F 3 "~" H 10750 2700 50  0001 C CNN
+F 4 "0402 Capacitor" H 10750 2700 50  0001 C CNN "Generic Part"
+F 5 "NoName 0402 X7R 47nF 10V" H 10750 2700 50  0001 C CNN "Used Part"
+F 6 "1" H 10750 2700 50  0001 C CNN "Price"
+F 7 "R:209307" H 10750 2700 50  0001 C CNN "Vendor:Code"
 	1    10750 2700
 	0    1    1    0   
 $EndComp
@@ -2497,6 +2724,10 @@ F 0 "C23" V 10550 3050 50  0000 L CNN
 F 1 "47nF" V 10650 3050 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 10788 2850 50  0001 C CNN
 F 3 "~" H 10750 3000 50  0001 C CNN
+F 4 "0402 Capacitor" H 10750 3000 50  0001 C CNN "Generic Part"
+F 5 "NoName 0402 X7R 47nF 10V" H 10750 3000 50  0001 C CNN "Used Part"
+F 6 "1" H 10750 3000 50  0001 C CNN "Price"
+F 7 "R:209307" H 10750 3000 50  0001 C CNN "Vendor:Code"
 	1    10750 3000
 	0    1    1    0   
 $EndComp
@@ -2508,6 +2739,8 @@ F 0 "R27" V 10550 3000 50  0000 C CNN
 F 1 "100Ω" V 10350 3000 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 10380 3000 50  0001 C CNN
 F 3 "~" H 10450 3000 50  0001 C CNN
+F 4 "0402 Resistor" H 10450 3000 50  0001 C CNN "Generic Part"
+F 5 "NoName" H 10450 3000 50  0001 C CNN "Used Part"
 	1    10450 3000
 	0    1    -1   0   
 $EndComp
@@ -2519,6 +2752,8 @@ F 0 "R25" H 10020 2896 50  0000 L CNN
 F 1 "75" H 10020 2805 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 9880 2850 50  0001 C CNN
 F 3 "~" H 9950 2850 50  0001 C CNN
+F 4 "0402 Resistor" H 9950 2850 50  0001 C CNN "Generic Part"
+F 5 "NoName" H 9950 2850 50  0001 C CNN "Used Part"
 	1    9950 2850
 	1    0    0    -1  
 $EndComp
@@ -2542,6 +2777,8 @@ F 0 "R31" H 10020 3546 50  0000 L CNN
 F 1 "75" H 10020 3455 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 9880 3500 50  0001 C CNN
 F 3 "~" H 9950 3500 50  0001 C CNN
+F 4 "0402 Resistor" H 9950 3500 50  0001 C CNN "Generic Part"
+F 5 "NoName" H 9950 3500 50  0001 C CNN "Used Part"
 	1    9950 3500
 	1    0    0    -1  
 $EndComp
@@ -2553,6 +2790,8 @@ F 0 "R33" V 10550 3650 50  0000 C CNN
 F 1 "100Ω" V 10350 3650 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 10380 3650 50  0001 C CNN
 F 3 "~" H 10450 3650 50  0001 C CNN
+F 4 "0402 Resistor" H 10450 3650 50  0001 C CNN "Generic Part"
+F 5 "NoName" H 10450 3650 50  0001 C CNN "Used Part"
 	1    10450 3650
 	0    1    -1   0   
 $EndComp
@@ -2564,6 +2803,10 @@ F 0 "C27" H 10250 3750 50  0000 C CNN
 F 1 "5.1pF" H 10250 3850 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 10288 3350 50  0001 C CNN
 F 3 "~" H 10250 3500 50  0001 C CNN
+F 4 "0402 Capacitor" H 10250 3500 50  0001 C CNN "Generic Part"
+F 5 "NoName 0402 NP0 5.1pF 50V" H 10250 3500 50  0001 C CNN "Used Part"
+F 6 "1" H 10250 3500 50  0001 C CNN "Price"
+F 7 "R:209372" H 10250 3500 50  0001 C CNN "Vendor:Code"
 	1    10250 3500
 	1    0    0    1   
 $EndComp
@@ -2575,6 +2818,10 @@ F 0 "C29" V 10550 3700 50  0000 L CNN
 F 1 "47nF" V 10650 3700 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 10788 3500 50  0001 C CNN
 F 3 "~" H 10750 3650 50  0001 C CNN
+F 4 "0402 Capacitor" H 10750 3650 50  0001 C CNN "Generic Part"
+F 5 "NoName 0402 X7R 47nF 10V" H 10750 3650 50  0001 C CNN "Used Part"
+F 6 "1" H 10750 3650 50  0001 C CNN "Price"
+F 7 "R:209307" H 10750 3650 50  0001 C CNN "Vendor:Code"
 	1    10750 3650
 	0    1    1    0   
 $EndComp
@@ -2586,6 +2833,10 @@ F 0 "C25" V 10550 3400 50  0000 L CNN
 F 1 "47nF" V 10650 3400 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 10788 3200 50  0001 C CNN
 F 3 "~" H 10750 3350 50  0001 C CNN
+F 4 "0402 Capacitor" H 10750 3350 50  0001 C CNN "Generic Part"
+F 5 "NoName 0402 X7R 47nF 10V" H 10750 3350 50  0001 C CNN "Used Part"
+F 6 "1" H 10750 3350 50  0001 C CNN "Price"
+F 7 "R:209307" H 10750 3350 50  0001 C CNN "Vendor:Code"
 	1    10750 3350
 	0    1    1    0   
 $EndComp
@@ -2597,6 +2848,8 @@ F 0 "R29" V 10550 3350 50  0000 C CNN
 F 1 "100Ω" V 10350 3350 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 10380 3350 50  0001 C CNN
 F 3 "~" H 10450 3350 50  0001 C CNN
+F 4 "0402 Resistor" H 10450 3350 50  0001 C CNN "Generic Part"
+F 5 "NoName" H 10450 3350 50  0001 C CNN "Used Part"
 	1    10450 3350
 	0    1    -1   0   
 $EndComp
@@ -2608,6 +2861,8 @@ F 0 "R40" H 10020 4196 50  0000 L CNN
 F 1 "75" H 10020 4105 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 9880 4150 50  0001 C CNN
 F 3 "~" H 9950 4150 50  0001 C CNN
+F 4 "0402 Resistor" H 9950 4150 50  0001 C CNN "Generic Part"
+F 5 "NoName" H 9950 4150 50  0001 C CNN "Used Part"
 	1    9950 4150
 	1    0    0    -1  
 $EndComp
@@ -2619,6 +2874,8 @@ F 0 "FB10" V 9650 4000 50  0000 C BNN
 F 1 "120Ω" V 9750 4000 50  0000 C BNN
 F 2 "Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder" V 9780 4000 50  0001 C CNN
 F 3 "~" H 9850 4000 50  0001 C CNN
+F 4 "0402 Ferrite bead with 120Ω impedence at 100MHz" H 9850 4000 50  0001 C CNN "Generic Part"
+F 5 "BLM15PE121SH1D" H 9850 4000 50  0001 C CNN "Used Part"
 	1    9850 4000
 	0    1    1    0   
 $EndComp
@@ -2630,6 +2887,8 @@ F 0 "R42" V 10550 4300 50  0000 C CNN
 F 1 "100Ω" V 10350 4300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 10380 4300 50  0001 C CNN
 F 3 "~" H 10450 4300 50  0001 C CNN
+F 4 "0402 Resistor" H 10450 4300 50  0001 C CNN "Generic Part"
+F 5 "NoName" H 10450 4300 50  0001 C CNN "Used Part"
 	1    10450 4300
 	0    1    -1   0   
 $EndComp
@@ -2641,6 +2900,10 @@ F 0 "C33" H 10250 4400 50  0000 C CNN
 F 1 "5.1pF" H 10250 4500 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 10288 4000 50  0001 C CNN
 F 3 "~" H 10250 4150 50  0001 C CNN
+F 4 "0402 Capacitor" H 10250 4150 50  0001 C CNN "Generic Part"
+F 5 "NoName 0402 NP0 5.1pF 50V" H 10250 4150 50  0001 C CNN "Used Part"
+F 6 "1" H 10250 4150 50  0001 C CNN "Price"
+F 7 "R:209372" H 10250 4150 50  0001 C CNN "Vendor:Code"
 	1    10250 4150
 	1    0    0    1   
 $EndComp
@@ -2652,6 +2915,10 @@ F 0 "C35" V 10550 4350 50  0000 L CNN
 F 1 "47nF" V 10650 4350 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 10788 4150 50  0001 C CNN
 F 3 "~" H 10750 4300 50  0001 C CNN
+F 4 "0402 Capacitor" H 10750 4300 50  0001 C CNN "Generic Part"
+F 5 "NoName 0402 X7R 47nF 10V" H 10750 4300 50  0001 C CNN "Used Part"
+F 6 "1" H 10750 4300 50  0001 C CNN "Price"
+F 7 "R:209307" H 10750 4300 50  0001 C CNN "Vendor:Code"
 	1    10750 4300
 	0    1    1    0   
 $EndComp
@@ -2663,6 +2930,10 @@ F 0 "C31" V 10550 4050 50  0000 L CNN
 F 1 "47nF" V 10650 4050 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 10788 3850 50  0001 C CNN
 F 3 "~" H 10750 4000 50  0001 C CNN
+F 4 "0402 Capacitor" H 10750 4000 50  0001 C CNN "Generic Part"
+F 5 "NoName 0402 X7R 47nF 10V" H 10750 4000 50  0001 C CNN "Used Part"
+F 6 "1" H 10750 4000 50  0001 C CNN "Price"
+F 7 "R:209307" H 10750 4000 50  0001 C CNN "Vendor:Code"
 	1    10750 4000
 	0    1    1    0   
 $EndComp
@@ -2674,6 +2945,8 @@ F 0 "R37" V 10550 4000 50  0000 C CNN
 F 1 "100Ω" V 10350 4000 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 10380 4000 50  0001 C CNN
 F 3 "~" H 10450 4000 50  0001 C CNN
+F 4 "0402 Resistor" H 10450 4000 50  0001 C CNN "Generic Part"
+F 5 "NoName" H 10450 4000 50  0001 C CNN "Used Part"
 	1    10450 4000
 	0    1    -1   0   
 $EndComp
@@ -2686,9 +2959,13 @@ L Device:D_TVS D10
 U 1 1 647EE934
 P 9750 4150
 F 0 "D10" V 9700 4050 50  0000 R CNN
-F 1 "LXES03AAA1" V 9800 4050 50  0000 R CNN
+F 1 "TVS" V 9800 4050 50  0000 R CNN
 F 2 "Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder" H 9750 4150 50  0001 C CNN
 F 3 "~" H 9750 4150 50  0001 C CNN
+F 4 "0402 TVS Diode" H 9750 4150 50  0001 C CNN "Generic Part"
+F 5 "UNUSED" H 9750 4150 50  0001 C CNN "Used Part"
+F 6 "-" H 9750 4150 50  0001 C CNN "Price"
+F 7 "-" H 9750 4150 50  0001 C CNN "Vendor:Code"
 	1    9750 4150
 	0    1    1    0   
 $EndComp
@@ -2700,6 +2977,8 @@ F 0 "FB8" V 9650 3350 50  0000 C BNN
 F 1 "120Ω" V 9750 3350 50  0000 C BNN
 F 2 "Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder" V 9780 3350 50  0001 C CNN
 F 3 "~" H 9850 3350 50  0001 C CNN
+F 4 "0402 Ferrite bead with 120Ω impedence at 100MHz" H 9850 3350 50  0001 C CNN "Generic Part"
+F 5 "BLM15PE121SH1D" H 9850 3350 50  0001 C CNN "Used Part"
 	1    9850 3350
 	0    1    1    0   
 $EndComp
@@ -2752,6 +3031,8 @@ F 0 "RV1" H 10750 8150 50  0000 R CNN
 F 1 "10kΩ" H 10750 8050 50  0000 R CNN
 F 2 "RTD2662Board:PVZ3A" H 10800 8100 50  0001 C CNN
 F 3 "~" H 10800 8100 50  0001 C CNN
+F 4 "PVZ3A/3303W ≥10kΩ Potentiometer" H 10800 8100 50  0001 C CNN "Generic Part"
+F 5 "PVZ3A103" H 10800 8100 50  0001 C CNN "Used Part"
 	1    10800 8100
 	1    0    0    -1  
 $EndComp
@@ -2771,6 +3052,8 @@ F 0 "R71" H 10850 8450 50  0000 L CNN
 F 1 "6.8kΩ" H 10850 8350 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 10730 8400 50  0001 C CNN
 F 3 "~" H 10800 8400 50  0001 C CNN
+F 4 "0402 Resistor" H 10800 8400 50  0001 C CNN "Generic Part"
+F 5 "NoName" H 10800 8400 50  0001 C CNN "Used Part"
 	1    10800 8400
 	-1   0    0    -1  
 $EndComp
@@ -2806,6 +3089,8 @@ F 0 "R24" H 7920 2896 50  0000 L CNN
 F 1 "75" H 7920 2805 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 7780 2850 50  0001 C CNN
 F 3 "~" H 7850 2850 50  0001 C CNN
+F 4 "0402 Resistor" H 7850 2850 50  0001 C CNN "Generic Part"
+F 5 "NoName" H 7850 2850 50  0001 C CNN "Used Part"
 	1    7850 2850
 	1    0    0    -1  
 $EndComp
@@ -2817,6 +3102,8 @@ F 0 "FB5" V 7550 2700 50  0000 C BNN
 F 1 "120Ω" V 7650 2700 50  0000 C BNN
 F 2 "Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder" V 7680 2700 50  0001 C CNN
 F 3 "~" H 7750 2700 50  0001 C CNN
+F 4 "0402 Ferrite bead with 120Ω impedence at 100MHz" H 7750 2700 50  0001 C CNN "Generic Part"
+F 5 "BLM15PE121SH1D" H 7750 2700 50  0001 C CNN "Used Part"
 	1    7750 2700
 	0    1    1    0   
 $EndComp
@@ -2828,6 +3115,8 @@ F 0 "R22" V 8250 2700 50  0000 C CNN
 F 1 "100Ω" V 8450 2700 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 8280 2700 50  0001 C CNN
 F 3 "~" H 8350 2700 50  0001 C CNN
+F 4 "0402 Resistor" H 8350 2700 50  0001 C CNN "Generic Part"
+F 5 "NoName" H 8350 2700 50  0001 C CNN "Used Part"
 	1    8350 2700
 	0    1    1    0   
 $EndComp
@@ -2839,6 +3128,10 @@ F 0 "C18" V 8450 2750 50  0000 L CNN
 F 1 "47nF" V 8550 2750 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 8688 2550 50  0001 C CNN
 F 3 "~" H 8650 2700 50  0001 C CNN
+F 4 "0402 Capacitor" H 8650 2700 50  0001 C CNN "Generic Part"
+F 5 "NoName 0402 X7R 47nF 10V" H 8650 2700 50  0001 C CNN "Used Part"
+F 6 "1" H 8650 2700 50  0001 C CNN "Price"
+F 7 "R:209307" H 8650 2700 50  0001 C CNN "Vendor:Code"
 	1    8650 2700
 	0    1    1    0   
 $EndComp
@@ -2850,6 +3143,10 @@ F 0 "C22" V 8450 3050 50  0000 L CNN
 F 1 "47nF" V 8550 3050 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 8688 2850 50  0001 C CNN
 F 3 "~" H 8650 3000 50  0001 C CNN
+F 4 "0402 Capacitor" H 8650 3000 50  0001 C CNN "Generic Part"
+F 5 "NoName 0402 X7R 47nF 10V" H 8650 3000 50  0001 C CNN "Used Part"
+F 6 "1" H 8650 3000 50  0001 C CNN "Price"
+F 7 "R:209307" H 8650 3000 50  0001 C CNN "Vendor:Code"
 	1    8650 3000
 	0    1    1    0   
 $EndComp
@@ -2861,6 +3158,8 @@ F 0 "R19" V 8250 2400 50  0000 C CNN
 F 1 "100Ω" V 8450 2400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 8280 2400 50  0001 C CNN
 F 3 "~" H 8350 2400 50  0001 C CNN
+F 4 "0402 Resistor" H 8350 2400 50  0001 C CNN "Generic Part"
+F 5 "NoName" H 8350 2400 50  0001 C CNN "Used Part"
 	1    8350 2400
 	0    1    1    0   
 $EndComp
@@ -2872,6 +3171,10 @@ F 0 "C17" V 8450 2450 50  0000 L CNN
 F 1 "47nF" V 8550 2450 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 8688 2250 50  0001 C CNN
 F 3 "~" H 8650 2400 50  0001 C CNN
+F 4 "0402 Capacitor" H 8650 2400 50  0001 C CNN "Generic Part"
+F 5 "NoName 0402 X7R 47nF 10V" H 8650 2400 50  0001 C CNN "Used Part"
+F 6 "1" H 8650 2400 50  0001 C CNN "Price"
+F 7 "R:209307" H 8650 2400 50  0001 C CNN "Vendor:Code"
 	1    8650 2400
 	0    1    1    0   
 $EndComp
@@ -2883,6 +3186,8 @@ F 0 "R26" V 8250 3000 50  0000 C CNN
 F 1 "100Ω" V 8450 3000 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 8280 3000 50  0001 C CNN
 F 3 "~" H 8350 3000 50  0001 C CNN
+F 4 "0402 Resistor" H 8350 3000 50  0001 C CNN "Generic Part"
+F 5 "NoName" H 8350 3000 50  0001 C CNN "Used Part"
 	1    8350 3000
 	0    1    1    0   
 $EndComp
@@ -2891,9 +3196,13 @@ L Device:D_TVS D5
 U 1 1 646DE7D4
 P 7650 2850
 F 0 "D5" V 7600 2750 50  0000 R CNN
-F 1 "LXES03AAA1" V 7700 2750 50  0000 R CNN
+F 1 "TVS" V 7700 2750 50  0000 R CNN
 F 2 "Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder" H 7650 2850 50  0001 C CNN
 F 3 "~" H 7650 2850 50  0001 C CNN
+F 4 "0402 TVS Diode" H 7650 2850 50  0001 C CNN "Generic Part"
+F 5 "UNUSED" H 7650 2850 50  0001 C CNN "Used Part"
+F 6 "-" H 7650 2850 50  0001 C CNN "Price"
+F 7 "-" H 7650 2850 50  0001 C CNN "Vendor:Code"
 	1    7650 2850
 	0    1    1    0   
 $EndComp
@@ -2924,9 +3233,13 @@ L Device:D_TVS D9
 U 1 1 646E0482
 P 7650 4150
 F 0 "D9" V 7600 4050 50  0000 R CNN
-F 1 "LXES03AAA1" V 7700 4050 50  0000 R CNN
+F 1 "TVS" V 7700 4050 50  0000 R CNN
 F 2 "Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder" H 7650 4150 50  0001 C CNN
 F 3 "~" H 7650 4150 50  0001 C CNN
+F 4 "0402 TVS Diode" H 7650 4150 50  0001 C CNN "Generic Part"
+F 5 "UNUSED" H 7650 4150 50  0001 C CNN "Used Part"
+F 6 "-" H 7650 4150 50  0001 C CNN "Price"
+F 7 "-" H 7650 4150 50  0001 C CNN "Vendor:Code"
 	1    7650 4150
 	0    1    1    0   
 $EndComp
@@ -2937,9 +3250,13 @@ L Device:D_TVS D7
 U 1 1 646DEE69
 P 7650 3500
 F 0 "D7" V 7600 3400 50  0000 R CNN
-F 1 "LXES03AAA1" V 7700 3400 50  0000 R CNN
+F 1 "TVS" V 7700 3400 50  0000 R CNN
 F 2 "Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder" H 7650 3500 50  0001 C CNN
 F 3 "~" H 7650 3500 50  0001 C CNN
+F 4 "0402 TVS Diode" H 7650 3500 50  0001 C CNN "Generic Part"
+F 5 "UNUSED" H 7650 3500 50  0001 C CNN "Used Part"
+F 6 "-" H 7650 3500 50  0001 C CNN "Price"
+F 7 "-" H 7650 3500 50  0001 C CNN "Vendor:Code"
 	1    7650 3500
 	0    1    1    0   
 $EndComp
@@ -2951,6 +3268,8 @@ F 0 "R41" V 8250 4300 50  0000 C CNN
 F 1 "100Ω" V 8450 4300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 8280 4300 50  0001 C CNN
 F 3 "~" H 8350 4300 50  0001 C CNN
+F 4 "0402 Resistor" H 8350 4300 50  0001 C CNN "Generic Part"
+F 5 "NoName" H 8350 4300 50  0001 C CNN "Used Part"
 	1    8350 4300
 	0    1    1    0   
 $EndComp
@@ -2962,6 +3281,8 @@ F 0 "R32" V 8250 3650 50  0000 C CNN
 F 1 "100Ω" V 8450 3650 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 8280 3650 50  0001 C CNN
 F 3 "~" H 8350 3650 50  0001 C CNN
+F 4 "0402 Resistor" H 8350 3650 50  0001 C CNN "Generic Part"
+F 5 "NoName" H 8350 3650 50  0001 C CNN "Used Part"
 	1    8350 3650
 	0    1    1    0   
 $EndComp
@@ -2973,6 +3294,10 @@ F 0 "C34" V 8450 4350 50  0000 L CNN
 F 1 "47nF" V 8550 4350 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 8688 4150 50  0001 C CNN
 F 3 "~" H 8650 4300 50  0001 C CNN
+F 4 "0402 Capacitor" H 8650 4300 50  0001 C CNN "Generic Part"
+F 5 "NoName 0402 X7R 47nF 10V" H 8650 4300 50  0001 C CNN "Used Part"
+F 6 "1" H 8650 4300 50  0001 C CNN "Price"
+F 7 "R:209307" H 8650 4300 50  0001 C CNN "Vendor:Code"
 	1    8650 4300
 	0    1    1    0   
 $EndComp
@@ -2984,6 +3309,10 @@ F 0 "C30" V 8450 4050 50  0000 L CNN
 F 1 "47nF" V 8550 4050 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 8688 3850 50  0001 C CNN
 F 3 "~" H 8650 4000 50  0001 C CNN
+F 4 "0402 Capacitor" H 8650 4000 50  0001 C CNN "Generic Part"
+F 5 "NoName 0402 X7R 47nF 10V" H 8650 4000 50  0001 C CNN "Used Part"
+F 6 "1" H 8650 4000 50  0001 C CNN "Price"
+F 7 "R:209307" H 8650 4000 50  0001 C CNN "Vendor:Code"
 	1    8650 4000
 	0    1    1    0   
 $EndComp
@@ -2995,6 +3324,10 @@ F 0 "C32" H 8050 3900 50  0000 L CNN
 F 1 "5.1pF" H 8150 3800 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 8188 4000 50  0001 C CNN
 F 3 "~" H 8150 4150 50  0001 C CNN
+F 4 "0402 Capacitor" H 8150 4150 50  0001 C CNN "Generic Part"
+F 5 "NoName 0402 NP0 5.1pF 50V" H 8150 4150 50  0001 C CNN "Used Part"
+F 6 "1" H 8150 4150 50  0001 C CNN "Price"
+F 7 "R:209372" H 8150 4150 50  0001 C CNN "Vendor:Code"
 	1    8150 4150
 	1    0    0    -1  
 $EndComp
@@ -3006,6 +3339,8 @@ F 0 "R36" V 8250 4000 50  0000 C CNN
 F 1 "100Ω" V 8450 4000 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 8280 4000 50  0001 C CNN
 F 3 "~" H 8350 4000 50  0001 C CNN
+F 4 "0402 Resistor" H 8350 4000 50  0001 C CNN "Generic Part"
+F 5 "NoName" H 8350 4000 50  0001 C CNN "Used Part"
 	1    8350 4000
 	0    1    1    0   
 $EndComp
@@ -3017,6 +3352,8 @@ F 0 "FB9" V 7550 4000 50  0000 C BNN
 F 1 "120Ω" V 7650 4000 50  0000 C BNN
 F 2 "Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder" V 7680 4000 50  0001 C CNN
 F 3 "~" H 7750 4000 50  0001 C CNN
+F 4 "0402 Ferrite bead with 120Ω impedence at 100MHz" H 7750 4000 50  0001 C CNN "Generic Part"
+F 5 "BLM15PE121SH1D" H 7750 4000 50  0001 C CNN "Used Part"
 	1    7750 4000
 	0    1    1    0   
 $EndComp
@@ -3028,6 +3365,8 @@ F 0 "R39" H 7920 4196 50  0000 L CNN
 F 1 "75" H 7920 4105 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 7780 4150 50  0001 C CNN
 F 3 "~" H 7850 4150 50  0001 C CNN
+F 4 "0402 Resistor" H 7850 4150 50  0001 C CNN "Generic Part"
+F 5 "NoName" H 7850 4150 50  0001 C CNN "Used Part"
 	1    7850 4150
 	1    0    0    -1  
 $EndComp
@@ -3039,6 +3378,10 @@ F 0 "C28" V 8450 3700 50  0000 L CNN
 F 1 "47nF" V 8550 3700 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 8688 3500 50  0001 C CNN
 F 3 "~" H 8650 3650 50  0001 C CNN
+F 4 "0402 Capacitor" H 8650 3650 50  0001 C CNN "Generic Part"
+F 5 "NoName 0402 X7R 47nF 10V" H 8650 3650 50  0001 C CNN "Used Part"
+F 6 "1" H 8650 3650 50  0001 C CNN "Price"
+F 7 "R:209307" H 8650 3650 50  0001 C CNN "Vendor:Code"
 	1    8650 3650
 	0    1    1    0   
 $EndComp
@@ -3050,6 +3393,10 @@ F 0 "C24" V 8450 3400 50  0000 L CNN
 F 1 "47nF" V 8550 3400 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 8688 3200 50  0001 C CNN
 F 3 "~" H 8650 3350 50  0001 C CNN
+F 4 "0402 Capacitor" H 8650 3350 50  0001 C CNN "Generic Part"
+F 5 "NoName 0402 X7R 47nF 10V" H 8650 3350 50  0001 C CNN "Used Part"
+F 6 "1" H 8650 3350 50  0001 C CNN "Price"
+F 7 "R:209307" H 8650 3350 50  0001 C CNN "Vendor:Code"
 	1    8650 3350
 	0    1    1    0   
 $EndComp
@@ -3061,6 +3408,8 @@ F 0 "R28" V 8250 3350 50  0000 C CNN
 F 1 "100Ω" V 8450 3350 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 8280 3350 50  0001 C CNN
 F 3 "~" H 8350 3350 50  0001 C CNN
+F 4 "0402 Resistor" H 8350 3350 50  0001 C CNN "Generic Part"
+F 5 "NoName" H 8350 3350 50  0001 C CNN "Used Part"
 	1    8350 3350
 	0    1    1    0   
 $EndComp
@@ -3072,6 +3421,8 @@ F 0 "FB7" V 7550 3350 50  0000 C BNN
 F 1 "120Ω" V 7650 3350 50  0000 C BNN
 F 2 "Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder" V 7680 3350 50  0001 C CNN
 F 3 "~" H 7750 3350 50  0001 C CNN
+F 4 "0402 Ferrite bead with 120Ω impedence at 100MHz" H 7750 3350 50  0001 C CNN "Generic Part"
+F 5 "BLM15PE121SH1D" H 7750 3350 50  0001 C CNN "Used Part"
 	1    7750 3350
 	0    1    1    0   
 $EndComp
@@ -3083,6 +3434,8 @@ F 0 "R30" H 7920 3546 50  0000 L CNN
 F 1 "75" H 7920 3455 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 7780 3500 50  0001 C CNN
 F 3 "~" H 7850 3500 50  0001 C CNN
+F 4 "0402 Resistor" H 7850 3500 50  0001 C CNN "Generic Part"
+F 5 "NoName" H 7850 3500 50  0001 C CNN "Used Part"
 	1    7850 3500
 	1    0    0    -1  
 $EndComp
@@ -3121,9 +3474,13 @@ L Device:D_TVS D8
 U 1 1 647ED072
 P 9750 3500
 F 0 "D8" V 9700 3400 50  0000 R CNN
-F 1 "LXES03AAA1" V 9800 3400 50  0000 R CNN
+F 1 "TVS" V 9800 3400 50  0000 R CNN
 F 2 "Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder" H 9750 3500 50  0001 C CNN
 F 3 "~" H 9750 3500 50  0001 C CNN
+F 4 "0402 TVS Diode" H 9750 3500 50  0001 C CNN "Generic Part"
+F 5 "UNUSED" H 9750 3500 50  0001 C CNN "Used Part"
+F 6 "-" H 9750 3500 50  0001 C CNN "Price"
+F 7 "-" H 9750 3500 50  0001 C CNN "Vendor:Code"
 	1    9750 3500
 	0    1    1    0   
 $EndComp
@@ -3134,9 +3491,13 @@ L Device:D_TVS D2
 U 1 1 6ADF6164
 P 9750 1000
 F 0 "D2" V 9700 900 50  0000 R CNN
-F 1 "LXES03AAA1" V 9800 900 50  0000 R CNN
+F 1 "TVS" V 9800 900 50  0000 R CNN
 F 2 "Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder" H 9750 1000 50  0001 C CNN
 F 3 "~" H 9750 1000 50  0001 C CNN
+F 4 "0402 TVS Diode" H 9750 1000 50  0001 C CNN "Generic Part"
+F 5 "UNUSED" H 9750 1000 50  0001 C CNN "Used Part"
+F 6 "-" H 9750 1000 50  0001 C CNN "Price"
+F 7 "-" H 9750 1000 50  0001 C CNN "Vendor:Code"
 	1    9750 1000
 	0    1    1    0   
 $EndComp
@@ -3188,6 +3549,10 @@ F 0 "C13" H 10250 1650 50  0000 C TNN
 F 1 "33pF" H 10250 1550 50  0000 C TNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 10288 1700 50  0001 C CNN
 F 3 "~" H 10250 1850 50  0001 C CNN
+F 4 "0402 Capacitor" H 10250 1850 50  0001 C CNN "Generic Part"
+F 5 "NoName 0402 NP0 33pF 50V" H 10250 1850 50  0001 C CNN "Used Part"
+F 6 "1.5" H 10250 1850 50  0001 C CNN "Price"
+F 7 "R:189066" H 10250 1850 50  0001 C CNN "Vendor:Code"
 	1    10250 1850
 	1    0    0    -1  
 $EndComp
@@ -3201,6 +3566,8 @@ F 0 "L4" V 10650 1700 50  0000 C BNN
 F 1 "8.2uH" V 10550 1700 50  0000 C BNN
 F 2 "Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder" H 10400 1700 50  0001 C CNN
 F 3 "~" H 10400 1700 50  0001 C CNN
+F 4 "-" H 10400 1700 50  0001 C CNN "Generic Part"
+F 5 "NoName 0Ω Jumper (UNUSED)" H 10400 1700 50  0001 C CNN "Used Part"
 	1    10400 1700
 	0    -1   -1   0   
 $EndComp
@@ -3212,6 +3579,10 @@ F 0 "C10" V 10550 1750 50  0000 L CNN
 F 1 "22nF" V 10650 1750 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 10788 1550 50  0001 C CNN
 F 3 "~" H 10750 1700 50  0001 C CNN
+F 4 "0402 Capacitor" H 10750 1700 50  0001 C CNN "Generic Part"
+F 5 "NoName 0402 X7R 22nF 16V" H 10750 1700 50  0001 C CNN "Used Part"
+F 6 "1.5" H 10750 1700 50  0001 C CNN "Price"
+F 7 "R:189079" H 10750 1700 50  0001 C CNN "Vendor:Code"
 	1    10750 1700
 	0    1    1    0   
 $EndComp
@@ -3225,6 +3596,10 @@ F 0 "C16" V 10550 2050 50  0000 L CNN
 F 1 "22nF" V 10650 2050 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 10788 1850 50  0001 C CNN
 F 3 "~" H 10750 2000 50  0001 C CNN
+F 4 "0402 Capacitor" H 10750 2000 50  0001 C CNN "Generic Part"
+F 5 "NoName 0402 X7R 22nF 16V" H 10750 2000 50  0001 C CNN "Used Part"
+F 6 "1.5" H 10750 2000 50  0001 C CNN "Price"
+F 7 "R:189079" H 10750 2000 50  0001 C CNN "Vendor:Code"
 	1    10750 2000
 	0    1    1    0   
 $EndComp
@@ -3236,6 +3611,10 @@ F 0 "C14" H 10550 1650 50  0000 C TNN
 F 1 "82pF" H 10550 1550 50  0000 C TNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 10588 1700 50  0001 C CNN
 F 3 "~" H 10550 1850 50  0001 C CNN
+F 4 "0402 Capacitor" H 10550 1850 50  0001 C CNN "Generic Part"
+F 5 "NoName 0402 NP0 82pF 50V" H 10550 1850 50  0001 C CNN "Used Part"
+F 6 "1" H 10550 1850 50  0001 C CNN "Price"
+F 7 "R:209383" H 10550 1850 50  0001 C CNN "Vendor:Code"
 	1    10550 1850
 	1    0    0    -1  
 $EndComp
@@ -3247,6 +3626,10 @@ F 0 "C20" H 8150 2600 50  0000 C CNN
 F 1 "5.1pF" H 8150 2500 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 8188 2700 50  0001 C CNN
 F 3 "~" H 8150 2850 50  0001 C CNN
+F 4 "0402 Capacitor" H 8150 2850 50  0001 C CNN "Generic Part"
+F 5 "NoName 0402 NP0 5.1pF 50V" H 8150 2850 50  0001 C CNN "Used Part"
+F 6 "1" H 8150 2850 50  0001 C CNN "Price"
+F 7 "R:209372" H 8150 2850 50  0001 C CNN "Vendor:Code"
 	1    8150 2850
 	1    0    0    -1  
 $EndComp
@@ -3261,9 +3644,11 @@ L Device:L L6
 U 1 1 61C08096
 P 8100 6550
 F 0 "L6" V 8290 6550 50  0000 C CNN
-F 1 "10uF" V 8199 6550 50  0000 C CNN
+F 1 "10uH" V 8199 6550 50  0000 C CNN
 F 2 "Inductor_SMD:L_Bourns-SRN4018" H 8100 6550 50  0001 C CNN
 F 3 "~" H 8100 6550 50  0001 C CNN
+F 4 "4x4mm Inductor ≥0.3A" H 8100 6550 50  0001 C CNN "Generic Part"
+F 5 "SRN4018-100M" H 8100 6550 50  0001 C CNN "Used Part"
 	1    8100 6550
 	0    -1   -1   0   
 $EndComp
@@ -3275,6 +3660,10 @@ F 0 "D18" H 8600 6333 50  0000 C CNN
 F 1 "MBR0530" H 8600 6424 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-123" H 8600 6550 50  0001 C CNN
 F 3 "~" H 8600 6550 50  0001 C CNN
+F 4 "SOD-123 Schotky diode " H 8600 6550 50  0001 C CNN "Generic Part"
+F 5 "MBR0530" H 8600 6550 50  0001 C CNN "Used Part"
+F 6 "7" H 8600 6550 50  0001 C CNN "Price"
+F 7 "R:86701" H 8600 6550 50  0001 C CNN "Vendor:Code"
 	1    8600 6550
 	-1   0    0    1   
 $EndComp
@@ -3313,9 +3702,11 @@ L Device:L L5
 U 1 1 62284F62
 P 8100 5200
 F 0 "L5" V 8290 5200 50  0000 C CNN
-F 1 "10uF" V 8199 5200 50  0000 C CNN
+F 1 "10uH" V 8199 5200 50  0000 C CNN
 F 2 "Inductor_SMD:L_Bourns-SRN4018" H 8100 5200 50  0001 C CNN
 F 3 "~" H 8100 5200 50  0001 C CNN
+F 4 "4x4mm Inductor ≥0.3A" H 8100 5200 50  0001 C CNN "Generic Part"
+F 5 "SRN4018-100M" H 8100 5200 50  0001 C CNN "Used Part"
 	1    8100 5200
 	0    -1   -1   0   
 $EndComp
@@ -3327,6 +3718,10 @@ F 0 "U2" H 8100 5950 50  0000 C CNN
 F 1 "TPS61040DBV" H 8100 5850 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-5" H 8200 5350 50  0001 L CIN
 F 3 "http://www.ti.com/lit/ds/symlink/tps61040.pdf" H 7900 5900 50  0001 C CNN
+F 4 "-" H 8100 5600 50  0001 C CNN "Generic Part"
+F 5 "TPS61040DBVR " H 8100 5600 50  0001 C CNN "Used Part"
+F 6 "79.46/10" H 8100 5600 50  0001 C CNN "Price"
+F 7 "AE:1005002911137778" H 8100 5600 50  0001 C CNN "Vendor:Code"
 	1    8100 5600
 	1    0    0    -1  
 $EndComp
@@ -3338,6 +3733,8 @@ F 0 "R64" H 10850 7850 50  0000 L CNN
 F 1 "15kΩ" H 10850 7750 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 10730 7800 50  0001 C CNN
 F 3 "~" H 10800 7800 50  0001 C CNN
+F 4 "0402 Resistor" H 10800 7800 50  0001 C CNN "Generic Part"
+F 5 "NoName" H 10800 7800 50  0001 C CNN "Used Part"
 	1    10800 7800
 	-1   0    0    -1  
 $EndComp
@@ -3367,6 +3764,8 @@ F 0 "R51" H 7720 5846 50  0000 L CNN
 F 1 "10kΩ" H 7720 5755 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 7580 5800 50  0001 C CNN
 F 3 "~" H 7650 5800 50  0001 C CNN
+F 4 "0402 Resistor" H 7650 5800 50  0001 C CNN "Generic Part"
+F 5 "NoName" H 7650 5800 50  0001 C CNN "Used Part"
 	1    7650 5800
 	1    0    0    -1  
 $EndComp
@@ -3392,6 +3791,8 @@ F 0 "J10" H 15430 7892 50  0000 L CNN
 F 1 "UART/I2C" H 15430 7801 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 15350 7850 50  0001 C CNN
 F 3 "~" H 15350 7850 50  0001 C CNN
+F 4 "2.54mm 1x3 Male Header" H 15350 7850 50  0001 C CNN "Generic Part"
+F 5 "NoName" H 15350 7850 50  0001 C CNN "Used Part"
 	1    15350 7850
 	1    0    0    -1  
 $EndComp
@@ -3449,6 +3850,11 @@ F 0 "C44" H 10850 6250 50  0000 R CNN
 F 1 "1uF" H 10850 6350 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 10938 6000 50  0001 C CNN
 F 3 "~" H 10900 6150 50  0001 C CNN
+F 4 "0402 Capacitor" H 10900 6150 50  0001 C CNN "Generic Part"
+F 5 "NoName 0402 X5R 1uF 10V" H 10900 6150 50  0001 C CNN "Used Part"
+F 6 "Voltage in circuit exceeds Used Part's maximum rating" H 10900 6150 50  0001 C CNN "Notes"
+F 7 "1.5" H 10900 6150 50  0001 C CNN "Price"
+F 8 "R:189084" H 10900 6150 50  0001 C CNN "Vendor:Code"
 	1    10900 6150
 	-1   0    0    1   
 $EndComp
@@ -3469,6 +3875,10 @@ F 0 "C38" H 10850 5350 50  0000 R CNN
 F 1 "1uF" H 10850 5450 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 10938 5100 50  0001 C CNN
 F 3 "~" H 10900 5250 50  0001 C CNN
+F 4 "0402 Capacitor" H 10900 5250 50  0001 C CNN "Generic Part"
+F 5 "NoName 0402 X5R 1uF 10V" H 10900 5250 50  0001 C CNN "Used Part"
+F 6 "1.5" H 10900 5250 50  0001 C CNN "Price"
+F 7 "R:189084" H 10900 5250 50  0001 C CNN "Vendor:Code"
 	1    10900 5250
 	-1   0    0    1   
 $EndComp
@@ -3489,6 +3899,8 @@ F 0 "R46" V 10350 4950 50  0000 C CNN
 F 1 "100Ω" V 10550 4950 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 10380 4950 50  0001 C CNN
 F 3 "~" H 10450 4950 50  0001 C CNN
+F 4 "0402 Resistor" H 10450 4950 50  0001 C CNN "Generic Part"
+F 5 "NoName" H 10450 4950 50  0001 C CNN "Used Part"
 	1    10450 4950
 	0    1    1    0   
 $EndComp
@@ -3502,6 +3914,8 @@ F 0 "D17" V 10500 5300 50  0000 L CNN
 F 1 "6.8V" V 10400 5300 50  0000 L CNN
 F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 10600 5250 50  0001 C CNN
 F 3 "~" H 10600 5250 50  0001 C CNN
+F 4 "SOD-323 6.8 Volt Zener" H 10600 5250 50  0001 C CNN "Generic Part"
+F 5 "BZX384-B6V8" H 10600 5250 50  0001 C CNN "Used Part"
 	1    10600 5250
 	0    1    -1   0   
 $EndComp
@@ -3516,6 +3930,8 @@ F 0 "R54" V 10350 5850 50  0000 C CNN
 F 1 "100Ω" V 10550 5850 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 10380 5850 50  0001 C CNN
 F 3 "~" H 10450 5850 50  0001 C CNN
+F 4 "0402 Resistor" H 10450 5850 50  0001 C CNN "Generic Part"
+F 5 "NoName" H 10450 5850 50  0001 C CNN "Used Part"
 	1    10450 5850
 	0    1    1    0   
 $EndComp
@@ -3529,6 +3945,8 @@ F 0 "D20" V 10700 6200 50  0000 L CNN
 F 1 "16V" V 10800 6200 50  0000 L CNN
 F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 10600 6150 50  0001 C CNN
 F 3 "~" H 10600 6150 50  0001 C CNN
+F 4 "SOD-323 16 Volt Zener" H 10600 6150 50  0001 C CNN "Generic Part"
+F 5 "BZX384-B16" H 10600 6150 50  0001 C CNN "Used Part"
 	1    10600 6150
 	0    1    1    0   
 $EndComp
@@ -3550,6 +3968,11 @@ F 0 "C43" H 10250 6250 50  0000 R CNN
 F 1 "1uF" H 10250 6350 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 10338 6000 50  0001 C CNN
 F 3 "~" H 10300 6150 50  0001 C CNN
+F 4 "0402 Capacitor" H 10300 6150 50  0001 C CNN "Generic Part"
+F 5 "NoName 0402 X5R 1uF 10V" H 10300 6150 50  0001 C CNN "Used Part"
+F 6 "Voltage in circuit exceeds Used Part's maximum rating" H 10300 6150 50  0001 C CNN "Notes"
+F 7 "1.5" H 10300 6150 50  0001 C CNN "Price"
+F 8 "R:189084" H 10300 6150 50  0001 C CNN "Vendor:Code"
 	1    10300 6150
 	-1   0    0    1   
 $EndComp
@@ -3561,6 +3984,10 @@ F 0 "D19" V 9950 6050 50  0000 R CNN
 F 1 "BAV99" V 9850 6050 50  0000 R CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 10050 5650 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 10050 6150 50  0001 C CNN
+F 4 "SOT-23 pin-compatible Dual in Series diode" H 10050 6150 50  0001 C CNN "Generic Part"
+F 5 "BAV99" H 10050 6150 50  0001 C CNN "Used Part"
+F 6 "3" H 10050 6150 50  0001 C CNN "Price"
+F 7 "R:48530" H 10050 6150 50  0001 C CNN "Vendor:Code"
 	1    10050 6150
 	0    1    -1   0   
 $EndComp
@@ -3572,6 +3999,10 @@ F 0 "C42" V 9448 6150 50  0000 C CNN
 F 1 "100nF" V 9539 6150 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 9738 6000 50  0001 C CNN
 F 3 "~" H 9700 6150 50  0001 C CNN
+F 4 "0402 Capacitor" H 9700 6150 50  0001 C CNN "Generic Part"
+F 5 "NoName 0402 X5R 100nF 25V" H 9700 6150 50  0001 C CNN "Used Part"
+F 6 "1" H 9700 6150 50  0001 C CNN "Price"
+F 7 "R:209325" H 9700 6150 50  0001 C CNN "Vendor:Code"
 	1    9700 6150
 	0    1    1    0   
 $EndComp
@@ -3589,6 +4020,10 @@ F 0 "C37" H 10250 5350 50  0000 R CNN
 F 1 "1uF" H 10250 5450 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 10338 5100 50  0001 C CNN
 F 3 "~" H 10300 5250 50  0001 C CNN
+F 4 "0402 Capacitor" H 10300 5250 50  0001 C CNN "Generic Part"
+F 5 "NoName 0402 X5R 1uF 10V" H 10300 5250 50  0001 C CNN "Used Part"
+F 6 "1.5" H 10300 5250 50  0001 C CNN "Price"
+F 7 "R:189084" H 10300 5250 50  0001 C CNN "Vendor:Code"
 	1    10300 5250
 	-1   0    0    1   
 $EndComp
@@ -3611,6 +4046,10 @@ F 0 "D16" V 10150 5150 50  0000 R CNN
 F 1 "BAV99" V 10250 5150 50  0000 R CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 10050 4750 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 10050 5250 50  0001 C CNN
+F 4 "SOT-23 pin-compatible Dual in Series diode" H 10050 5250 50  0001 C CNN "Generic Part"
+F 5 "BAV99" H 10050 5250 50  0001 C CNN "Used Part"
+F 6 "3" H 10050 5250 50  0001 C CNN "Price"
+F 7 "R:48530" H 10050 5250 50  0001 C CNN "Vendor:Code"
 	1    10050 5250
 	0    1    1    0   
 $EndComp
@@ -3622,6 +4061,10 @@ F 0 "C36" V 9448 5250 50  0000 C CNN
 F 1 "100nF" V 9539 5250 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 9738 5100 50  0001 C CNN
 F 3 "~" H 9700 5250 50  0001 C CNN
+F 4 "0402 Capacitor" H 9700 5250 50  0001 C CNN "Generic Part"
+F 5 "NoName 0402 X5R 100nF 25V" H 9700 5250 50  0001 C CNN "Used Part"
+F 6 "1" H 9700 5250 50  0001 C CNN "Price"
+F 7 "R:209325" H 9700 5250 50  0001 C CNN "Vendor:Code"
 	1    9700 5250
 	0    1    1    0   
 $EndComp
@@ -3673,6 +4116,8 @@ F 0 "Q3" V 9842 7600 50  0000 C CNN
 F 1 "AO3401A" V 9751 7600 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 9700 7525 50  0001 L CIN
 F 3 "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf" H 9500 7600 50  0001 L CNN
+F 4 "SOT-23 pin-compatible P-channel MOSFET" H 9500 7600 50  0001 C CNN "Generic Part"
+F 5 "AO3401A" H 9500 7600 50  0001 C CNN "Used Part"
 	1    9500 7600
 	0    -1   -1   0   
 $EndComp
@@ -3688,6 +4133,8 @@ F 0 "Q4" H 9550 8250 50  0000 R CNN
 F 1 "BC846" H 9550 8150 50  0000 R CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 9800 8325 50  0001 L CIN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BC846_SER.pdf" H 9600 8400 50  0001 L CNN
+F 4 "SOT-23 pin-compatible NPN BJT" H 9600 8400 50  0001 C CNN "Generic Part"
+F 5 "BC846" H 9600 8400 50  0001 C CNN "Used Part"
 	1    9600 8400
 	-1   0    0    -1  
 $EndComp
@@ -3714,6 +4161,8 @@ F 0 "R70" V 9743 8400 50  0000 C CNN
 F 1 "10kΩ" V 9834 8400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 9880 8400 50  0001 C CNN
 F 3 "~" H 9950 8400 50  0001 C CNN
+F 4 "0402 Resistor" H 9950 8400 50  0001 C CNN "Generic Part"
+F 5 "NoName" H 9950 8400 50  0001 C CNN "Used Part"
 	1    9950 8400
 	0    -1   1    0   
 $EndComp
@@ -3727,6 +4176,8 @@ F 0 "R67" V 9450 8150 50  0000 C CNN
 F 1 "10kΩ" V 9550 8150 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 9580 8150 50  0001 C CNN
 F 3 "~" H 9650 8150 50  0001 C CNN
+F 4 "0402 Resistor" H 9650 8150 50  0001 C CNN "Generic Part"
+F 5 "NoName" H 9650 8150 50  0001 C CNN "Used Part"
 	1    9650 8150
 	0    -1   1    0   
 $EndComp
@@ -3838,6 +4289,10 @@ F 0 "C11" H 8150 1650 50  0000 C TNN
 F 1 "33pF" H 8150 1550 50  0000 C TNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 8188 1700 50  0001 C CNN
 F 3 "~" H 8150 1850 50  0001 C CNN
+F 4 "0402 Capacitor" H 8150 1850 50  0001 C CNN "Generic Part"
+F 5 "NoName 0402 NP0 33pF 50V" H 8150 1850 50  0001 C CNN "Used Part"
+F 6 "1.5" H 8150 1850 50  0001 C CNN "Price"
+F 7 "R:189066" H 8150 1850 50  0001 C CNN "Vendor:Code"
 	1    8150 1850
 	1    0    0    -1  
 $EndComp
@@ -3849,6 +4304,10 @@ F 0 "C12" H 8450 1650 50  0000 C TNN
 F 1 "82pF" H 8450 1550 50  0000 C TNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 8488 1700 50  0001 C CNN
 F 3 "~" H 8450 1850 50  0001 C CNN
+F 4 "0402 Capacitor" H 8450 1850 50  0001 C CNN "Generic Part"
+F 5 "NoName 0402 NP0 82pF 50V" H 8450 1850 50  0001 C CNN "Used Part"
+F 6 "1" H 8450 1850 50  0001 C CNN "Price"
+F 7 "R:209383" H 8450 1850 50  0001 C CNN "Vendor:Code"
 	1    8450 1850
 	1    0    0    -1  
 $EndComp
@@ -3869,9 +4328,13 @@ L Device:D_TVS D3
 U 1 1 613B5BDF
 P 7650 1850
 F 0 "D3" V 7600 1750 50  0000 R CNN
-F 1 "LXES03AAA1" V 7700 1750 50  0000 R CNN
+F 1 "TVS" V 7700 1750 50  0000 R CNN
 F 2 "Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder" H 7650 1850 50  0001 C CNN
 F 3 "~" H 7650 1850 50  0001 C CNN
+F 4 "0402 TVS Diode" H 7650 1850 50  0001 C CNN "Generic Part"
+F 5 "UNUSED" H 7650 1850 50  0001 C CNN "Used Part"
+F 6 "-" H 7650 1850 50  0001 C CNN "Price"
+F 7 "-" H 7650 1850 50  0001 C CNN "Vendor:Code"
 	1    7650 1850
 	0    1    1    0   
 $EndComp
@@ -3883,6 +4346,10 @@ F 0 "C15" V 8450 2050 50  0000 L CNN
 F 1 "22nF" V 8550 2050 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 8688 1850 50  0001 C CNN
 F 3 "~" H 8650 2000 50  0001 C CNN
+F 4 "0402 Capacitor" H 8650 2000 50  0001 C CNN "Generic Part"
+F 5 "NoName 0402 X7R 22nF 16V" H 8650 2000 50  0001 C CNN "Used Part"
+F 6 "1.5" H 8650 2000 50  0001 C CNN "Price"
+F 7 "R:189079" H 8650 2000 50  0001 C CNN "Vendor:Code"
 	1    8650 2000
 	0    1    1    0   
 $EndComp
@@ -3894,6 +4361,10 @@ F 0 "C9" V 8450 1750 50  0000 L CNN
 F 1 "22nF" V 8550 1750 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 8688 1550 50  0001 C CNN
 F 3 "~" H 8650 1700 50  0001 C CNN
+F 4 "0402 Capacitor" H 8650 1700 50  0001 C CNN "Generic Part"
+F 5 "NoName 0402 X7R 22nF 16V" H 8650 1700 50  0001 C CNN "Used Part"
+F 6 "1.5" H 8650 1700 50  0001 C CNN "Price"
+F 7 "R:189079" H 8650 1700 50  0001 C CNN "Vendor:Code"
 	1    8650 1700
 	0    1    1    0   
 $EndComp
@@ -3910,6 +4381,8 @@ F 0 "L3" V 8550 1700 50  0000 C BNN
 F 1 "8.2uH" V 8450 1700 50  0000 C BNN
 F 2 "Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder" H 8300 1700 50  0001 C CNN
 F 3 "~" H 8300 1700 50  0001 C CNN
+F 4 "-" H 8300 1700 50  0001 C CNN "Generic Part"
+F 5 "NoName 0Ω Jumper (UNUSED)" H 8300 1700 50  0001 C CNN "Used Part"
 	1    8300 1700
 	0    -1   -1   0   
 $EndComp
@@ -3925,6 +4398,8 @@ F 0 "R11" V 7800 1700 50  0000 C BNN
 F 1 "330Ω" V 7900 1700 50  0000 C BNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 7930 1700 50  0001 C CNN
 F 3 "~" H 8000 1700 50  0001 C CNN
+F 4 "0402 Resistor" H 8000 1700 50  0001 C CNN "Generic Part"
+F 5 "NoName" H 8000 1700 50  0001 C CNN "Used Part"
 	1    8000 1700
 	0    1    1    0   
 $EndComp
@@ -3939,6 +4414,8 @@ F 0 "FB3" V 7550 1700 50  0000 C BNN
 F 1 "120Ω" V 7650 1700 50  0000 C BNN
 F 2 "Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder" V 7680 1700 50  0001 C CNN
 F 3 "~" H 7750 1700 50  0001 C CNN
+F 4 "0402 Ferrite bead with 120Ω impedence at 100MHz" H 7750 1700 50  0001 C CNN "Generic Part"
+F 5 "BLM15PE121SH1D" H 7750 1700 50  0001 C CNN "Used Part"
 	1    7750 1700
 	0    1    1    0   
 $EndComp
@@ -3950,6 +4427,8 @@ F 0 "R13" H 7850 1650 50  0000 C TNN
 F 1 "75Ω" H 7850 1550 50  0000 C TNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 7780 1850 50  0001 C CNN
 F 3 "~" H 7850 1850 50  0001 C CNN
+F 4 "0402 Resistor" H 7850 1850 50  0001 C CNN "Generic Part"
+F 5 "NoName" H 7850 1850 50  0001 C CNN "Used Part"
 	1    7850 1850
 	1    0    0    -1  
 $EndComp
@@ -3958,9 +4437,13 @@ L Connector_Generic:Conn_01x02 J6
 U 1 1 61952BE0
 P 14650 5000
 F 0 "J6" H 14750 5000 50  0000 L CNN
-F 1 "CVBS2 In" H 14750 4900 50  0000 L CNN
+F 1 "CVBS2" H 14750 4900 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 14650 5000 50  0001 C CNN
 F 3 "~" H 14650 5000 50  0001 C CNN
+F 4 "2.54mm 1x2 Male Header" H 14650 5000 50  0001 C CNN "Generic Part"
+F 5 "NoName" H 14650 5000 50  0001 C CNN "Used Part"
+F 6 "-" H 14650 5000 50  0001 C CNN "Price"
+F 7 "-" H 14650 5000 50  0001 C CNN "Vendor:Code"
 	1    14650 5000
 	-1   0    0    -1  
 $EndComp
@@ -3996,6 +4479,8 @@ F 0 "J12" H 4050 8500 50  0000 L CNN
 F 1 "SPDIFF" H 4050 8400 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3950 8500 50  0001 C CNN
 F 3 "~" H 3950 8500 50  0001 C CNN
+F 4 "2.54mm 1x2 Male Header" H 3950 8500 50  0001 C CNN "Generic Part"
+F 5 "NoName" H 3950 8500 50  0001 C CNN "Used Part"
 	1    3950 8500
 	-1   0    0    -1  
 $EndComp
@@ -4017,9 +4502,11 @@ L Jumper:SolderJumper_2_Bridged JP5
 U 1 1 629273C2
 P 2900 8950
 F 0 "JP5" H 2900 9050 50  0000 C CNN
-F 1 "Common negative jumper" H 2900 8850 50  0001 C CNN
+F 1 "Common Negative Jumper" H 2900 8850 50  0001 C CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_RoundedPad1.0x1.5mm" H 2900 8950 50  0001 C CNN
 F 3 "~" H 2900 8950 50  0001 C CNN
+F 4 "-" H 2900 8950 50  0001 C CNN "Generic Part"
+F 5 "-" H 2900 8950 50  0001 C CNN "Used Part"
 	1    2900 8950
 	-1   0    0    -1  
 $EndComp
@@ -4053,6 +4540,10 @@ F 0 "J15" H 1300 10867 50  0000 C CNN
 F 1 "Expansion Connector" H 1300 10776 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical" H 1250 10450 50  0001 C CNN
 F 3 "~" H 1250 10450 50  0001 C CNN
+F 4 "2.54mm 2x6 Male Header" H 1250 10450 50  0001 C CNN "Generic Part"
+F 5 "NoName" H 1250 10450 50  0001 C CNN "Used Part"
+F 6 "-" H 1250 10450 50  0001 C CNN "Price"
+F 7 "-" H 1250 10450 50  0001 C CNN "Vendor:Code"
 	1    1250 10450
 	1    0    0    -1  
 $EndComp
@@ -4092,6 +4583,10 @@ F 0 "C52" H 4965 8446 50  0000 L CNN
 F 1 "1uF" H 4965 8355 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 4888 8250 50  0001 C CNN
 F 3 "~" H 4850 8400 50  0001 C CNN
+F 4 "0402 Capacitor" H 4850 8400 50  0001 C CNN "Generic Part"
+F 5 "NoName 0402 X5R 1uF 10V" H 4850 8400 50  0001 C CNN "Used Part"
+F 6 "1.5" H 4850 8400 50  0001 C CNN "Price"
+F 7 "R:189084" H 4850 8400 50  0001 C CNN "Vendor:Code"
 	1    4850 8400
 	1    0    0    -1  
 $EndComp
@@ -4116,9 +4611,11 @@ L Jumper:Jumper_3_Bridged12 JP6
 U 1 1 63D8D7C2
 P 2650 10150
 F 0 "JP6" V 2200 10150 50  0000 C CNN
-F 1 "Power select" V 2300 10150 50  0000 C CNN
+F 1 "Power In Select" V 2300 10150 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 2650 10150 50  0001 C CNN
 F 3 "~" H 2650 10150 50  0001 C CNN
+F 4 "2.54mm 1x3 Male Header" H 2650 10150 50  0001 C CNN "Generic Part"
+F 5 "NoName" H 2650 10150 50  0001 C CNN "Used Part"
 	1    2650 10150
 	0    -1   1    0   
 $EndComp
@@ -4134,6 +4631,10 @@ F 0 "C68" H 7250 10450 50  0000 R CNN
 F 1 "22uF" H 7250 10350 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 7388 10250 50  0001 C CNN
 F 3 "~" H 7350 10400 50  0001 C CNN
+F 4 "0805 Capacitor" H 7350 10400 50  0001 C CNN "Generic Part"
+F 5 "NoName 0805 X5R 22uF 6,3V" H 7350 10400 50  0001 C CNN "Used Part"
+F 6 "6" H 7350 10400 50  0001 C CNN "Price"
+F 7 "R:156746" H 7350 10400 50  0001 C CNN "Vendor:Code"
 	1    7350 10400
 	1    0    0    -1  
 $EndComp
@@ -4145,6 +4646,10 @@ F 0 "C45" H 8915 7196 50  0000 L CNN
 F 1 "10uF" H 8915 7105 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 8838 7000 50  0001 C CNN
 F 3 "~" H 8800 7150 50  0001 C CNN
+F 4 "0805 Capacitor" H 8800 7150 50  0001 C CNN "Generic Part"
+F 5 "NoName 0805 X5R 10uF 25V" H 8800 7150 50  0001 C CNN "Used Part"
+F 6 "5" H 8800 7150 50  0001 C CNN "Price"
+F 7 "R:199361" H 8800 7150 50  0001 C CNN "Vendor:Code"
 	1    8800 7150
 	1    0    0    -1  
 $EndComp
@@ -4156,6 +4661,10 @@ F 0 "C39" H 9215 5646 50  0000 L CNN
 F 1 "10uF" H 9215 5555 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 9138 5450 50  0001 C CNN
 F 3 "~" H 9100 5600 50  0001 C CNN
+F 4 "0805 Capacitor" H 9100 5600 50  0001 C CNN "Generic Part"
+F 5 "NoName 0805 X5R 10uF 25V" H 9100 5600 50  0001 C CNN "Used Part"
+F 6 "5" H 9100 5600 50  0001 C CNN "Price"
+F 7 "R:199361" H 9100 5600 50  0001 C CNN "Vendor:Code"
 	1    9100 5600
 	1    0    0    -1  
 $EndComp
@@ -4173,6 +4682,8 @@ F 0 "R55" H 6770 6546 50  0000 L CNN
 F 1 "1kΩ" H 6770 6455 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 6630 6500 50  0001 C CNN
 F 3 "~" H 6700 6500 50  0001 C CNN
+F 4 "0402 Resistor" H 6700 6500 50  0001 C CNN "Generic Part"
+F 5 "NoName" H 6700 6500 50  0001 C CNN "Used Part"
 	1    6700 6500
 	1    0    0    -1  
 $EndComp
@@ -4209,6 +4720,10 @@ F 0 "C7" V 8450 1200 50  0000 L CNN
 F 1 "22nF" V 8550 1200 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 8688 1000 50  0001 C CNN
 F 3 "~" H 8650 1150 50  0001 C CNN
+F 4 "0402 Capacitor" H 8650 1150 50  0001 C CNN "Generic Part"
+F 5 "NoName 0402 X7R 22nF 16V" H 8650 1150 50  0001 C CNN "Used Part"
+F 6 "1.5" H 8650 1150 50  0001 C CNN "Price"
+F 7 "R:189079" H 8650 1150 50  0001 C CNN "Vendor:Code"
 	1    8650 1150
 	0    1    1    0   
 $EndComp
@@ -4222,6 +4737,10 @@ F 0 "C8" V 10550 1200 50  0000 L CNN
 F 1 "22nF" V 10650 1200 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 10788 1000 50  0001 C CNN
 F 3 "~" H 10750 1150 50  0001 C CNN
+F 4 "0402 Capacitor" H 10750 1150 50  0001 C CNN "Generic Part"
+F 5 "NoName 0402 X7R 22nF 16V" H 10750 1150 50  0001 C CNN "Used Part"
+F 6 "1.5" H 10750 1150 50  0001 C CNN "Price"
+F 7 "R:189079" H 10750 1150 50  0001 C CNN "Vendor:Code"
 	1    10750 1150
 	0    1    1    0   
 $EndComp
@@ -4233,6 +4752,10 @@ F 0 "C2" V 10550 900 50  0000 L CNN
 F 1 "22nF" V 10650 900 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 10788 700 50  0001 C CNN
 F 3 "~" H 10750 850 50  0001 C CNN
+F 4 "0402 Capacitor" H 10750 850 50  0001 C CNN "Generic Part"
+F 5 "NoName 0402 X7R 22nF 16V" H 10750 850 50  0001 C CNN "Used Part"
+F 6 "1.5" H 10750 850 50  0001 C CNN "Price"
+F 7 "R:189079" H 10750 850 50  0001 C CNN "Vendor:Code"
 	1    10750 850 
 	0    1    1    0   
 $EndComp
@@ -4246,6 +4769,10 @@ F 0 "C6" H 10550 800 50  0000 C TNN
 F 1 "82pF" H 10550 700 50  0000 C TNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 10588 850 50  0001 C CNN
 F 3 "~" H 10550 1000 50  0001 C CNN
+F 4 "0402 Capacitor" H 10550 1000 50  0001 C CNN "Generic Part"
+F 5 "NoName 0402 NP0 82pF 50V" H 10550 1000 50  0001 C CNN "Used Part"
+F 6 "1" H 10550 1000 50  0001 C CNN "Price"
+F 7 "R:209383" H 10550 1000 50  0001 C CNN "Vendor:Code"
 	1    10550 1000
 	1    0    0    -1  
 $EndComp
@@ -4257,6 +4784,10 @@ F 0 "C5" H 10250 800 50  0000 C TNN
 F 1 "33pF" H 10250 700 50  0000 C TNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 10288 850 50  0001 C CNN
 F 3 "~" H 10250 1000 50  0001 C CNN
+F 4 "0402 Capacitor" H 10250 1000 50  0001 C CNN "Generic Part"
+F 5 "NoName 0402 NP0 33pF 50V" H 10250 1000 50  0001 C CNN "Used Part"
+F 6 "1.5" H 10250 1000 50  0001 C CNN "Price"
+F 7 "R:189066" H 10250 1000 50  0001 C CNN "Vendor:Code"
 	1    10250 1000
 	1    0    0    -1  
 $EndComp
@@ -4268,6 +4799,10 @@ F 0 "C4" H 8450 800 50  0000 C TNN
 F 1 "82pF" H 8450 700 50  0000 C TNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 8488 850 50  0001 C CNN
 F 3 "~" H 8450 1000 50  0001 C CNN
+F 4 "0402 Capacitor" H 8450 1000 50  0001 C CNN "Generic Part"
+F 5 "NoName 0402 NP0 82pF 50V" H 8450 1000 50  0001 C CNN "Used Part"
+F 6 "1" H 8450 1000 50  0001 C CNN "Price"
+F 7 "R:209383" H 8450 1000 50  0001 C CNN "Vendor:Code"
 	1    8450 1000
 	1    0    0    -1  
 $EndComp
@@ -4279,6 +4814,10 @@ F 0 "C3" H 8150 800 50  0000 C TNN
 F 1 "33pF" H 8150 700 50  0000 C TNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 8188 850 50  0001 C CNN
 F 3 "~" H 8150 1000 50  0001 C CNN
+F 4 "0402 Capacitor" H 8150 1000 50  0001 C CNN "Generic Part"
+F 5 "NoName 0402 NP0 33pF 50V" H 8150 1000 50  0001 C CNN "Used Part"
+F 6 "1.5" H 8150 1000 50  0001 C CNN "Price"
+F 7 "R:189066" H 8150 1000 50  0001 C CNN "Vendor:Code"
 	1    8150 1000
 	1    0    0    -1  
 $EndComp
@@ -4290,6 +4829,8 @@ F 0 "R9" H 7850 800 50  0000 C TNN
 F 1 "75Ω" H 7850 700 50  0000 C TNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 7780 1000 50  0001 C CNN
 F 3 "~" H 7850 1000 50  0001 C CNN
+F 4 "0402 Resistor" H 7850 1000 50  0001 C CNN "Generic Part"
+F 5 "NoName" H 7850 1000 50  0001 C CNN "Used Part"
 	1    7850 1000
 	1    0    0    -1  
 $EndComp
@@ -4301,6 +4842,8 @@ F 0 "R10" H 9950 800 50  0000 C TNN
 F 1 "75Ω" H 9950 700 50  0000 C TNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 9880 1000 50  0001 C CNN
 F 3 "~" H 9950 1000 50  0001 C CNN
+F 4 "0402 Resistor" H 9950 1000 50  0001 C CNN "Generic Part"
+F 5 "NoName" H 9950 1000 50  0001 C CNN "Used Part"
 	1    9950 1000
 	1    0    0    -1  
 $EndComp
@@ -4312,6 +4855,8 @@ F 0 "L2" V 10650 850 50  0000 C BNN
 F 1 "8.2uH" V 10550 850 50  0000 C BNN
 F 2 "Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder" H 10400 850 50  0001 C CNN
 F 3 "~" H 10400 850 50  0001 C CNN
+F 4 "-" H 10400 850 50  0001 C CNN "Generic Part"
+F 5 "NoName 0Ω Jumper (UNUSED)" H 10400 850 50  0001 C CNN "Used Part"
 	1    10400 850 
 	0    -1   -1   0   
 $EndComp
@@ -4323,6 +4868,8 @@ F 0 "R8" V 9900 850 50  0000 C BNN
 F 1 "330Ω" V 10000 850 50  0000 C BNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 10030 850 50  0001 C CNN
 F 3 "~" H 10100 850 50  0001 C CNN
+F 4 "0402 Resistor" H 10100 850 50  0001 C CNN "Generic Part"
+F 5 "NoName" H 10100 850 50  0001 C CNN "Used Part"
 	1    10100 850 
 	0    1    1    0   
 $EndComp
@@ -4334,6 +4881,8 @@ F 0 "FB2" V 9650 850 50  0000 C BNN
 F 1 "120Ω" V 9750 850 50  0000 C BNN
 F 2 "Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder" V 9780 850 50  0001 C CNN
 F 3 "~" H 9850 850 50  0001 C CNN
+F 4 "0402 Ferrite bead with 120Ω impedence at 100MHz" H 9850 850 50  0001 C CNN "Generic Part"
+F 5 "BLM15PE121SH1D" H 9850 850 50  0001 C CNN "Used Part"
 	1    9850 850 
 	0    1    1    0   
 $EndComp
@@ -4367,6 +4916,8 @@ F 0 "U6" H 3350 7950 50  0000 C CNN
 F 1 "ES7134S" H 3900 7350 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 3650 6800 50  0001 C CNN
 F 3 "http://www.everest-semi.com/pdf/ES7134S%20DS.pdf" H 3350 7950 50  0001 C CNN
+F 4 "-" H 3700 7650 50  0001 C CNN "Generic Part"
+F 5 "ES7134S" H 3700 7650 50  0001 C CNN "Used Part"
 	1    3700 7650
 	1    0    0    -1  
 $EndComp
@@ -4433,6 +4984,8 @@ F 0 "R80" V 12800 8950 50  0000 C CNN
 F 1 "330Ω" V 13000 8950 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 12830 8950 50  0001 C CNN
 F 3 "~" H 12900 8950 50  0001 C CNN
+F 4 "0402 Resistor" H 12900 8950 50  0001 C CNN "Generic Part"
+F 5 "NoName" H 12900 8950 50  0001 C CNN "Used Part"
 	1    12900 8950
 	0    1    1    0   
 $EndComp
@@ -4444,6 +4997,8 @@ F 0 "R77" V 12800 8650 50  0000 C CNN
 F 1 "330Ω" V 13000 8650 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 12830 8650 50  0001 C CNN
 F 3 "~" H 12900 8650 50  0001 C CNN
+F 4 "0402 Resistor" H 12900 8650 50  0001 C CNN "Generic Part"
+F 5 "NoName" H 12900 8650 50  0001 C CNN "Used Part"
 	1    12900 8650
 	0    1    1    0   
 $EndComp
@@ -4466,6 +5021,10 @@ F 0 "D22" H 12450 8450 50  0000 C CNN
 F 1 "R/G Dual LED" H 12450 8550 50  0000 C CNN
 F 2 "RTD2662Board:LED_Dual_0805_2012Metric" H 12480 8800 50  0001 C CNN
 F 3 "~" H 12480 8800 50  0001 C CNN
+F 4 "Dual 0805 Red/Green LED | Two Red and Green 0402 LEDs" H 12450 8800 50  0001 C CNN "Generic Part"
+F 5 "NoName 0805x2 Red/Green" H 12450 8800 50  0001 C CNN "Used Part"
+F 6 "77.69/10" H 12450 8800 50  0001 C CNN "Price"
+F 7 "AE:1005002298102073" H 12450 8800 50  0001 C CNN "Vendor:Code"
 	1    12450 8800
 	-1   0    0    1   
 $EndComp
@@ -4538,6 +5097,8 @@ F 0 "SW5" H 12950 8385 50  0000 C CNN
 F 1 "SOURCE" H 12950 8294 50  0000 C CNN
 F 2 "Button_Switch_SMD:SW_SPST_CK_RS282G05A3" H 12950 8300 50  0001 C CNN
 F 3 "~" H 12950 8300 50  0001 C CNN
+F 4 "3x6x2.5mm SMD Button" H 12950 8100 50  0001 C CNN "Generic Part"
+F 5 "RS282G05A3SMRT" H 12950 8100 50  0001 C CNN "Used Part"
 	1    12950 8100
 	-1   0    0    -1  
 $EndComp
@@ -4549,6 +5110,8 @@ F 0 "SW4" H 12950 7985 50  0000 C CNN
 F 1 "DOWN" H 12950 7894 50  0000 C CNN
 F 2 "Button_Switch_SMD:SW_SPST_CK_RS282G05A3" H 12950 7900 50  0001 C CNN
 F 3 "~" H 12950 7900 50  0001 C CNN
+F 4 "3x6x2.5mm SMD Button" H 12950 7700 50  0001 C CNN "Generic Part"
+F 5 "RS282G05A3SMRT" H 12950 7700 50  0001 C CNN "Used Part"
 	1    12950 7700
 	-1   0    0    -1  
 $EndComp
@@ -4560,6 +5123,8 @@ F 0 "SW3" H 12950 7585 50  0000 C CNN
 F 1 "UP" H 12950 7494 50  0000 C CNN
 F 2 "Button_Switch_SMD:SW_SPST_CK_RS282G05A3" H 12950 7500 50  0001 C CNN
 F 3 "~" H 12950 7500 50  0001 C CNN
+F 4 "3x6x2.5mm SMD Button" H 12950 7300 50  0001 C CNN "Generic Part"
+F 5 "RS282G05A3SMRT" H 12950 7300 50  0001 C CNN "Used Part"
 	1    12950 7300
 	-1   0    0    -1  
 $EndComp
@@ -4571,6 +5136,8 @@ F 0 "SW2" H 12950 7185 50  0000 C CNN
 F 1 "MENU" H 12950 7094 50  0000 C CNN
 F 2 "Button_Switch_SMD:SW_SPST_CK_RS282G05A3" H 12950 7100 50  0001 C CNN
 F 3 "~" H 12950 7100 50  0001 C CNN
+F 4 "3x6x2.5mm SMD Button" H 12950 6900 50  0001 C CNN "Generic Part"
+F 5 "RS282G05A3SMRT" H 12950 6900 50  0001 C CNN "Used Part"
 	1    12950 6900
 	-1   0    0    -1  
 $EndComp
@@ -4582,6 +5149,8 @@ F 0 "SW1" H 12950 6785 50  0000 C CNN
 F 1 "POWER" H 12950 6694 50  0000 C CNN
 F 2 "Button_Switch_SMD:SW_SPST_CK_RS282G05A3" H 12950 6700 50  0001 C CNN
 F 3 "~" H 12950 6700 50  0001 C CNN
+F 4 "3x6x2.5mm SMD Button" H 12950 6500 50  0001 C CNN "Generic Part"
+F 5 "RS282G05A3SMRT" H 12950 6500 50  0001 C CNN "Used Part"
 	1    12950 6500
 	-1   0    0    -1  
 $EndComp
@@ -4598,6 +5167,8 @@ F 0 "R53" H 12400 6350 50  0000 R CNN
 F 1 "1kΩ" H 12400 6250 50  0000 R CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 12380 6300 50  0001 C CNN
 F 3 "~" H 12450 6300 50  0001 C CNN
+F 4 "0402 Resistor" H 12450 6300 50  0001 C CNN "Generic Part"
+F 5 "NoName" H 12450 6300 50  0001 C CNN "Used Part"
 	1    12450 6300
 	-1   0    0    -1  
 $EndComp
@@ -4630,6 +5201,8 @@ F 0 "R56" V 12393 6900 50  0000 C CNN
 F 1 "270Ω" V 12484 6900 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 12530 6900 50  0001 C CNN
 F 3 "~" H 12600 6900 50  0001 C CNN
+F 4 "0402 Resistor" H 12600 6900 50  0001 C CNN "Generic Part"
+F 5 "NoName" H 12600 6900 50  0001 C CNN "Used Part"
 	1    12600 6900
 	0    -1   1    0   
 $EndComp
@@ -4641,6 +5214,8 @@ F 0 "R65" V 12393 8100 50  0000 C CNN
 F 1 "3.9kΩ" V 12484 8100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 12530 8100 50  0001 C CNN
 F 3 "~" H 12600 8100 50  0001 C CNN
+F 4 "0402 Resistor" H 12600 8100 50  0001 C CNN "Generic Part"
+F 5 "NoName" H 12600 8100 50  0001 C CNN "Used Part"
 	1    12600 8100
 	0    -1   1    0   
 $EndComp
@@ -4652,6 +5227,8 @@ F 0 "R62" V 12393 7700 50  0000 C CNN
 F 1 "1.5kΩ" V 12484 7700 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 12530 7700 50  0001 C CNN
 F 3 "~" H 12600 7700 50  0001 C CNN
+F 4 "0402 Resistor" H 12600 7700 50  0001 C CNN "Generic Part"
+F 5 "NoName" H 12600 7700 50  0001 C CNN "Used Part"
 	1    12600 7700
 	0    -1   1    0   
 $EndComp
@@ -4663,6 +5240,8 @@ F 0 "R60" V 12393 7300 50  0000 C CNN
 F 1 "680Ω" V 12484 7300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 12530 7300 50  0001 C CNN
 F 3 "~" H 12600 7300 50  0001 C CNN
+F 4 "0402 Resistor" H 12600 7300 50  0001 C CNN "Generic Part"
+F 5 "NoName" H 12600 7300 50  0001 C CNN "Used Part"
 	1    12600 7300
 	0    -1   1    0   
 $EndComp
@@ -4704,6 +5283,8 @@ F 0 "R68" V 11800 8150 50  0000 C CNN
 F 1 "330Ω" V 12000 8150 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 11830 8150 50  0001 C CNN
 F 3 "~" H 11900 8150 50  0001 C CNN
+F 4 "0402 Resistor" H 11900 8150 50  0001 C CNN "Generic Part"
+F 5 "NoName" H 11900 8150 50  0001 C CNN "Used Part"
 	1    11900 8150
 	0    1    1    0   
 $EndComp
@@ -4715,6 +5296,8 @@ F 0 "R74" V 11800 8450 50  0000 C CNN
 F 1 "330Ω" V 12000 8450 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 11830 8450 50  0001 C CNN
 F 3 "~" H 11900 8450 50  0001 C CNN
+F 4 "0402 Resistor" H 11900 8450 50  0001 C CNN "Generic Part"
+F 5 "NoName" H 11900 8450 50  0001 C CNN "Used Part"
 	1    11900 8450
 	0    1    1    0   
 $EndComp
@@ -4744,6 +5327,8 @@ F 0 "J9" H 12350 8225 50  0000 R BNN
 F 1 "Keyboard Connector" H 12350 8150 50  0000 R BNN
 F 2 "Connector_JST:JST_PH_B10B-PH-K_1x10_P2.00mm_Vertical" H 12300 7650 50  0001 C CNN
 F 3 "~" H 12300 7650 50  0001 C CNN
+F 4 "2mm 1x10 JST Male Header" H 12300 7650 50  0001 C CNN "Generic Part"
+F 5 "DS1066-10MVW6" H 12300 7650 50  0001 C CNN "Used Part"
 	1    12300 7650
 	1    0    0    -1  
 $EndComp
@@ -4756,9 +5341,11 @@ L Interface_Optical:TSOP382xx U3
 U 1 1 61134D6C
 P 11950 6400
 F 0 "U3" H 11900 6700 50  0000 C CNN
-F 1 "TSOP382xx" H 11900 6100 50  0000 C CNN
+F 1 "TSOP38238" H 11900 6100 50  0000 C CNN
 F 2 "OptoDevice:Vishay_MINICAST-3Pin" H 11900 6025 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/82491/tsop382.pdf" H 12600 6700 50  0001 C CNN
+F 4 "38kHz pin-compatible IR reciever module" H 11950 6400 50  0001 C CNN "Generic Part"
+F 5 "TSOP38238" H 11950 6400 50  0001 C CNN "Used Part"
 	1    11950 6400
 	0    1    1    0   
 $EndComp
@@ -4819,6 +5406,8 @@ F 0 "R84" V 10900 10450 50  0000 C CNN
 F 1 "10kΩ" V 11000 10450 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 11030 10450 50  0001 C CNN
 F 3 "~" H 11100 10450 50  0001 C CNN
+F 4 "0402 Resistor" H 11100 10450 50  0001 C CNN "Generic Part"
+F 5 "NoName" H 11100 10450 50  0001 C CNN "Used Part"
 	1    11100 10450
 	0    1    1    0   
 $EndComp
@@ -4843,6 +5432,10 @@ F 0 "C69" H 10600 10600 50  0000 R CNN
 F 1 "100nF" H 10600 10500 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 10738 10450 50  0001 C CNN
 F 3 "~" H 10700 10600 50  0001 C CNN
+F 4 "0402 Capacitor" H 10700 10600 50  0001 C CNN "Generic Part"
+F 5 "NoName 0402 X5R 100nF 25V" H 10700 10600 50  0001 C CNN "Used Part"
+F 6 "1" H 10700 10600 50  0001 C CNN "Price"
+F 7 "R:209325" H 10700 10600 50  0001 C CNN "Vendor:Code"
 	1    10700 10600
 	1    0    0    -1  
 $EndComp
@@ -4865,6 +5458,8 @@ F 0 "JP7" V 10950 10650 50  0000 L CNN
 F 1 "Reset Pad" V 11050 10650 50  0000 L CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 10950 10600 50  0001 C CNN
 F 3 "~" H 10950 10600 50  0001 C CNN
+F 4 "-" H 10950 10600 50  0001 C CNN "Generic Part"
+F 5 "-" H 10950 10600 50  0001 C CNN "Used Part"
 	1    10950 10600
 	0    1    1    0   
 $EndComp
@@ -4894,6 +5489,8 @@ F 0 "R79" V 14800 8850 50  0000 C CNN
 F 1 "100Ω" V 14900 8750 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 14930 8850 50  0001 C CNN
 F 3 "~" H 15000 8850 50  0001 C CNN
+F 4 "0402 Resistor" H 15000 8850 50  0001 C CNN "Generic Part"
+F 5 "NoName" H 15000 8850 50  0001 C CNN "Used Part"
 	1    15000 8850
 	0    -1   1    0   
 $EndComp
@@ -4905,6 +5502,8 @@ F 0 "R78" V 15200 8750 50  0000 C CNN
 F 1 "100Ω" V 15100 8650 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 14930 8750 50  0001 C CNN
 F 3 "~" H 15000 8750 50  0001 C CNN
+F 4 "0402 Resistor" H 15000 8750 50  0001 C CNN "Generic Part"
+F 5 "NoName" H 15000 8750 50  0001 C CNN "Used Part"
 	1    15000 8750
 	0    -1   1    0   
 $EndComp
@@ -4917,6 +5516,8 @@ F 0 "R75" H 15300 8650 50  0000 L CNN
 F 1 "4.7kΩ" H 15300 8550 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 15180 8550 50  0001 C CNN
 F 3 "~" H 15250 8550 50  0001 C CNN
+F 4 "0402 Resistor" H 15250 8550 50  0001 C CNN "Generic Part"
+F 5 "NoName" H 15250 8550 50  0001 C CNN "Used Part"
 	1    15250 8550
 	-1   0    0    -1  
 $EndComp
@@ -4928,6 +5529,8 @@ F 0 "R76" H 15300 8650 50  0000 R CNN
 F 1 "4.7kΩ" H 15300 8550 50  0000 R CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 15280 8550 50  0001 C CNN
 F 3 "~" H 15350 8550 50  0001 C CNN
+F 4 "0402 Resistor" H 15350 8550 50  0001 C CNN "Generic Part"
+F 5 "NoName" H 15350 8550 50  0001 C CNN "Used Part"
 	1    15350 8550
 	-1   0    0    -1  
 $EndComp
@@ -5003,6 +5606,8 @@ F 0 "RN2" V 13883 9950 50  0000 C CNN
 F 1 "100Ω" V 13974 9950 50  0000 C CNN
 F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 14575 9950 50  0001 C CNN
 F 3 "~" H 14300 9950 50  0001 C CNN
+F 4 "4x0603 Resistor Network" H 14300 9950 50  0001 C CNN "Generic Part"
+F 5 "CAT16-101J4" H 14300 9950 50  0001 C CNN "Used Part"
 	1    14300 9950
 	0    1    1    0   
 $EndComp
@@ -5022,9 +5627,13 @@ L Device:D_Schottky D23
 U 1 1 620DFD6E
 P 15700 9850
 F 0 "D23" H 15700 9950 50  0000 C CNN
-F 1 "BAT42WS" H 15750 9750 50  0000 C CNN
+F 1 "BAT54" H 15750 9750 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 15700 9850 50  0001 C CNN
 F 3 "~" H 15700 9850 50  0001 C CNN
+F 4 "SOD-323 Schottky diode" H 15700 9850 50  0001 C CNN "Generic Part"
+F 5 "BAT54WS-E3-08" H 15700 9850 50  0001 C CNN "Used Part"
+F 6 "8" H 15700 9850 50  0001 C CNN "Price"
+F 7 "C:37827795" H 15700 9850 50  0001 C CNN "Vendor:Code"
 	1    15700 9850
 	1    0    0    -1  
 $EndComp
@@ -5042,9 +5651,11 @@ L RTD2662Board:W25Qxx U10
 U 1 1 61F04EF1
 P 15000 9900
 F 0 "U10" H 14650 10200 50  0000 C CNN
-F 1 "W25Qxx" H 15200 9600 50  0000 C CNN
+F 1 "25x128" H 15200 9600 50  0000 C CNN
 F 2 "RTD2662Board:SOIC-8_3.9x4.9mm_P1.27mm_DIP-8_W7.62mm_Socket" H 15000 9000 50  0001 C CNN
 F 3 "http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf" H 15000 9000 50  0001 C CNN
+F 4 "SOIC8/DIP8 SPI ≥ 128K x 8 Flash" H 15000 9900 50  0001 C CNN "Generic Part"
+F 5 "W25Q40BV" H 15000 9900 50  0001 C CNN "Used Part"
 	1    15000 9900
 	1    0    0    -1  
 $EndComp
@@ -5219,6 +5830,8 @@ F 0 "R87" V 14350 6250 50  0000 C CNN
 F 1 "2.2kΩ" V 14550 6250 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 14380 6250 50  0001 C CNN
 F 3 "~" H 14450 6250 50  0001 C CNN
+F 4 "0402 Resistor" H 14450 6250 50  0001 C CNN "Generic Part"
+F 5 "NoName" H 14450 6250 50  0001 C CNN "Used Part"
 	1    14450 6250
 	0    1    1    0   
 $EndComp
@@ -5268,6 +5881,10 @@ F 0 "C66" H 3915 10396 50  0000 L CNN
 F 1 "10uF" H 3915 10305 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3838 10200 50  0001 C CNN
 F 3 "~" H 3800 10350 50  0001 C CNN
+F 4 "0805 Capacitor" H 3800 10350 50  0001 C CNN "Generic Part"
+F 5 "NoName 0805 X5R 10uF 25V" H 3800 10350 50  0001 C CNN "Used Part"
+F 6 "5" H 3800 10350 50  0001 C CNN "Price"
+F 7 "R:199361" H 3800 10350 50  0001 C CNN "Vendor:Code"
 	1    3800 10350
 	1    0    0    -1  
 $EndComp
@@ -5290,6 +5907,11 @@ F 0 "C76" H 4250 10650 50  0000 L CNN
 F 1 "3.9nF" H 4250 10550 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 4188 10450 50  0001 C CNN
 F 3 "~" H 4150 10600 50  0001 C CNN
+F 4 "0402 Capacitor" H 4150 10600 50  0001 C CNN "Generic Part"
+F 5 "NoName 0402 X7R 3.3pF 50V" H 4150 10600 50  0001 C CNN "Used Part"
+F 6 "Used Part has closest matching capacitance available" H 4150 10600 50  0001 C CNN "Notes"
+F 7 "2" H 4150 10600 50  0001 C CNN "Price"
+F 8 "R:209321" H 4150 10600 50  0001 C CNN "Vendor:Code"
 	1    4150 10600
 	1    0    0    -1  
 $EndComp
@@ -5301,6 +5923,8 @@ F 0 "R83" H 4220 10346 50  0000 L CNN
 F 1 "6.8kΩ" H 4220 10255 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 4080 10300 50  0001 C CNN
 F 3 "~" H 4150 10300 50  0001 C CNN
+F 4 "0402 Resistor" H 4150 10300 50  0001 C CNN "Generic Part"
+F 5 "NoName" H 4150 10300 50  0001 C CNN "Used Part"
 	1    4150 10300
 	1    0    0    -1  
 $EndComp
@@ -5345,9 +5969,13 @@ L Device:D_TVS D12
 U 1 1 65077078
 P 12750 5050
 F 0 "D12" V 12600 5050 50  0000 L CNN
-F 1 "LXES03AAA1" V 12795 5130 50  0001 L CNN
+F 1 "TVS" V 12795 5130 50  0001 L CNN
 F 2 "Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder" H 12750 5050 50  0001 C CNN
 F 3 "~" H 12750 5050 50  0001 C CNN
+F 4 "0402 TVS Diode" H 12750 5050 50  0001 C CNN "Generic Part"
+F 5 "UNUSED" H 12750 5050 50  0001 C CNN "Used Part"
+F 6 "-" H 12750 5050 50  0001 C CNN "Price"
+F 7 "-" H 12750 5050 50  0001 C CNN "Vendor:Code"
 	1    12750 5050
 	0    1    1    0   
 $EndComp
@@ -5359,6 +5987,10 @@ F 0 "J1" H 13250 2550 50  0000 C CNN
 F 1 "DVI" H 13500 850 50  0000 C CNN
 F 2 "RTD2662Board:DVI" H 13175 400 50  0001 C CNN
 F 3 "" H 12700 2550 50  0001 C CNN
+F 4 "Pin-compatible DVI Connector" H 13150 1750 50  0001 C CNN "Generic Part"
+F 5 "DS1091-VN0S" H 13150 1750 50  0001 C CNN "Used Part"
+F 6 "110" H 13150 1750 50  0001 C CNN "Price"
+F 7 "C:9000019641" H 13150 1750 50  0001 C CNN "Vendor:Code"
 	1    13150 1750
 	1    0    0    -1  
 $EndComp
@@ -5370,6 +6002,8 @@ F 0 "R35" H 12500 4000 50  0000 L CNN
 F 1 "4.7kΩ" H 12500 3900 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 12380 3950 50  0001 C CNN
 F 3 "~" H 12450 3950 50  0001 C CNN
+F 4 "0402 Resistor" H 12450 3950 50  0001 C CNN "Generic Part"
+F 5 "NoName" H 12450 3950 50  0001 C CNN "Used Part"
 	1    12450 3950
 	1    0    0    -1  
 $EndComp
@@ -5381,6 +6015,8 @@ F 0 "R47" H 12150 5200 50  0000 L CNN
 F 1 "4.7kΩ" H 11900 4900 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 12080 5050 50  0001 C CNN
 F 3 "~" H 12150 5050 50  0001 C CNN
+F 4 "0402 Resistor" H 12150 5050 50  0001 C CNN "Generic Part"
+F 5 "NoName" H 12150 5050 50  0001 C CNN "Used Part"
 	1    12150 5050
 	1    0    0    -1  
 $EndComp
@@ -5394,6 +6030,8 @@ F 0 "L1" V 8550 850 50  0000 C BNN
 F 1 "8.2uH" V 8450 850 50  0000 C BNN
 F 2 "Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder" H 8300 850 50  0001 C CNN
 F 3 "~" H 8300 850 50  0001 C CNN
+F 4 "-" H 8300 850 50  0001 C CNN "Generic Part"
+F 5 "NoName 0Ω Jumper (UNUSED)" H 8300 850 50  0001 C CNN "Used Part"
 	1    8300 850 
 	0    -1   -1   0   
 $EndComp
@@ -5409,6 +6047,10 @@ F 0 "C26" H 8150 3250 50  0000 C CNN
 F 1 "5.1pF" H 8050 3150 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 8188 3350 50  0001 C CNN
 F 3 "~" H 8150 3500 50  0001 C CNN
+F 4 "0402 Capacitor" H 8150 3500 50  0001 C CNN "Generic Part"
+F 5 "NoName 0402 NP0 5.1pF 50V" H 8150 3500 50  0001 C CNN "Used Part"
+F 6 "1" H 8150 3500 50  0001 C CNN "Price"
+F 7 "R:209372" H 8150 3500 50  0001 C CNN "Vendor:Code"
 	1    8150 3500
 	1    0    0    -1  
 $EndComp
@@ -5483,6 +6125,10 @@ F 0 "C21" H 10250 3100 50  0000 C CNN
 F 1 "5.1pF" H 10250 3200 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 10288 2700 50  0001 C CNN
 F 3 "~" H 10250 2850 50  0001 C CNN
+F 4 "0402 Capacitor" H 10250 2850 50  0001 C CNN "Generic Part"
+F 5 "NoName 0402 NP0 5.1pF 50V" H 10250 2850 50  0001 C CNN "Used Part"
+F 6 "1" H 10250 2850 50  0001 C CNN "Price"
+F 7 "R:209372" H 10250 2850 50  0001 C CNN "Vendor:Code"
 	1    10250 2850
 	1    0    0    1   
 $EndComp
@@ -5555,6 +6201,8 @@ F 0 "R44" V 11900 4850 50  0000 C CNN
 F 1 "100Ω" V 12050 4650 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 11880 4650 50  0001 C CNN
 F 3 "~" H 11950 4650 50  0001 C CNN
+F 4 "0402 Resistor" H 11950 4650 50  0001 C CNN "Generic Part"
+F 5 "NoName" H 11950 4650 50  0001 C CNN "Used Part"
 	1    11950 4650
 	0    1    1    0   
 $EndComp
@@ -5566,6 +6214,8 @@ F 0 "R45" V 11900 5050 50  0000 C CNN
 F 1 "100Ω" V 12050 4850 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 11880 4850 50  0001 C CNN
 F 3 "~" H 11950 4850 50  0001 C CNN
+F 4 "0402 Resistor" H 11950 4850 50  0001 C CNN "Generic Part"
+F 5 "NoName" H 11950 4850 50  0001 C CNN "Used Part"
 	1    11950 4850
 	0    1    1    0   
 $EndComp
@@ -5599,6 +6249,10 @@ F 0 "C54" H 8350 10050 50  0000 L CNN
 F 1 "1uF" H 8350 9950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 8288 9850 50  0001 C CNN
 F 3 "~" H 8250 10000 50  0001 C CNN
+F 4 "0402 Capacitor" H 8250 10000 50  0001 C CNN "Generic Part"
+F 5 "NoName 0402 X5R 1uF 10V" H 8250 10000 50  0001 C CNN "Used Part"
+F 6 "1.5" H 8250 10000 50  0001 C CNN "Price"
+F 7 "R:189084" H 8250 10000 50  0001 C CNN "Vendor:Code"
 	1    8250 10000
 	1    0    0    -1  
 $EndComp
@@ -5610,6 +6264,10 @@ F 0 "C55" H 8700 10050 50  0000 L CNN
 F 1 "1uF" H 8700 9950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 8638 9850 50  0001 C CNN
 F 3 "~" H 8600 10000 50  0001 C CNN
+F 4 "0402 Capacitor" H 8600 10000 50  0001 C CNN "Generic Part"
+F 5 "NoName 0402 X5R 1uF 10V" H 8600 10000 50  0001 C CNN "Used Part"
+F 6 "1.5" H 8600 10000 50  0001 C CNN "Price"
+F 7 "R:189084" H 8600 10000 50  0001 C CNN "Vendor:Code"
 	1    8600 10000
 	1    0    0    -1  
 $EndComp
@@ -5621,6 +6279,10 @@ F 0 "C57" H 9400 10050 50  0000 L CNN
 F 1 "1uF" H 9400 9950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 9338 9850 50  0001 C CNN
 F 3 "~" H 9300 10000 50  0001 C CNN
+F 4 "0402 Capacitor" H 9300 10000 50  0001 C CNN "Generic Part"
+F 5 "NoName 0402 X5R 1uF 10V" H 9300 10000 50  0001 C CNN "Used Part"
+F 6 "1.5" H 9300 10000 50  0001 C CNN "Price"
+F 7 "R:189084" H 9300 10000 50  0001 C CNN "Vendor:Code"
 	1    9300 10000
 	1    0    0    -1  
 $EndComp
@@ -5632,6 +6294,10 @@ F 0 "C56" H 9050 10050 50  0000 L CNN
 F 1 "1uF" H 9050 9950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 8988 9850 50  0001 C CNN
 F 3 "~" H 8950 10000 50  0001 C CNN
+F 4 "0402 Capacitor" H 8950 10000 50  0001 C CNN "Generic Part"
+F 5 "NoName 0402 X5R 1uF 10V" H 8950 10000 50  0001 C CNN "Used Part"
+F 6 "1.5" H 8950 10000 50  0001 C CNN "Price"
+F 7 "R:189084" H 8950 10000 50  0001 C CNN "Vendor:Code"
 	1    8950 10000
 	1    0    0    -1  
 $EndComp
@@ -5657,6 +6323,10 @@ F 0 "C58" H 9750 10050 50  0000 L CNN
 F 1 "1uF" H 9750 9950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 9688 9850 50  0001 C CNN
 F 3 "~" H 9650 10000 50  0001 C CNN
+F 4 "0402 Capacitor" H 9650 10000 50  0001 C CNN "Generic Part"
+F 5 "NoName 0402 X5R 1uF 10V" H 9650 10000 50  0001 C CNN "Used Part"
+F 6 "1.5" H 9650 10000 50  0001 C CNN "Price"
+F 7 "R:189084" H 9650 10000 50  0001 C CNN "Vendor:Code"
 	1    9650 10000
 	1    0    0    -1  
 $EndComp
@@ -5668,6 +6338,10 @@ F 0 "C60" H 10450 10050 50  0000 L CNN
 F 1 "1uF" H 10450 9950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 10388 9850 50  0001 C CNN
 F 3 "~" H 10350 10000 50  0001 C CNN
+F 4 "0402 Capacitor" H 10350 10000 50  0001 C CNN "Generic Part"
+F 5 "NoName 0402 X5R 1uF 10V" H 10350 10000 50  0001 C CNN "Used Part"
+F 6 "1.5" H 10350 10000 50  0001 C CNN "Price"
+F 7 "R:189084" H 10350 10000 50  0001 C CNN "Vendor:Code"
 	1    10350 10000
 	1    0    0    -1  
 $EndComp
@@ -5679,6 +6353,10 @@ F 0 "C59" H 10100 10050 50  0000 L CNN
 F 1 "1uF" H 10100 9950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 10038 9850 50  0001 C CNN
 F 3 "~" H 10000 10000 50  0001 C CNN
+F 4 "0402 Capacitor" H 10000 10000 50  0001 C CNN "Generic Part"
+F 5 "NoName 0402 X5R 1uF 10V" H 10000 10000 50  0001 C CNN "Used Part"
+F 6 "1.5" H 10000 10000 50  0001 C CNN "Price"
+F 7 "R:189084" H 10000 10000 50  0001 C CNN "Vendor:Code"
 	1    10000 10000
 	1    0    0    -1  
 $EndComp
@@ -5702,6 +6380,10 @@ F 0 "C61" H 10800 10050 50  0000 L CNN
 F 1 "1uF" H 10800 9950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 10738 9850 50  0001 C CNN
 F 3 "~" H 10700 10000 50  0001 C CNN
+F 4 "0402 Capacitor" H 10700 10000 50  0001 C CNN "Generic Part"
+F 5 "NoName 0402 X5R 1uF 10V" H 10700 10000 50  0001 C CNN "Used Part"
+F 6 "1.5" H 10700 10000 50  0001 C CNN "Price"
+F 7 "R:189084" H 10700 10000 50  0001 C CNN "Vendor:Code"
 	1    10700 10000
 	1    0    0    -1  
 $EndComp
@@ -5713,6 +6395,10 @@ F 0 "C62" H 11150 10050 50  0000 L CNN
 F 1 "1uF" H 11150 9950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 11088 9850 50  0001 C CNN
 F 3 "~" H 11050 10000 50  0001 C CNN
+F 4 "0402 Capacitor" H 11050 10000 50  0001 C CNN "Generic Part"
+F 5 "NoName 0402 X5R 1uF 10V" H 11050 10000 50  0001 C CNN "Used Part"
+F 6 "1.5" H 11050 10000 50  0001 C CNN "Price"
+F 7 "R:189084" H 11050 10000 50  0001 C CNN "Vendor:Code"
 	1    11050 10000
 	1    0    0    -1  
 $EndComp
@@ -5724,6 +6410,10 @@ F 0 "C63" H 11500 10050 50  0000 L CNN
 F 1 "1uF" H 11500 9950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 11438 9850 50  0001 C CNN
 F 3 "~" H 11400 10000 50  0001 C CNN
+F 4 "0402 Capacitor" H 11400 10000 50  0001 C CNN "Generic Part"
+F 5 "NoName 0402 X5R 1uF 10V" H 11400 10000 50  0001 C CNN "Used Part"
+F 6 "1.5" H 11400 10000 50  0001 C CNN "Price"
+F 7 "R:189084" H 11400 10000 50  0001 C CNN "Vendor:Code"
 	1    11400 10000
 	1    0    0    -1  
 $EndComp
@@ -5735,6 +6425,10 @@ F 0 "C64" H 11850 10050 50  0000 L CNN
 F 1 "1uF" H 11850 9950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 11788 9850 50  0001 C CNN
 F 3 "~" H 11750 10000 50  0001 C CNN
+F 4 "0402 Capacitor" H 11750 10000 50  0001 C CNN "Generic Part"
+F 5 "NoName 0402 X5R 1uF 10V" H 11750 10000 50  0001 C CNN "Used Part"
+F 6 "1.5" H 11750 10000 50  0001 C CNN "Price"
+F 7 "R:189084" H 11750 10000 50  0001 C CNN "Vendor:Code"
 	1    11750 10000
 	1    0    0    -1  
 $EndComp
@@ -5746,6 +6440,10 @@ F 0 "C65" H 12200 10050 50  0000 L CNN
 F 1 "1uF" H 12200 9950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 12138 9850 50  0001 C CNN
 F 3 "~" H 12100 10000 50  0001 C CNN
+F 4 "0402 Capacitor" H 12100 10000 50  0001 C CNN "Generic Part"
+F 5 "NoName 0402 X5R 1uF 10V" H 12100 10000 50  0001 C CNN "Used Part"
+F 6 "1.5" H 12100 10000 50  0001 C CNN "Price"
+F 7 "R:189084" H 12100 10000 50  0001 C CNN "Vendor:Code"
 	1    12100 10000
 	1    0    0    -1  
 $EndComp
@@ -5797,6 +6495,10 @@ F 0 "C70" H 8350 10650 50  0000 L CNN
 F 1 "1uF" H 8350 10550 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 8288 10450 50  0001 C CNN
 F 3 "~" H 8250 10600 50  0001 C CNN
+F 4 "0402 Capacitor" H 8250 10600 50  0001 C CNN "Generic Part"
+F 5 "NoName 0402 X5R 1uF 10V" H 8250 10600 50  0001 C CNN "Used Part"
+F 6 "1.5" H 8250 10600 50  0001 C CNN "Price"
+F 7 "R:189084" H 8250 10600 50  0001 C CNN "Vendor:Code"
 	1    8250 10600
 	1    0    0    -1  
 $EndComp
@@ -5830,6 +6532,10 @@ F 0 "C71" H 8700 10650 50  0000 L CNN
 F 1 "1uF" H 8700 10550 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 8638 10450 50  0001 C CNN
 F 3 "~" H 8600 10600 50  0001 C CNN
+F 4 "0402 Capacitor" H 8600 10600 50  0001 C CNN "Generic Part"
+F 5 "NoName 0402 X5R 1uF 10V" H 8600 10600 50  0001 C CNN "Used Part"
+F 6 "1.5" H 8600 10600 50  0001 C CNN "Price"
+F 7 "R:189084" H 8600 10600 50  0001 C CNN "Vendor:Code"
 	1    8600 10600
 	1    0    0    -1  
 $EndComp
@@ -5841,6 +6547,10 @@ F 0 "C73" H 9400 10650 50  0000 L CNN
 F 1 "1uF" H 9400 10550 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 9338 10450 50  0001 C CNN
 F 3 "~" H 9300 10600 50  0001 C CNN
+F 4 "0402 Capacitor" H 9300 10600 50  0001 C CNN "Generic Part"
+F 5 "NoName 0402 X5R 1uF 10V" H 9300 10600 50  0001 C CNN "Used Part"
+F 6 "1.5" H 9300 10600 50  0001 C CNN "Price"
+F 7 "R:189084" H 9300 10600 50  0001 C CNN "Vendor:Code"
 	1    9300 10600
 	1    0    0    -1  
 $EndComp
@@ -5852,6 +6562,10 @@ F 0 "C72" H 9050 10650 50  0000 L CNN
 F 1 "1uF" H 9050 10550 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 8988 10450 50  0001 C CNN
 F 3 "~" H 8950 10600 50  0001 C CNN
+F 4 "0402 Capacitor" H 8950 10600 50  0001 C CNN "Generic Part"
+F 5 "NoName 0402 X5R 1uF 10V" H 8950 10600 50  0001 C CNN "Used Part"
+F 6 "1.5" H 8950 10600 50  0001 C CNN "Price"
+F 7 "R:189084" H 8950 10600 50  0001 C CNN "Vendor:Code"
 	1    8950 10600
 	1    0    0    -1  
 $EndComp
@@ -5863,6 +6577,10 @@ F 0 "C75" H 10115 10646 50  0000 L CNN
 F 1 "1uF" H 10115 10555 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 10038 10450 50  0001 C CNN
 F 3 "~" H 10000 10600 50  0001 C CNN
+F 4 "0402 Capacitor" H 10000 10600 50  0001 C CNN "Generic Part"
+F 5 "NoName 0402 X5R 1uF 10V" H 10000 10600 50  0001 C CNN "Used Part"
+F 6 "1.5" H 10000 10600 50  0001 C CNN "Price"
+F 7 "R:189084" H 10000 10600 50  0001 C CNN "Vendor:Code"
 	1    10000 10600
 	1    0    0    -1  
 $EndComp
@@ -5874,6 +6592,10 @@ F 0 "C74" H 9750 10650 50  0000 L CNN
 F 1 "1uF" H 9750 10550 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 9688 10450 50  0001 C CNN
 F 3 "~" H 9650 10600 50  0001 C CNN
+F 4 "0402 Capacitor" H 9650 10600 50  0001 C CNN "Generic Part"
+F 5 "NoName 0402 X5R 1uF 10V" H 9650 10600 50  0001 C CNN "Used Part"
+F 6 "1.5" H 9650 10600 50  0001 C CNN "Price"
+F 7 "R:189084" H 9650 10600 50  0001 C CNN "Vendor:Code"
 	1    9650 10600
 	1    0    0    -1  
 $EndComp
@@ -5919,6 +6641,8 @@ F 0 "R43" V 11900 4650 50  0000 C CNN
 F 1 "100Ω" V 12050 4450 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 11880 4450 50  0001 C CNN
 F 3 "~" H 11950 4450 50  0001 C CNN
+F 4 "0402 Resistor" H 11950 4450 50  0001 C CNN "Generic Part"
+F 5 "NoName" H 11950 4450 50  0001 C CNN "Used Part"
 	1    11950 4450
 	0    1    1    0   
 $EndComp
@@ -5934,9 +6658,13 @@ L Connector:HDMI_A_1.4 J2
 U 1 1 6135E6AA
 P 15450 1900
 F 0 "J2" H 15550 2950 50  0000 L CNN
-F 1 "HDMI-A" H 15700 750 50  0000 C TNN
+F 1 "HDMI A" H 15700 750 50  0000 C TNN
 F 2 "RTD2662Board:HDMI_A" H 15475 1900 50  0001 C CNN
 F 3 "https://en.wikipedia.org/wiki/HDMI" H 15475 1900 50  0001 C CNN
+F 4 "Pin-compatible HDMI A Connector" H 15450 1900 50  0001 C CNN "Generic Part"
+F 5 "DS1114-BN0" H 15450 1900 50  0001 C CNN "Used Part"
+F 6 "170" H 15450 1900 50  0001 C CNN "Price"
+F 7 "C:9000019653" H 15450 1900 50  0001 C CNN "Vendor:Code"
 	1    15450 1900
 	1    0    0    -1  
 $EndComp
@@ -5950,6 +6678,8 @@ F 0 "R6" H 14900 2800 50  0000 C CNN
 F 1 "1kΩ" H 14900 2700 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 14680 2750 50  0001 C CNN
 F 3 "~" H 14750 2750 50  0001 C CNN
+F 4 "0402 Resistor" H 14750 2750 50  0001 C CNN "Generic Part"
+F 5 "NoName" H 14750 2750 50  0001 C CNN "Used Part"
 	1    14750 2750
 	1    0    0    -1  
 $EndComp
@@ -5992,6 +6722,8 @@ F 0 "R4" H 14850 800 50  0000 C BNN
 F 1 "4.7kΩ" H 14400 750 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 14580 900 50  0001 C CNN
 F 3 "~" H 14650 900 50  0001 C CNN
+F 4 "0402 Resistor" H 14650 900 50  0001 C CNN "Generic Part"
+F 5 "NoName" H 14650 900 50  0001 C CNN "Used Part"
 	1    14650 900 
 	1    0    0    -1  
 $EndComp
@@ -6006,6 +6738,8 @@ F 0 "R5" H 14600 800 50  0000 R BNN
 F 1 "4.7kΩ" H 14750 750 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 14680 900 50  0001 C CNN
 F 3 "~" H 14750 900 50  0001 C CNN
+F 4 "0402 Resistor" H 14750 900 50  0001 C CNN "Generic Part"
+F 5 "NoName" H 14750 900 50  0001 C CNN "Used Part"
 	1    14750 900 
 	1    0    0    -1  
 $EndComp
@@ -6019,6 +6753,8 @@ F 0 "R17" V 14300 2200 50  0000 C CNN
 F 1 "100Ω" V 14400 2200 50  0000 C BNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 14380 2200 50  0001 C CNN
 F 3 "~" H 14450 2200 50  0001 C CNN
+F 4 "0402 Resistor" H 14450 2200 50  0001 C CNN "Generic Part"
+F 5 "NoName" H 14450 2200 50  0001 C CNN "Used Part"
 	1    14450 2200
 	0    1    1    0   
 $EndComp
@@ -6030,6 +6766,8 @@ F 0 "R18" V 14500 2300 50  0000 C TNN
 F 1 "100Ω" V 14600 2300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 14380 2300 50  0001 C CNN
 F 3 "~" H 14450 2300 50  0001 C CNN
+F 4 "0402 Resistor" H 14450 2300 50  0001 C CNN "Generic Part"
+F 5 "NoName" H 14450 2300 50  0001 C CNN "Used Part"
 	1    14450 2300
 	0    1    1    0   
 $EndComp
@@ -6079,6 +6817,8 @@ F 0 "R38" V 11900 4450 50  0000 C CNN
 F 1 "100Ω" V 12050 4250 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 11880 4250 50  0001 C CNN
 F 3 "~" H 11950 4250 50  0001 C CNN
+F 4 "0402 Resistor" H 11950 4250 50  0001 C CNN "Generic Part"
+F 5 "NoName" H 11950 4250 50  0001 C CNN "Used Part"
 	1    11950 4250
 	0    1    1    0   
 $EndComp
@@ -6093,9 +6833,11 @@ L Memory_EEPROM:AT24CS08-STUM U9
 U 1 1 614168CE
 P 14450 8850
 F 0 "U9" H 14250 9100 50  0000 R CNN
-F 1 "AT24CS08-STUM" H 14350 8600 50  0000 R CNN
+F 1 "24x01" H 14350 8600 50  0000 R CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-5" H 14450 8850 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8766-SEEPROM-AT24CS04-08-Datasheet.pdf" H 14450 8850 50  0001 C CNN
+F 4 "SOT-23-5 I2C ≥256 x 8 EEPROM" H 14450 8850 50  0001 C CNN "Generic Part"
+F 5 "24LC01BT-I/OT" H 14450 8850 50  0001 C CNN "Used Part"
 	1    14450 8850
 	1    0    0    -1  
 $EndComp
@@ -6111,6 +6853,8 @@ F 0 "R88" H 14300 900 50  0000 R BNN
 F 1 "47kΩ" H 14300 850 50  0000 R CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 14280 900 50  0001 C CNN
 F 3 "~" H 14350 900 50  0001 C CNN
+F 4 "0402 Resistor" H 14350 900 50  0001 C CNN "Generic Part"
+F 5 "NoName" H 14350 900 50  0001 C CNN "Used Part"
 	1    14350 900 
 	1    0    0    -1  
 $EndComp
@@ -6134,6 +6878,8 @@ F 0 "Q1" H 12350 2950 50  0000 L CNN
 F 1 "BC846" H 12350 2850 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 12350 2825 50  0001 L CIN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BC846_SER.pdf" H 12150 2900 50  0001 L CNN
+F 4 "SOT-23 pin-compatible NPN BJT" H 12150 2900 50  0001 C CNN "Generic Part"
+F 5 "BC846" H 12150 2900 50  0001 C CNN "Used Part"
 	1    12150 2900
 	1    0    0    -1  
 $EndComp
@@ -6145,6 +6891,8 @@ F 0 "R89" H 11800 2500 50  0000 C CNN
 F 1 "10kΩ" H 11800 2600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 11880 2550 50  0001 C CNN
 F 3 "~" H 11950 2550 50  0001 C CNN
+F 4 "0402 Resistor" H 11950 2550 50  0001 C CNN "Generic Part"
+F 5 "NoName" H 11950 2550 50  0001 C CNN "Used Part"
 	1    11950 2550
 	-1   0    0    1   
 $EndComp
@@ -6156,6 +6904,8 @@ F 0 "R3" H 12100 2500 50  0000 C CNN
 F 1 "1kΩ" H 12100 2600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 12180 2550 50  0001 C CNN
 F 3 "~" H 12250 2550 50  0001 C CNN
+F 4 "0402 Resistor" H 12250 2550 50  0001 C CNN "Generic Part"
+F 5 "NoName" H 12250 2550 50  0001 C CNN "Used Part"
 	1    12250 2550
 	-1   0    0    1   
 $EndComp
@@ -6169,6 +6919,8 @@ F 0 "R90" H 14600 2800 50  0000 C CNN
 F 1 "10kΩ" H 14600 2700 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 14380 2750 50  0001 C CNN
 F 3 "~" H 14450 2750 50  0001 C CNN
+F 4 "0402 Resistor" H 14450 2750 50  0001 C CNN "Generic Part"
+F 5 "NoName" H 14450 2750 50  0001 C CNN "Used Part"
 	1    14450 2750
 	1    0    0    -1  
 $EndComp
