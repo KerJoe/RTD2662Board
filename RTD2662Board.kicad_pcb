@@ -406,7 +406,7 @@
       (net 40 "GND") (pinfunction "Shield") (pintype "passive") (tstamp 13bbfffc-affb-4b43-9eb1-f2ed90a8a919))
     (pad "5" thru_hole oval (at 4.71 7.27 180) (size 3.5 2) (drill oval 2.33 1) (layers "*.Cu" "*.Mask")
       (net 40 "GND") (pinfunction "Shield") (pintype "passive") (tstamp 71f8d568-0f23-4ff2-8e60-1600ce517a48))
-    (model "/media/Data/Users/Misha/Documents/Projects/RTD2662/RTD2662Board/RTD2662Board.pretty/usb_B.wrl"
+    (model "RTD2662Board.pretty/usb_B.wrl"
       (offset (xyz 7 -1.25 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 -90))
