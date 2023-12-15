@@ -8673,7 +8673,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 2ba21493-929b-4122-ac0f-7aeaf8602cef)
   )
-  (text "Iout=1.233V/R" (at 193.04 193.675 0)
+  (text "Iout=0.104V/R" (at 193.04 193.675 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 39146702-2809-457e-9c0d-9bd6a611c17a)
   )
