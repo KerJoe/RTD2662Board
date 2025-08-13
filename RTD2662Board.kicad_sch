@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "ORTD2662-PROTOBOARD")
-		(date "2023-12-15")
-		(rev "2")
+		(date "2025-08-13")
+		(rev "2G")
 		(company "Designed by: KerJoe <2002morozik@gmail.com>")
 	)
 	(lib_symbols
@@ -8087,200 +8087,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Jumper:SolderJumper_2_Bridged"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at 0 2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SolderJumper_2_Bridged"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "solder jumper SPST"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SolderJumper*Bridged*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SolderJumper_2_Bridged_0_1"
-				(rectangle
-					(start -0.508 0.508)
-					(end 0.508 -0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.254 1.016) (xy -0.254 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.254 -1.016)
-					(mid -1.2656 0)
-					(end -0.254 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.254 -1.016)
-					(mid -1.2656 0)
-					(end -0.254 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start 0.254 1.016)
-					(mid 1.2656 0)
-					(end 0.254 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.254 1.016)
-					(mid 1.2656 0)
-					(end 0.254 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 1.016) (xy 0.254 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SolderJumper_2_Bridged_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Jumper:SolderJumper_2_Open"
 			(pin_names
 				(offset 0)
@@ -15757,12 +15563,6 @@
 		(uuid "4a73309a-5d06-450e-b731-3f3228f53bac")
 	)
 	(junction
-		(at 69.85 218.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4b3ca595-07d8-471d-a599-10e87e77b20e")
-	)
-	(junction
 		(at 194.31 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -15851,12 +15651,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6162fbb8-6718-45ec-b23f-6a6f1488ec21")
-	)
-	(junction
-		(at 77.47 220.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6213c200-cc8a-481c-883f-35278b9518d8")
 	)
 	(junction
 		(at 308.61 19.05)
@@ -17830,16 +17624,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 227.33) (xy 77.47 220.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2330617f-82c2-43f9-8a7c-826ddfdbb89f")
-	)
-	(wire
-		(pts
 			(xy 308.61 173.99) (xy 309.88 173.99)
 		)
 		(stroke
@@ -17907,16 +17691,6 @@
 			(type default)
 		)
 		(uuid "26296271-780a-4da9-8e69-910d9240bca1")
-	)
-	(wire
-		(pts
-			(xy 77.47 220.98) (xy 68.58 220.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "262fe442-673c-4133-92f6-23f6d42651f0")
 	)
 	(polyline
 		(pts
@@ -18010,17 +17784,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 218.44) (xy 69.85 218.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "283ed2be-f188-4938-9d07-b9e8bad5f0d4")
-	)
-	(wire
-		(pts
-			(xy 68.58 215.9) (xy 81.28 215.9)
+			(xy 74.93 215.9) (xy 80.01 215.9)
 		)
 		(stroke
 			(width 0)
@@ -18057,16 +17821,6 @@
 			(type default)
 		)
 		(uuid "296ded40-ed53-4798-8db4-dad7b794226b")
-	)
-	(wire
-		(pts
-			(xy 81.28 220.98) (xy 77.47 220.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29c8820e-a6aa-4b1b-a048-868ed62704c1")
 	)
 	(wire
 		(pts
@@ -18167,6 +17921,16 @@
 			(type default)
 		)
 		(uuid "2edba9d3-c333-4296-851f-3df46822dd7b")
+	)
+	(wire
+		(pts
+			(xy 76.2 222.25) (xy 76.2 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ef44455-0271-4189-85d8-69026347a4bc")
 	)
 	(wire
 		(pts
@@ -18750,16 +18514,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 193.04) (xy 157.48 193.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f72330a-26a9-4809-a923-58f7e3cfd4de")
-	)
-	(wire
-		(pts
 			(xy 25.4 111.76) (xy 27.94 111.76)
 		)
 		(stroke
@@ -19147,16 +18901,6 @@
 			(type default)
 		)
 		(uuid "4e861688-f76d-4846-81a3-359bef1f427a")
-	)
-	(wire
-		(pts
-			(xy 69.85 227.33) (xy 69.85 218.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ed25a91-62bc-460f-b416-f09c2b72ae30")
 	)
 	(wire
 		(pts
@@ -20097,16 +19841,6 @@
 			(type default)
 		)
 		(uuid "6f44a349-1ba9-4965-b217-aa1589a07228")
-	)
-	(wire
-		(pts
-			(xy 69.85 218.44) (xy 68.58 218.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f75ea3e-6135-44f5-9313-1aad839ab6f6")
 	)
 	(wire
 		(pts
@@ -21350,7 +21084,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 213.36) (xy 68.58 213.36)
+			(xy 80.01 213.36) (xy 74.93 213.36)
 		)
 		(stroke
 			(width 0)
@@ -22547,6 +22281,16 @@
 			(type default)
 		)
 		(uuid "c8b9676b-221e-4cd7-863c-5d1cf75e0f5a")
+	)
+	(wire
+		(pts
+			(xy 76.2 220.98) (xy 74.93 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c92c6378-f2ed-4323-8839-867c12b2451d")
 	)
 	(wire
 		(pts
@@ -23780,16 +23524,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 199.39) (xy 154.94 199.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f656a274-a08d-4499-8245-beb474616c55")
-	)
-	(wire
-		(pts
 			(xy 213.36 166.37) (xy 213.36 173.99)
 		)
 		(stroke
@@ -24931,36 +24665,6 @@
 		(uuid "15a5a11b-0ea1-4f6e-b356-cc2d530615ed")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 153.67 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Обозначения листов" "${INTERSHEET_REFS}"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "RIGHT-"
-		(shape input)
-		(at 81.28 220.98 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "160cb44e-5e81-454b-9642-f95193231b95")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.28 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27110,7 +26814,7 @@
 	)
 	(global_label "LEFT+"
 		(shape input)
-		(at 81.28 213.36 0)
+		(at 80.01 213.36 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -27120,7 +26824,7 @@
 		)
 		(uuid "4fe3cd02-8864-4b3e-a1a0-2dfa4d191ca2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.28 213.36 0)
+			(at 80.01 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27129,7 +26833,7 @@
 			)
 		)
 		(property "Обозначения листов" "${INTERSHEET_REFS}"
-			(at 0 0 0)
+			(at -1.27 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27408,36 +27112,6 @@
 			)
 		)
 	)
-	(global_label "RIGHT-"
-		(shape input)
-		(at 157.48 199.39 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "556af892-f4e4-492b-b72b-6477c8bec323")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 157.48 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Обозначения листов" "${INTERSHEET_REFS}"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "DWNB"
 		(shape input)
 		(at 336.55 196.85 0)
@@ -27631,36 +27305,6 @@
 		(uuid "5a63aa46-8c18-43d5-8def-1c886562be17")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 232.41 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Обозначения листов" "${INTERSHEET_REFS}"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LEFT-"
-		(shape input)
-		(at 157.48 193.04 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5aec5c76-9c76-4aad-b7fa-9f497abad71a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 157.48 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30108,36 +29752,6 @@
 			)
 		)
 	)
-	(global_label "LEFT-"
-		(shape input)
-		(at 81.28 218.44 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9d3da282-0e78-426f-87a5-378da2e8e9cf")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.28 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Обозначения листов" "${INTERSHEET_REFS}"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "_VGA_B-"
 		(shape input)
 		(at 243.84 109.22 180)
@@ -32390,7 +32004,7 @@
 	)
 	(global_label "RIGHT+"
 		(shape input)
-		(at 81.28 215.9 0)
+		(at 80.01 215.9 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -32400,7 +32014,7 @@
 		)
 		(uuid "e15d097a-4761-479a-be84-b8e07d19b4c7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.28 215.9 0)
+			(at 80.01 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32409,7 +32023,7 @@
 			)
 		)
 		(property "Обозначения листов" "${INTERSHEET_REFS}"
-			(at 0 0 0)
+			(at -1.27 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34314,7 +33928,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 270Ω"
+		(property "Used Part" "NoName 0402 270Ω±1%"
 			(at 320.04 175.26 0)
 			(effects
 				(font
@@ -34417,7 +34031,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 680Ω"
+		(property "Used Part" "NoName 0402 680Ω±1%"
 			(at 320.04 185.42 0)
 			(effects
 				(font
@@ -34520,7 +34134,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 1.5kΩ"
+		(property "Used Part" "NoName 0402 1.5kΩ±1%"
 			(at 320.04 195.58 0)
 			(effects
 				(font
@@ -34623,7 +34237,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 3.9kΩ"
+		(property "Used Part" "NoName 0402 3.9kΩ±1%"
 			(at 320.04 205.74 0)
 			(effects
 				(font
@@ -34728,7 +34342,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 1kΩ"
+		(property "Used Part" "NoName 0402 1kΩ±1%"
 			(at 316.23 160.02 0)
 			(effects
 				(font
@@ -35361,7 +34975,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 NP0 20pF 50V"
+		(property "Used Part" "NoName 0402 NP0 20pF±5% 50V"
 			(at 151.13 165.1 0)
 			(effects
 				(font
@@ -35465,7 +35079,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 NP0 20pF 50V"
+		(property "Used Part" "NoName 0402 NP0 20pF±5% 50V"
 			(at 161.29 165.1 0)
 			(effects
 				(font
@@ -35929,7 +35543,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "MP2307"
+		(property "Used Part" "APW7313"
 			(at 127 252.73 0)
 			(effects
 				(font
@@ -36054,7 +35668,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 6.8kΩ"
+		(property "Used Part" "NoName 0402 6.8kΩ±1%"
 			(at 105.41 261.62 0)
 			(effects
 				(font
@@ -36158,7 +35772,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 X7R 3.9nF 50V"
+		(property "Used Part" "NoName 0402 X7R 3.9nF±10% 50V"
 			(at 105.41 269.24 0)
 			(effects
 				(font
@@ -36333,7 +35947,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 X7R 10nF 50V"
+		(property "Used Part" "NoName 0402 X7R 10nF±10% 50V"
 			(at 142.24 248.92 0)
 			(effects
 				(font
@@ -36539,7 +36153,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0805 X5R 22uF 6,3V"
+		(property "Used Part" "NoName 0805 X5R 22uF±10% 6,3V"
 			(at 167.64 264.16 0)
 			(effects
 				(font
@@ -36707,7 +36321,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 100kΩ"
+		(property "Used Part" "NoName 0402 100kΩ±1%"
 			(at 158.75 259.08 0)
 			(effects
 				(font
@@ -36811,7 +36425,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 39kΩ"
+		(property "Used Part" "NoName 0402 39kΩ±1%"
 			(at 158.75 269.24 0)
 			(effects
 				(font
@@ -36979,7 +36593,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 X5R 100nF 25V"
+		(property "Used Part" "NoName 0402 X5R 100nF±10% 25V"
 			(at 115.57 269.24 0)
 			(effects
 				(font
@@ -37145,7 +36759,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 100kΩ"
+		(property "Used Part" "NoName 0402 100kΩ±1%"
 			(at 110.49 248.92 0)
 			(effects
 				(font
@@ -37503,7 +37117,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 330Ω"
+		(property "Used Part" "NoName 0402 330Ω±1%"
 			(at 327.66 219.71 0)
 			(effects
 				(font
@@ -37713,7 +37327,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 330Ω"
+		(property "Used Part" "NoName 0402 330Ω±1%"
 			(at 327.66 227.33 0)
 			(effects
 				(font
@@ -37817,7 +37431,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 1kΩ"
+		(property "Used Part" "NoName 0402 1kΩ±1%"
 			(at 170.18 165.1 0)
 			(effects
 				(font
@@ -38428,7 +38042,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" " ~"
+		(property "Datasheet" "~"
 			(at 364.49 102.87 0)
 			(effects
 				(font
@@ -38575,7 +38189,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" " ~"
+		(property "Datasheet" "~"
 			(at 372.11 116.84 0)
 			(effects
 				(font
@@ -38703,7 +38317,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "MDN-5J"
+		(property "Used Part" "MDN-4J"
 			(at 377.19 139.7 0)
 			(effects
 				(font
@@ -39033,7 +38647,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 NP0 33pF 50V"
+		(property "Used Part" "NoName 0402 NP0 270pF±5% 50V"
 			(at 207.01 46.99 0)
 			(effects
 				(font
@@ -39137,7 +38751,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 NP0 82pF 50V"
+		(property "Used Part" "NoName 0402 NP0 820pF±5% 50V"
 			(at 214.63 46.99 0)
 			(effects
 				(font
@@ -39345,7 +38959,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 X7R 22nF 16V"
+		(property "Used Part" "NoName 0402 X7R 22nF±10% 16V"
 			(at 219.71 50.8 0)
 			(effects
 				(font
@@ -39449,7 +39063,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 X7R 22nF 16V"
+		(property "Used Part" "NoName 0402 X7R 22nF±10% 16V"
 			(at 219.71 43.18 0)
 			(effects
 				(font
@@ -39553,7 +39167,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0Ω Jumper (UNUSED)"
+		(property "Used Part" "UNUSED (NoName 0402 0Ω - Jumper)"
 			(at 210.82 43.18 0)
 			(effects
 				(font
@@ -39657,7 +39271,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "BLM15PE121SH1D"
+		(property "Used Part" "UNUSED (NoName 0402 0Ω - Jumper)"
 			(at 196.85 43.18 0)
 			(effects
 				(font
@@ -39761,7 +39375,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 75Ω"
+		(property "Used Part" "NoName 0402 75Ω±1%"
 			(at 199.39 46.99 0)
 			(effects
 				(font
@@ -39885,7 +39499,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "24x01"
+		(property "Value" "24x04"
 			(at 364.49 231.14 0)
 			(effects
 				(font
@@ -39929,7 +39543,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "24LC01BT-I/OT"
+		(property "Used Part" "AT24CS04-STUM-T"
 			(at 367.03 224.79 0)
 			(effects
 				(font
@@ -40170,7 +39784,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 X5R 1uF 10V"
+		(property "Used Part" "NoName 0402 X5R 1uF±10% 10V"
 			(at 271.78 254 0)
 			(effects
 				(font
@@ -40404,7 +40018,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 X5R 1uF 10V"
+		(property "Used Part" "NoName 0402 X5R 1uF±10% 10V"
 			(at 209.55 269.24 0)
 			(effects
 				(font
@@ -40700,7 +40314,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 X5R 1uF 10V"
+		(property "Used Part" "NoName 0402 X5R 1uF±10% 10V"
 			(at 218.44 269.24 0)
 			(effects
 				(font
@@ -40804,7 +40418,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 X5R 1uF 10V"
+		(property "Used Part" "NoName 0402 X5R 1uF±10% 10V"
 			(at 280.67 254 0)
 			(effects
 				(font
@@ -40908,7 +40522,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 X5R 1uF 10V"
+		(property "Used Part" "NoName 0402 X5R 1uF±10% 10V"
 			(at 289.56 254 0)
 			(effects
 				(font
@@ -41012,7 +40626,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 X5R 1uF 10V"
+		(property "Used Part" "NoName 0402 X5R 1uF±10% 10V"
 			(at 298.45 254 0)
 			(effects
 				(font
@@ -41116,7 +40730,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 X5R 1uF 10V"
+		(property "Used Part" "NoName 0402 X5R 1uF±10% 10V"
 			(at 227.33 269.24 0)
 			(effects
 				(font
@@ -41220,7 +40834,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 11kΩ"
+		(property "Used Part" "NoName 0402 11kΩ±1%"
 			(at 194.31 147.32 0)
 			(effects
 				(font
@@ -41324,7 +40938,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 X5R 1uF 10V"
+		(property "Used Part" "NoName 0402 X5R 1uF±10% 10V"
 			(at 316.23 254 0)
 			(effects
 				(font
@@ -41428,7 +41042,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 X5R 1uF 10V"
+		(property "Used Part" "NoName 0402 X5R 1uF±10% 10V"
 			(at 236.22 269.24 0)
 			(effects
 				(font
@@ -41532,7 +41146,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 X5R 1uF 10V"
+		(property "Used Part" "NoName 0402 X5R 1uF±10% 10V"
 			(at 325.12 254 0)
 			(effects
 				(font
@@ -41636,7 +41250,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 X5R 1uF 10V"
+		(property "Used Part" "NoName 0402 X5R 1uF±10% 10V"
 			(at 307.34 254 0)
 			(effects
 				(font
@@ -41740,7 +41354,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 75Ω"
+		(property "Used Part" "NoName 0402 75Ω±1%"
 			(at 199.39 25.4 0)
 			(effects
 				(font
@@ -42193,7 +41807,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName"
+		(property "Used Part" "PLS-2"
 			(at 372.11 127 0)
 			(effects
 				(font
@@ -42359,7 +41973,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "PBD1.27-20S * 2 + PBD1.27-10S"
+		(property "Used Part" "PBD1.27-50S"
 			(at 31.75 215.9 0)
 			(effects
 				(font
@@ -42607,7 +42221,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 X5R 1uF 10V"
+		(property "Used Part" "NoName 0402 X5R 1uF±10% 10V"
 			(at 209.55 254 0)
 			(effects
 				(font
@@ -42711,7 +42325,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 X5R 1uF 10V"
+		(property "Used Part" "NoName 0402 X5R 1uF±10% 10V"
 			(at 218.44 254 0)
 			(effects
 				(font
@@ -42815,7 +42429,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 X5R 1uF 10V"
+		(property "Used Part" "NoName 0402 X5R 1uF±10% 10V"
 			(at 236.22 254 0)
 			(effects
 				(font
@@ -42919,7 +42533,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 X5R 1uF 10V"
+		(property "Used Part" "NoName 0402 X5R 1uF±10% 10V"
 			(at 227.33 254 0)
 			(effects
 				(font
@@ -43021,7 +42635,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 X5R 2.2nF 6.3V"
+		(property "Used Part" "NoName 0402 X5R 2.2uF±10% 6.3V"
 			(at 110.49 190.5 0)
 			(effects
 				(font
@@ -43123,7 +42737,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 470Ω"
+		(property "Used Part" "NoName 0402 470Ω±1%"
 			(at 118.11 190.5 0)
 			(effects
 				(font
@@ -43225,7 +42839,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 X5R 2.2nF 6.3V"
+		(property "Used Part" "NoName 0402 X5R 2.2uF±10% 6.3V"
 			(at 110.49 198.12 0)
 			(effects
 				(font
@@ -43327,7 +42941,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 470Ω"
+		(property "Used Part" "NoName 0402 470Ω±1%"
 			(at 118.11 198.12 0)
 			(effects
 				(font
@@ -44075,7 +43689,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 1MΩ"
+		(property "Used Part" "NoName 0402 1MΩ±1%"
 			(at 156.21 151.13 0)
 			(effects
 				(font
@@ -44360,6 +43974,15 @@
 				(hide yes)
 			)
 		)
+		(property "Used Part" "LQH43MN220K03L"
+			(at 205.74 166.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "85490621-5875-4ae2-a78a-af35b2fee456")
 		)
@@ -44537,7 +44160,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 2.2kΩ"
+		(property "Used Part" "NoName 0402 2.2kΩ±1%"
 			(at 367.03 158.75 0)
 			(effects
 				(font
@@ -44641,7 +44264,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 27kΩ"
+		(property "Used Part" "NoName 0402 27kΩ±1%"
 			(at 364.49 22.86 0)
 			(effects
 				(font
@@ -45132,7 +44755,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 4.7kΩ"
+		(property "Used Part" "NoName 0402 4.7kΩ±1%"
 			(at 389.89 217.17 0)
 			(effects
 				(font
@@ -45237,7 +44860,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 4.7kΩ"
+		(property "Used Part" "NoName 0402 4.7kΩ±1%"
 			(at 387.35 217.17 0)
 			(effects
 				(font
@@ -45341,7 +44964,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 100Ω"
+		(property "Used Part" "NoName 0402 100Ω±1%"
 			(at 381 222.25 0)
 			(effects
 				(font
@@ -45445,7 +45068,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 100Ω"
+		(property "Used Part" "NoName 0402 100Ω±1%"
 			(at 381 224.79 0)
 			(effects
 				(font
@@ -45549,7 +45172,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0805 X5R 10uF 25V"
+		(property "Used Part" "NoName 0805 X5R 10uF±10% 25V"
 			(at 96.52 262.89 0)
 			(effects
 				(font
@@ -46007,7 +45630,7 @@
 				)
 			)
 		)
-		(property "Value" "25x128"
+		(property "Value" "25x40"
 			(at 386.08 259.08 0)
 			(effects
 				(font
@@ -46050,7 +45673,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "AT25F512A"
+		(property "Used Part" "W25X40CLSNIG "
 			(at 381 251.46 0)
 			(effects
 				(font
@@ -46170,7 +45793,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 11kΩ"
+		(property "Used Part" "NoName 0402 11kΩ±1%"
 			(at 303.53 64.77 0)
 			(effects
 				(font
@@ -46380,7 +46003,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 4.7kΩ"
+		(property "Used Part" "NoName 0402 4.7kΩ±1%"
 			(at 308.61 22.86 0)
 			(effects
 				(font
@@ -46484,7 +46107,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 4.7kΩ"
+		(property "Used Part" "NoName 0402 4.7kΩ±1%"
 			(at 311.15 22.86 0)
 			(effects
 				(font
@@ -46587,7 +46210,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 100Ω"
+		(property "Used Part" "NoName 0402 100Ω±1%"
 			(at 303.53 52.07 0)
 			(effects
 				(font
@@ -46690,7 +46313,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 100Ω"
+		(property "Used Part" "NoName 0402 100Ω±1%"
 			(at 303.53 54.61 0)
 			(effects
 				(font
@@ -47178,7 +46801,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 11kΩ"
+		(property "Used Part" "NoName 0402 11kΩ±1%"
 			(at 80.01 267.97 0)
 			(effects
 				(font
@@ -47386,7 +47009,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 X5R 1uF 10V"
+		(property "Used Part" "NoName 0402 X5R 1uF±10% 10V"
 			(at 123.19 213.36 0)
 			(effects
 				(font
@@ -47847,7 +47470,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 100Ω"
+		(property "Used Part" "NoName 0402 100Ω±1%"
 			(at 367.03 55.88 0)
 			(effects
 				(font
@@ -47950,7 +47573,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 100Ω"
+		(property "Used Part" "NoName 0402 100Ω±1%"
 			(at 367.03 58.42 0)
 			(effects
 				(font
@@ -48118,7 +47741,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0805 X5R 22uF 6,3V"
+		(property "Used Part" "NoName 0805 X5R 22uF±10% 6,3V"
 			(at 198.12 264.16 0)
 			(effects
 				(font
@@ -48258,7 +47881,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" " ~"
+		(property "Datasheet" "~"
 			(at 358.14 172.72 0)
 			(effects
 				(font
@@ -48461,7 +48084,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 4.7kΩ"
+		(property "Used Part" "NoName 0402 4.7kΩ±1%"
 			(at 372.11 22.86 0)
 			(effects
 				(font
@@ -48565,7 +48188,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 4.7kΩ"
+		(property "Used Part" "NoName 0402 4.7kΩ±1%"
 			(at 374.65 22.86 0)
 			(effects
 				(font
@@ -48771,7 +48394,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 NP0 15pF 50V"
+		(property "Used Part" "NoName 0402 NP0 15pF±5% 50V"
 			(at 360.68 199.39 0)
 			(effects
 				(font
@@ -48875,7 +48498,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 NP0 15pF 50V"
+		(property "Used Part" "NoName 0402 NP0 15pF±5% 50V"
 			(at 370.84 199.39 0)
 			(effects
 				(font
@@ -49105,7 +48728,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 1MΩ"
+		(property "Used Part" "NoName 0402 1MΩ±1%"
 			(at 365.76 185.42 0)
 			(effects
 				(font
@@ -49210,7 +48833,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName"
+		(property "Used Part" "PLS-2"
 			(at 100.33 215.9 0)
 			(effects
 				(font
@@ -49716,7 +49339,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 82kΩ"
+		(property "Used Part" "NoName 0402 82kΩ±1%"
 			(at 223.52 137.16 0)
 			(effects
 				(font
@@ -49820,7 +49443,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 11kΩ"
+		(property "Used Part" "NoName 0402 11kΩ±1%"
 			(at 223.52 147.32 0)
 			(effects
 				(font
@@ -50478,7 +50101,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 X5R 1uF 10V"
+		(property "Used Part" "NoName 0402 X5R 1uF±10% 10V"
 			(at 157.48 209.55 0)
 			(effects
 				(font
@@ -50644,7 +50267,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 X5R 100nF 25V"
+		(property "Used Part" "NoName 0402 X5R 100nF±10% 25V"
 			(at 246.38 133.35 0)
 			(effects
 				(font
@@ -50816,110 +50439,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_2_Bridged")
-		(at 73.66 227.33 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-0000629273c2")
-		(property "Reference" "JP5"
-			(at 73.66 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Common Negative Jumper"
-			(at 73.66 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_RoundedPad1.0x1.5mm"
-			(at 73.66 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 73.66 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 73.66 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Generic Part" "-"
-			(at 73.66 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Used Part" "-"
-			(at 73.66 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "-"
-			(at 73.66 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor:Code" "-"
-			(at 73.66 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2a84fbac-dc64-4325-ab99-00210a9b9ab0")
-		)
-		(pin "2"
-			(uuid "f8a8a08b-54d0-4d51-b1f2-c1a7042cd34c")
-		)
-		(instances
-			(project "RTD2662Board"
-				(path "/83184391-76ed-44f0-8cd0-01f89f157bdb"
-					(reference "JP5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 252.73 213.36 90)
 		(mirror x)
@@ -50980,7 +50499,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 11kΩ"
+		(property "Used Part" "NoName 0402 11kΩ±1%"
 			(at 252.73 213.36 0)
 			(effects
 				(font
@@ -51082,7 +50601,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 1kΩ"
+		(property "Used Part" "NoName 0402 1kΩ±1%"
 			(at 118.11 209.55 0)
 			(effects
 				(font
@@ -51293,7 +50812,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 X5R 1uF 10V"
+		(property "Used Part" "NoName 0402 X5R 1uF±10% 10V"
 			(at 261.62 133.35 0)
 			(effects
 				(font
@@ -51459,7 +50978,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 X5R 100nF 25V"
+		(property "Used Part" "NoName 0402 X5R 100nF±10% 25V"
 			(at 246.38 154.94 0)
 			(effects
 				(font
@@ -51671,7 +51190,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 X5R 1uF 10V"
+		(property "Used Part" "NoName 0402 X5R 1uF±10% 10V"
 			(at 261.62 154.94 0)
 			(effects
 				(font
@@ -51848,7 +51367,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 11kΩ"
+		(property "Used Part" "NoName 0402 11kΩ±1%"
 			(at 194.31 181.61 0)
 			(effects
 				(font
@@ -52080,7 +51599,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 11kΩ"
+		(property "Used Part" "NoName 0402 11kΩ±1%"
 			(at 367.03 69.85 0)
 			(effects
 				(font
@@ -52183,7 +51702,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 11kΩ"
+		(property "Used Part" "NoName 0402 11kΩ±1%"
 			(at 245.11 207.01 0)
 			(effects
 				(font
@@ -52389,7 +51908,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 100Ω"
+		(property "Used Part" "NoName 0402 100Ω±1%"
 			(at 265.43 147.32 0)
 			(effects
 				(font
@@ -52596,7 +52115,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 100Ω"
+		(property "Used Part" "NoName 0402 100Ω±1%"
 			(at 265.43 125.73 0)
 			(effects
 				(font
@@ -52762,7 +52281,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 330Ω"
+		(property "Used Part" "NoName 0402 330Ω±1%"
 			(at 302.26 207.01 0)
 			(effects
 				(font
@@ -52864,7 +52383,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 330Ω"
+		(property "Used Part" "NoName 0402 330Ω±1%"
 			(at 302.26 214.63 0)
 			(effects
 				(font
@@ -52960,6 +52479,15 @@
 			)
 		)
 		(property "Generic Part" "1210 Resistor"
+			(at 214.63 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Used Part" "NoName 1210 0.68Ω±1%"
 			(at 214.63 184.15 0)
 			(effects
 				(font
@@ -53110,7 +52638,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 15kΩ"
+		(property "Used Part" "UNUSED (NoName 0402 0Ω - Jumper)"
 			(at 274.32 198.12 0)
 			(effects
 				(font
@@ -53215,7 +52743,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 6.8kΩ"
+		(property "Used Part" "UNUSED (NoName 0402 0Ω - Jumper)"
 			(at 274.32 213.36 0)
 			(effects
 				(font
@@ -53427,7 +52955,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 X5R 1uF 10V"
+		(property "Used Part" "NoName 0402 X5R 1uF±10% 10V"
 			(at 276.86 133.35 0)
 			(effects
 				(font
@@ -53531,7 +53059,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 X5R 1uF 10V"
+		(property "Used Part" "NoName 0402 X5R 1uF±10% 10V"
 			(at 276.86 154.94 0)
 			(effects
 				(font
@@ -53584,7 +53112,7 @@
 	)
 	(symbol
 		(lib_id "Connector:AudioJack4")
-		(at 63.5 218.44 0)
+		(at 69.85 218.44 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -53593,7 +53121,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000063b150dd")
 		(property "Reference" "J13"
-			(at 60.96 205.74 0)
+			(at 67.31 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53601,7 +53129,7 @@
 			)
 		)
 		(property "Value" "3.5mm jack"
-			(at 60.96 208.28 0)
+			(at 67.31 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53609,7 +53137,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Audio:Jack_3.5mm_PJ320D_Horizontal"
-			(at 63.5 218.44 0)
+			(at 69.85 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53618,7 +53146,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 63.5 218.44 0)
+			(at 69.85 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53627,7 +53155,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 63.5 218.44 0)
+			(at 69.85 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53635,7 +53163,7 @@
 			)
 		)
 		(property "Generic Part" "Pin-compatible 4 pin 3.5mm jack"
-			(at 63.5 218.44 0)
+			(at 69.85 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53644,7 +53172,7 @@
 			)
 		)
 		(property "Used Part" "PJ320D"
-			(at 63.5 218.44 0)
+			(at 69.85 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53653,7 +53181,7 @@
 			)
 		)
 		(property "Price" "38.47/10"
-			(at 63.5 218.44 0)
+			(at 69.85 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53662,7 +53190,7 @@
 			)
 		)
 		(property "Vendor:Code" "A:1005002038231830"
-			(at 63.5 218.44 0)
+			(at 69.85 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53753,7 +53281,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "BLM15PE121SH1D"
+		(property "Used Part" "UNUSED (NoName 0402 0Ω - Jumper)"
 			(at 196.85 21.59 0)
 			(effects
 				(font
@@ -53857,7 +53385,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 NP0 33pF 50V"
+		(property "Used Part" "NoName 0402 NP0 270pF±5% 50V"
 			(at 207.01 25.4 0)
 			(effects
 				(font
@@ -53961,7 +53489,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0Ω Jumper (UNUSED)"
+		(property "Used Part" "UNUSED (NoName 0402 0Ω - Jumper)"
 			(at 210.82 21.59 0)
 			(effects
 				(font
@@ -54065,7 +53593,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0805 X5R 10uF 25V"
+		(property "Used Part" "NoName 0805 X5R 10uF±10% 25V"
 			(at 231.14 142.24 0)
 			(effects
 				(font
@@ -54169,7 +53697,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 NP0 82pF 50V"
+		(property "Used Part" "NoName 0402 NP0 820pF±5% 50V"
 			(at 214.63 25.4 0)
 			(effects
 				(font
@@ -54273,7 +53801,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 X7R 22nF 16V"
+		(property "Used Part" "NoName 0402 X7R 22nF±10% 16V"
 			(at 219.71 21.59 0)
 			(effects
 				(font
@@ -54377,7 +53905,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 X7R 22nF 16V"
+		(property "Used Part" "NoName 0402 X7R 22nF±10% 16V"
 			(at 219.71 29.21 0)
 			(effects
 				(font
@@ -54481,7 +54009,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 75Ω"
+		(property "Used Part" "NoName 0402 75Ω±1%"
 			(at 252.73 25.4 0)
 			(effects
 				(font
@@ -54585,7 +54113,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "BLM15PE121SH1D"
+		(property "Used Part" "UNUSED (NoName 0402 0Ω - Jumper)"
 			(at 250.19 21.59 0)
 			(effects
 				(font
@@ -54689,7 +54217,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 NP0 33pF 50V"
+		(property "Used Part" "NoName 0402 NP0 270pF±5% 50V"
 			(at 260.35 25.4 0)
 			(effects
 				(font
@@ -54793,7 +54321,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0Ω Jumper (UNUSED)"
+		(property "Used Part" "UNUSED (NoName 0402 0Ω - Jumper)"
 			(at 264.16 21.59 0)
 			(effects
 				(font
@@ -54897,7 +54425,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 NP0 82pF 50V"
+		(property "Used Part" "NoName 0402 NP0 820pF±5% 50V"
 			(at 267.97 25.4 0)
 			(effects
 				(font
@@ -55001,7 +54529,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 X7R 22nF 16V"
+		(property "Used Part" "NoName 0402 X7R 22nF±10% 16V"
 			(at 273.05 21.59 0)
 			(effects
 				(font
@@ -55105,7 +54633,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 X7R 22nF 16V"
+		(property "Used Part" "NoName 0402 X7R 22nF±10% 16V"
 			(at 273.05 29.21 0)
 			(effects
 				(font
@@ -55272,7 +54800,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName"
+		(property "Used Part" "PLS-3"
 			(at 67.31 257.81 0)
 			(effects
 				(font
@@ -55379,7 +54907,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 75Ω"
+		(property "Used Part" "NoName 0402 75Ω±1%"
 			(at 252.73 46.99 0)
 			(effects
 				(font
@@ -55483,7 +55011,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "BLM15PE121SH1D"
+		(property "Used Part" "UNUSED (NoName 0402 0Ω - Jumper)"
 			(at 250.19 43.18 0)
 			(effects
 				(font
@@ -55587,7 +55115,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 NP0 33pF 50V"
+		(property "Used Part" "NoName 0402 NP0 270pF±5% 50V"
 			(at 260.35 46.99 0)
 			(effects
 				(font
@@ -55691,7 +55219,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0Ω Jumper (UNUSED)"
+		(property "Used Part" "UNUSED (NoName 0402 0Ω - Jumper)"
 			(at 264.16 43.18 0)
 			(effects
 				(font
@@ -55795,7 +55323,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 NP0 82pF 50V"
+		(property "Used Part" "NoName 0402 NP0 820pF±5% 50V"
 			(at 267.97 46.99 0)
 			(effects
 				(font
@@ -55899,7 +55427,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 X7R 22nF 16V"
+		(property "Used Part" "NoName 0402 X7R 22nF±10% 16V"
 			(at 273.05 43.18 0)
 			(effects
 				(font
@@ -56003,7 +55531,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 X7R 22nF 16V"
+		(property "Used Part" "NoName 0402 X7R 22nF±10% 16V"
 			(at 273.05 50.8 0)
 			(effects
 				(font
@@ -56235,7 +55763,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 3.6kΩ"
+		(property "Used Part" "NoName 0402 3.6kΩ±1%"
 			(at 223.52 215.9 0)
 			(effects
 				(font
@@ -56339,7 +55867,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 11kΩ"
+		(property "Used Part" "NoName 0402 11kΩ±1%"
 			(at 223.52 205.74 0)
 			(effects
 				(font
@@ -56888,7 +56416,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0805 X5R 10uF 25V"
+		(property "Used Part" "NoName 0805 X5R 10uF±10% 25V"
 			(at 224.79 184.15 0)
 			(effects
 				(font
@@ -57056,7 +56584,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 75Ω"
+		(property "Used Part" "NoName 0402 75Ω±1%"
 			(at 199.39 72.39 0)
 			(effects
 				(font
@@ -57160,7 +56688,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "BLM15PE121SH1D"
+		(property "Used Part" "UNUSED (NoName 0402 0Ω - Jumper)"
 			(at 196.85 68.58 0)
 			(effects
 				(font
@@ -57262,7 +56790,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 100Ω"
+		(property "Used Part" "NoName 0402 100Ω±1%"
 			(at 212.09 68.58 0)
 			(effects
 				(font
@@ -57364,7 +56892,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 NP0 5.1pF 50V"
+		(property "Used Part" "NoName 0402 NP0 5.1pF±5% 50V"
 			(at 207.01 72.39 0)
 			(effects
 				(font
@@ -57468,7 +56996,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 X7R 47nF 10V"
+		(property "Used Part" "NoName 0402 X7R 47nF±10% 10V"
 			(at 219.71 68.58 0)
 			(effects
 				(font
@@ -57572,7 +57100,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 X7R 47nF 10V"
+		(property "Used Part" "NoName 0402 X7R 47nF±10% 10V"
 			(at 219.71 76.2 0)
 			(effects
 				(font
@@ -57676,7 +57204,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 75Ω"
+		(property "Used Part" "NoName 0402 75Ω±1%"
 			(at 199.39 88.9 0)
 			(effects
 				(font
@@ -57780,7 +57308,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "BLM15PE121SH1D"
+		(property "Used Part" "UNUSED (NoName 0402 0Ω - Jumper)"
 			(at 196.85 85.09 0)
 			(effects
 				(font
@@ -57882,7 +57410,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 100Ω"
+		(property "Used Part" "NoName 0402 100Ω±1%"
 			(at 212.09 85.09 0)
 			(effects
 				(font
@@ -57985,7 +57513,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 NP0 5.1pF 50V"
+		(property "Used Part" "NoName 0402 NP0 5.1pF±5% 50V"
 			(at 207.01 88.9 0)
 			(effects
 				(font
@@ -58089,7 +57617,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 X7R 47nF 10V"
+		(property "Used Part" "NoName 0402 X7R 47nF±10% 10V"
 			(at 219.71 85.09 0)
 			(effects
 				(font
@@ -58193,7 +57721,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 X7R 47nF 10V"
+		(property "Used Part" "NoName 0402 X7R 47nF±10% 10V"
 			(at 219.71 92.71 0)
 			(effects
 				(font
@@ -58400,7 +57928,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 75Ω"
+		(property "Used Part" "NoName 0402 75Ω±1%"
 			(at 199.39 105.41 0)
 			(effects
 				(font
@@ -58504,7 +58032,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "BLM15PE121SH1D"
+		(property "Used Part" "UNUSED (NoName 0402 0Ω - Jumper)"
 			(at 196.85 101.6 0)
 			(effects
 				(font
@@ -58606,7 +58134,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 100Ω"
+		(property "Used Part" "NoName 0402 100Ω±1%"
 			(at 212.09 101.6 0)
 			(effects
 				(font
@@ -58709,7 +58237,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 NP0 5.1pF 50V"
+		(property "Used Part" "NoName 0402 NP0 5.1pF±5% 50V"
 			(at 207.01 105.41 0)
 			(effects
 				(font
@@ -58813,7 +58341,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 X7R 47nF 10V"
+		(property "Used Part" "NoName 0402 X7R 47nF±10% 10V"
 			(at 219.71 101.6 0)
 			(effects
 				(font
@@ -58917,7 +58445,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 X7R 47nF 10V"
+		(property "Used Part" "NoName 0402 X7R 47nF±10% 10V"
 			(at 219.71 109.22 0)
 			(effects
 				(font
@@ -59019,7 +58547,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 100Ω"
+		(property "Used Part" "NoName 0402 100Ω±1%"
 			(at 212.09 60.96 0)
 			(effects
 				(font
@@ -59123,7 +58651,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 X7R 47nF 10V"
+		(property "Used Part" "NoName 0402 X7R 47nF±10% 10V"
 			(at 219.71 60.96 0)
 			(effects
 				(font
@@ -59227,7 +58755,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 X5R 1uF 10V"
+		(property "Used Part" "NoName 0402 X5R 1uF±10% 10V"
 			(at 245.11 254 0)
 			(effects
 				(font
@@ -59331,7 +58859,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 X5R 1uF 10V"
+		(property "Used Part" "NoName 0402 X5R 1uF±10% 10V"
 			(at 262.89 254 0)
 			(effects
 				(font
@@ -59435,7 +58963,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 X5R 1uF 10V"
+		(property "Used Part" "NoName 0402 X5R 1uF±10% 10V"
 			(at 254 254 0)
 			(effects
 				(font
@@ -59539,7 +59067,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 2kΩ"
+		(property "Used Part" "NoName 0402 2kΩ±1%"
 			(at 215.9 215.9 0)
 			(effects
 				(font
@@ -59643,7 +59171,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 75Ω"
+		(property "Used Part" "NoName 0402 75Ω±1%"
 			(at 252.73 88.9 0)
 			(effects
 				(font
@@ -59747,7 +59275,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "BLM15PE121SH1D"
+		(property "Used Part" "UNUSED (NoName 0402 0Ω - Jumper)"
 			(at 250.19 85.09 0)
 			(effects
 				(font
@@ -59850,7 +59378,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 100Ω"
+		(property "Used Part" "NoName 0402 100Ω±1%"
 			(at 265.43 92.71 0)
 			(effects
 				(font
@@ -59953,7 +59481,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 NP0 5.1pF 50V"
+		(property "Used Part" "NoName 0402 NP0 5.1pF±5% 50V"
 			(at 260.35 88.9 0)
 			(effects
 				(font
@@ -60057,7 +59585,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 X7R 47nF 10V"
+		(property "Used Part" "NoName 0402 X7R 47nF±10% 10V"
 			(at 273.05 92.71 0)
 			(effects
 				(font
@@ -60161,7 +59689,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 X7R 47nF 10V"
+		(property "Used Part" "NoName 0402 X7R 47nF±10% 10V"
 			(at 273.05 85.09 0)
 			(effects
 				(font
@@ -60263,7 +59791,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 100Ω"
+		(property "Used Part" "NoName 0402 100Ω±1%"
 			(at 212.09 76.2 0)
 			(effects
 				(font
@@ -60365,7 +59893,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 100Ω"
+		(property "Used Part" "NoName 0402 100Ω±1%"
 			(at 212.09 92.71 0)
 			(effects
 				(font
@@ -60467,7 +59995,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 100Ω"
+		(property "Used Part" "NoName 0402 100Ω±1%"
 			(at 212.09 109.22 0)
 			(effects
 				(font
@@ -60570,7 +60098,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 100Ω"
+		(property "Used Part" "NoName 0402 100Ω±1%"
 			(at 265.43 85.09 0)
 			(effects
 				(font
@@ -60674,7 +60202,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 75Ω"
+		(property "Used Part" "NoName 0402 75Ω±1%"
 			(at 252.73 72.39 0)
 			(effects
 				(font
@@ -60778,7 +60306,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "BLM15PE121SH1D"
+		(property "Used Part" "UNUSED (NoName 0402 0Ω - Jumper)"
 			(at 250.19 68.58 0)
 			(effects
 				(font
@@ -60881,7 +60409,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 100Ω"
+		(property "Used Part" "NoName 0402 100Ω±1%"
 			(at 265.43 76.2 0)
 			(effects
 				(font
@@ -60984,7 +60512,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 NP0 5.1pF 50V"
+		(property "Used Part" "NoName 0402 NP0 5.1pF±5% 50V"
 			(at 260.35 72.39 0)
 			(effects
 				(font
@@ -61088,7 +60616,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 X7R 47nF 10V"
+		(property "Used Part" "NoName 0402 X7R 47nF±10% 10V"
 			(at 273.05 76.2 0)
 			(effects
 				(font
@@ -61192,7 +60720,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 X7R 47nF 10V"
+		(property "Used Part" "NoName 0402 X7R 47nF±10% 10V"
 			(at 273.05 68.58 0)
 			(effects
 				(font
@@ -61295,7 +60823,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 100Ω"
+		(property "Used Part" "NoName 0402 100Ω±1%"
 			(at 265.43 68.58 0)
 			(effects
 				(font
@@ -61399,7 +60927,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 75Ω"
+		(property "Used Part" "NoName 0402 75Ω±1%"
 			(at 252.73 105.41 0)
 			(effects
 				(font
@@ -61503,7 +61031,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "BLM15PE121SH1D"
+		(property "Used Part" "UNUSED (NoName 0402 0Ω - Jumper)"
 			(at 250.19 101.6 0)
 			(effects
 				(font
@@ -61606,7 +61134,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 100Ω"
+		(property "Used Part" "NoName 0402 100Ω±1%"
 			(at 265.43 109.22 0)
 			(effects
 				(font
@@ -61709,7 +61237,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 NP0 5.1pF 50V"
+		(property "Used Part" "NoName 0402 NP0 5.1pF±5% 50V"
 			(at 260.35 105.41 0)
 			(effects
 				(font
@@ -61813,7 +61341,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 X7R 47nF 10V"
+		(property "Used Part" "NoName 0402 X7R 47nF±10% 10V"
 			(at 273.05 109.22 0)
 			(effects
 				(font
@@ -61917,7 +61445,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 X7R 47nF 10V"
+		(property "Used Part" "NoName 0402 X7R 47nF±10% 10V"
 			(at 273.05 101.6 0)
 			(effects
 				(font
@@ -62020,7 +61548,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 100Ω"
+		(property "Used Part" "NoName 0402 100Ω±1%"
 			(at 265.43 101.6 0)
 			(effects
 				(font
@@ -62124,7 +61652,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0805 X5R 10uF 25V"
+		(property "Used Part" "NoName 0805 X5R 10uF±10% 25V"
 			(at 231.14 210.82 0)
 			(effects
 				(font
@@ -63293,7 +62821,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 100Ω"
+		(property "Used Part" "NoName 0402 100Ω±1%"
 			(at 303.53 118.11 0)
 			(effects
 				(font
@@ -63395,7 +62923,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 100Ω"
+		(property "Used Part" "NoName 0402 100Ω±1%"
 			(at 303.53 113.03 0)
 			(effects
 				(font
@@ -63499,7 +63027,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 4.7kΩ"
+		(property "Used Part" "NoName 0402 4.7kΩ±1%"
 			(at 313.69 128.27 0)
 			(effects
 				(font
@@ -63603,7 +63131,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 4.7kΩ"
+		(property "Used Part" "NoName 0402 4.7kΩ±1%"
 			(at 308.61 128.27 0)
 			(effects
 				(font
@@ -63769,7 +63297,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 1kΩ"
+		(property "Used Part" "NoName 0402 1kΩ±1%"
 			(at 363.22 78.74 0)
 			(effects
 				(font
@@ -63871,7 +63399,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName"
+		(property "Used Part" "PLD-12"
 			(at 31.75 265.43 0)
 			(effects
 				(font
@@ -64003,7 +63531,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 1kΩ"
+		(property "Used Part" "NoName 0402 1kΩ±1%"
 			(at 374.65 69.85 0)
 			(effects
 				(font
@@ -64233,7 +63761,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 1kΩ"
+		(property "Used Part" "NoName 0402 1kΩ±1%"
 			(at 311.15 64.77 0)
 			(effects
 				(font
@@ -64399,7 +63927,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 1kΩ"
+		(property "Used Part" "NoName 0402 1kΩ±1%"
 			(at 299.72 73.66 0)
 			(effects
 				(font
@@ -65049,7 +64577,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 100Ω"
+		(property "Used Part" "NoName 0402 100Ω±1%"
 			(at 303.53 107.95 0)
 			(effects
 				(font
@@ -65151,7 +64679,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 100Ω"
+		(property "Used Part" "NoName 0402 100Ω±1%"
 			(at 303.53 123.19 0)
 			(effects
 				(font
@@ -65255,7 +64783,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 4.7kΩ"
+		(property "Used Part" "NoName 0402 4.7kΩ±1%"
 			(at 316.23 100.33 0)
 			(effects
 				(font
@@ -65359,7 +64887,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 4.7kΩ"
+		(property "Used Part" "NoName 0402 4.7kΩ±1%"
 			(at 311.15 100.33 0)
 			(effects
 				(font
@@ -65696,7 +65224,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 X5R 100nF 25V"
+		(property "Used Part" "NoName 0402 X5R 100nF±10% 25V"
 			(at 262.89 269.24 0)
 			(effects
 				(font
@@ -65862,7 +65390,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName 0402 11kΩ"
+		(property "Used Part" "NoName 0402 11kΩ±1%"
 			(at 273.05 265.43 0)
 			(effects
 				(font
@@ -66730,7 +66258,7 @@
 				(hide yes)
 			)
 		)
-		(property "Used Part" "NoName"
+		(property "Used Part" "PLS-3"
 			(at 389.89 199.39 0)
 			(effects
 				(font
@@ -66901,6 +66429,15 @@
 				(hide yes)
 			)
 		)
+		(property "Used Part" "PT4103"
+			(at 205.74 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "7327af1f-a7e4-46b9-86f1-94f280ae6107")
 		)
@@ -66993,6 +66530,70 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 76.2 222.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ba89789a-76ab-4b7c-a7b4-036f28ec2ae6")
+		(property "Reference" "#PWR073"
+			(at 76.2 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 76.327 226.6442 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "17637572-0d74-48c3-b896-705b22941a70")
+		)
+		(instances
+			(project "RTD2662Board"
+				(path "/83184391-76ed-44f0-8cd0-01f89f157bdb"
+					(reference "#PWR073")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 177.8 264.16 0)
 		(unit 1)
@@ -67046,6 +66647,15 @@
 			)
 		)
 		(property "Generic Part" "Kemet Case B Capacitor"
+			(at 177.8 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Used Part" "NoName Package-B Tantalum 100uF±20% 6V"
 			(at 177.8 264.16 0)
 			(effects
 				(font

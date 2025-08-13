@@ -1,7 +1,4 @@
-* Use circular holes for USB
-* Bigger potentiometer footprint
+* Bigger potentiometer footprint ?
 * Bigger footprint for 3 top Coils ?
-* Add limiting zener to LED driver (See https://www.ti.com/lit/an/slva227/slva227.pdf)
-* Allow a LED driver with Open Circuit Protection (with 6 pins) be placed instead of TPS61040
 * Replace CH341 with something else (MCP2221A ?)
 * Put a diode on TX line
